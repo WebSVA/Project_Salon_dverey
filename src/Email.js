@@ -1,5 +1,7 @@
 import React from "react";
+
 import "./styles/email.css"; 
+
 
 function Email() {
   const onSubmit = async (event) => {
