@@ -1,64 +1,78 @@
-.footer-container{
+.main-content-container {
+    box-sizing: border-box;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: flex-start;
-    width: 100%;
-    height: 400px;
+    min-width: 100%;
     background: #383534;
 }
-.info-footer-container{
-    background-color: bisque;
+
+.company-info-section {
     display: flex;
     flex-direction: row;
+    align-items: stretch;
     justify-content: space-between;
-    align-items: center;
-    margin: 69px 10%;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.info-company-container{
-    background-color: rgb(167, 161, 154);
+.exclusive-door-firm-section {
     display: flex;
-    height: 100%;
+    width: 55vw;
     flex-direction: column;
+    margin-right: 4vw;
     justify-content: space-between;
 }
-
-.section-column-info{
-    display: flex;  
-    flex-direction: row; 
-}
-.item-logo-name{
-    display: flex;  
-    justify-content: flex-start;
+.flex-container-with-text {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
     align-items: flex-start;
-    flex-direction: row; 
-}
-.item-name{
-    display: flex;  
-    align-items: flex-start;
-    margin: 0 20px;
+    justify-content: space-between;
     width: 100%;
 }
-.item-logo{
-    background-color: #bdbdbd;
-    height: 50px;
-    width: 60px;
-}
-
-.item-line {
+.company-title-container {
     display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .company-logo-container {
     box-sizing: border-box;
     flex: 0 0 auto;
-    
+    width: 102px;
+    height: 61px;
+    background: #d9d9d9;
+  }
+  .company-title-style {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 23px;
+    font: bold 20px Inter, sans-serif;
+    color: #f2f2f2;
+  }
+  .company-header-separator {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 8px;
     border-top: 2px solid #e37243;
-}
-
-
-
-.exclusive-door-text {
+    margin-left: 24px;
+  }
+  .exclusive-door-styles {
+    box-sizing: border-box;
+    width: 90%;
+    margin-top: 12px;
+  }
+  .exclusive-door-text {
     box-sizing: border-box;
     max-width: 409px;
     padding: 0;
     margin: 0;
-    font: 400 14px Inter, sans-serif;
+    font: 200 14px Inter, sans-serif;
     color: #bdbdbd;
     text-align: left;
   }
@@ -70,68 +84,65 @@
     justify-content: flex-start;
     margin-top: 22px;
   }
-  .location-icon {
-    box-sizing: border-box;
-    display: block;
-    width: 20px;
-    max-width: initial;
+
+.location-icon{
     height: 20px;
-    border: none;
-    object-fit: cover;
-  }
-  .contact-info-container1 {
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    width: 332px;
-    padding-top: 9px;
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .contact-info-container {
+    width: 20px;
+} 
+.under-separator{
     box-sizing: border-box;
     width: 100%;
-    padding-right: 3px;
-    padding-left: 3px;
-    margin-top: 40px;
-  }
-  .location-container1 {
+    margin-top: 8px;
+    border-top: 2px solid #e37243;
+    margin-top: 17px;
+}
+
+/* КОНТАКТЫ */
+p{
+    margin: 0;
+    margin-bottom: 5px;
+}
+.simple-contact-info{
+    display: flex;
+    align-items: start;
+}
+.simple-contact-info{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.simple-contact-info:not(:first-child) {
+    margin-top: 40px; 
+}
+.title-contact-container{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .location-title {
-    flex: 0 0 auto;
-    padding: 0;
-    margin: 0;
-    margin-left: 9px;
-    font: 700 20px Inter, sans-serif;
+    margin-bottom: 10px;
+}
+.contact-info-style{
+    font: 300 14px Inter, sans-serif;
+    color: #bdbdbd;
+    text-align: left;
+}
+.email-link{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #bdbdbd;
+    text-align: left;
+    font: 300 14px Inter, sans-serif;
+}
+.title-contact{
+    font: bold 20px Inter, sans-serif;
     color: #f2f2f2;
-  }
-  .contact-info-section1 {
-    box-sizing: border-box;
+}
+.title-icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.orange-line{
     width: 100%;
-    margin-top: 16px;
-  }
-  .contact-info-style {
-    padding: 0;
-    margin: 0;
-    font: 400 14px Inter, sans-serif;
-    color: #bdbdbd;
-  }
-  .contact-info-section {
-    display: block;
-    padding: 0;
-    margin: 0;
-    margin-top: 5px;
-    color: #bdbdbd;
-  }
-  .email-label-text-style {
-    font: 400 14px Inter, sans-serif;
-    color: #bdbdbd;
-  }
-  .email-link-text-style {
-    font: 400 14px Inter, sans-serif;
-    color: #bdbdbd;
-    text-decoration-line: underline;
-  }
+    background-color: #e37243;
+    height: 43px;
+}
