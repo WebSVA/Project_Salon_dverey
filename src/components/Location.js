@@ -9,7 +9,9 @@ function Location() {
         <p className="location-title-text-style">Наше местоположение</p>
         <div className="location-details-container">
           <LocationDisplay/>
+        
           <MapComponent/>
+        
         </div>
       </div>
     </div>
