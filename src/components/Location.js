@@ -1,6 +1,6 @@
 import LocationDisplay from "./LocationDisplay.js";
-import MapComponent from "./MapComponent";
-import "./css/location.css";
+import MapComponent from "./MapComponent.js";
+import "../styles/location.css";
 
 function Location() {
   return (

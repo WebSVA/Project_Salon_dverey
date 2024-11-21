@@ -1,0 +1,67 @@
+.contact-info-section {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 6px;
+    background: #383534;
+}
+.contact-info-section2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 43px;
+}
+.contact-info-section1 {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.contact-info-icon {
+    box-sizing: border-box;
+    display: block;
+    width: 17px;
+    max-width: initial;
+    height: 17px;
+    border: none;
+    object-fit: cover;
+}
+.phone-number-text-style, .email-info-text-style {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 5px;
+    font: 400 14px Inter, sans-serif;
+    color: #f2f2f2;
+}
+.contact-info-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 3vw;
+}
+
+.address-label {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 6px;
+    font: 400 14px Inter, sans-serif;
+    color: #f2f2f2;
+}
+
+.contact-link {
+    display: flex;
+    text-decoration: none; /* Убирает подчеркивание */
+    color: inherit; /* Наследует цвет текста родительского элемента */
+}

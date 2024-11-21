@@ -1,5 +1,4 @@
-
-import "./css/locDisplay.css";
+import "../styles/locDisplay.css";
 
 function LocationDisplay() {
   return (
