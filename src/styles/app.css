@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 63px;
+    padding: 5px;
+}
+.container-header{
+    width: 80%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.links-button-container{
+    display: flex;
+    flex-direction: row;
+}
+.logo-container{
+    width: 10vw; 
+    height: inherit;
+    background-color: antiquewhite;
+}
+
+.link-container{
+    display: flex;
+    gap: 3.125vw;
+    padding-right: 5.833vw;
+}
+
+button{
+    width: 160px;
+}
+
+.links{
+    margin-top: 3px;
+    font: 400 14px Inter, sans-serif;
+    text-decoration: none; /* Убирает подчеркивание */
+    color: #383534;
+}

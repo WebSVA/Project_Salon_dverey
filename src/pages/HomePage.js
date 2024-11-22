@@ -6,12 +6,10 @@ import AboutUsSection from '../components/AboutUsSection'
 function HomePage(){
     return(
         <>
-        {/* <ContactHeader/> */}
         <ShadowSlider/>
         <PreferencesContainer/>
         <AboutUsSection/>
         <Location/>
-        {/* <Footer/> */}
         </>
     );
 }
