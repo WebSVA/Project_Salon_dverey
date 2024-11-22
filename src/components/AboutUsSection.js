@@ -1,8 +1,21 @@
 import "../styles/aboutUsSection.css";
-
+import React, { useState } from 'react';
 import testImg from '../assets/imgAboutUs.png';
+import Modal from "./Modal";
+import Button from "./Button";
 
 function AboutUsSection(){
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const openModal = () => {
+        setIsModalOpen(true);
+    };
+
+    const closeModal = () => {
+        setIsModalOpen(false);
+    };
+
     return(
         <div className="about-us-section">
             <div className="content-container">
@@ -25,7 +38,11 @@ function AboutUsSection(){
                 </div>
                 <div className="button-with-line">
                     <div className="button"></div> 
-                    {/* кнопку добавить */}
+                    {/* <Button 
+                            text="Узнать больше" 
+                            isModal={true} 
+                            onClick={openModal} 
+                        /> */}
                     <div className="separation-line-2"></div>
                 </div>
             </div>
@@ -33,6 +50,12 @@ function AboutUsSection(){
                 <img src={testImg} className="img-about-us"></img>
             </div>
             </div>
+             {/* Модальное окно
+             <Modal isOpen={isModalOpen} onClose={closeModal}>
+                <h2>Дополнительная информация</h2>
+                <p>Здесь можно разместить дополнительную информацию о вашей компании.</p>
+                
+            </Modal> */}
         </div>
     );
 }
