@@ -5,9 +5,10 @@
     flex-direction: column;
     align-items: stretch;
     justify-content: flex-start;
-    min-width: 1200px;
-    padding-top: 355px;
-    padding-bottom: 51px;
+   
+    min-height: 100vh;
+    padding-top: 50%;
+    padding-bottom: 20%;
   }
   .location-title-text-style {
     flex: 0 0 auto;
@@ -21,19 +22,22 @@
     display: flex;
     flex: 0 0 auto;
     flex-direction: row;
-    gap: 8px;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-top: 38px;
+    gap: 4vw;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height:70vh;
+    align-self: center;
+    margin-top: 2%;
+    
+
   }
-  .store-location-image {
-    box-sizing: border-box;
-    display: block;
-    width: 778px;
-    max-width: initial;
-    height: 442px;
-    border: none;
-    border-radius: 10px;
-    object-fit: cover;
+
+  .map{
+    width: 52%;
+    height: 90%;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
   }
   

@@ -39,6 +39,7 @@ function LocationDisplay() {
             </span>
             <span className="address-info-text-style">8 029 928-92-89</span>
           </p>
+          <div className="orange-strip"></div>
         </div>
   );
     }
