@@ -41,6 +41,7 @@
     font: 700 14px/20px Inter, sans-serif;
     text-align: center;
     padding: 15px;
+    color: #383534;
 }
 .preferences-card__description{
     flex-grow: 1;
@@ -48,6 +49,7 @@
     text-align: center;
     margin-bottom: 20px;
    padding-bottom: 20px;
+   color: #383534;
 }
 
 .orange-strip {
