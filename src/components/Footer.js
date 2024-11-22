@@ -26,11 +26,17 @@ return (
               специализируемся на производстве межкомнатных и входных дверей, которые идеально сочетают в себе стиль, надежность и долговечность. Наша команда профессионалов гарантирует высокое
               качество изготовления, быстрое выполнение заказов и доступные цены.
             </p>
-            <div className="exclusive-doors-gallery">
-                <img src={instaIcon} className="location-icon" />
-                <img src={viberIcon} className="location-icon" />
-                <img src={tgIcon} className="location-icon" />
-            </div>
+              <div className="exclusive-doors-gallery">
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                    <img src={instaIcon} className="location-icon" alt="Instagram" />
+                </a>
+                <a href="https://www.viber.com" target="_blank" rel="noopener noreferrer">
+                    <img src={viberIcon} className="location-icon" alt="Viber" />
+                </a>
+                <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
+                    <img src={tgIcon} className="location-icon" alt="Telegram" />
+                </a>
+              </div>
           </div>
           <div className="under-separator" />
         </div>
