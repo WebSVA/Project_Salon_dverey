@@ -5,6 +5,7 @@
     height: 100vh; /* Высота равна высоте окна браузера */
     box-sizing: border-box;
     justify-content: center;
+    margin-bottom: 60px;
   }
   
   /* Shadow (левая часть) */

@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-between;
     width: 80%;
+    padding-bottom: 50px;
 }
 .separation-container{
     width: 50vw;
