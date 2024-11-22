@@ -5,10 +5,10 @@
     flex-direction: column;
     align-items: stretch;
     justify-content: flex-start;
-   
-    min-height: 100vh;
-    padding-top: 50%;
-    padding-bottom: 20%;
+  padding-bottom: 80px; 
+  
+    
+    
   }
   .location-title-text-style {
     flex: 0 0 auto;
@@ -28,7 +28,7 @@
     width: 100vw;
     height:70vh;
     align-self: center;
-    margin-top: 2%;
+    margin-top: 15px;
     
 
   }
