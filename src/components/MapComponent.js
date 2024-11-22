@@ -2,7 +2,7 @@ import React from "react";
 import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
 import "../styles/location.css";
 
-const mapCenter = [53.8914, 27.5572]; // Координаты центра карты (Москва)
+const mapCenter = [54.477476, 26.403198]; // Координаты центра карты (Москва)
 
 function MapComponent() {
   return (
@@ -11,7 +11,7 @@ function MapComponent() {
       <Map
         defaultState={{
           center: mapCenter,
-          zoom: 10, // Уровень увеличения карты
+          zoom: 14, // Уровень увеличения карты
           
         }}
         style={{

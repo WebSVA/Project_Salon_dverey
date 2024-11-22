@@ -1,0 +1,79 @@
+.about-us-section{
+    /* убрать потом */
+    margin-top: 100px;
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.separation-container{
+    width: 50vw;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.title{
+    flex: 0 0 auto;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    font: 700 26px Inter, sans-serif;
+    color: #383534;
+    margin-bottom: 20px;
+}
+.separation-line-1{
+    box-sizing: border-box;
+    width: 100%;
+    border-top: 2px solid #e37243;
+}
+.button-with-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.before-text{
+    flex: 0 0 auto;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    font: 700 14px Inter, sans-serif;
+    color: #383534;
+}
+.main-text{
+    flex: 0 0 auto;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+    font: 400 14px Inter, sans-serif;
+    color: #383534;
+    margin-bottom: 70px;
+}
+.separation-line-2{
+    box-sizing: border-box;
+    width: 20vw;
+    border-top: 2px solid #e37243;
+}
+/* див баттон */
+.button{
+    background-color: #e37243;
+    width: 10vw;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.img-about-us{
+    width: 600px;
+    height: auto;
+}
+.separation-container:first-child{
+    margin-right: 5vw;
+}
+

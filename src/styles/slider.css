@@ -1,0 +1,72 @@
+
+  .slider {
+    width: 69%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+ /* Контейнер слайдера */
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Изображения внутри слайдера */
+.slider-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* Кнопки переключения */
+.slider-buttons {
+  position: absolute;
+  bottom: 100px; /* Расположение сверху от нижнего края */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 15px;
+  z-index: 4;
+}
+
+.slider-button {
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(246, 223, 214, 0.8); /* Полупрозрачный оранжевый */
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+/* Скрываем содержимое кнопки */
+.slider-button::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%; /* Убедимся, что это круг */
+}
+
+.slider-button.active {
+  background: rgba(227, 114, 67, 1); /* Полностью оранжевый при активной */
+}
+
+.slider-button:hover {
+  background: rgba(227, 114, 67, 0.9);
+}

@@ -1,0 +1,114 @@
+.container {
+    position: relative;
+    display: flex; /* Flexbox для горизонтального расположения */
+    width: 100%; /* Ширина на весь экран */
+    height: 100vh; /* Высота равна высоте окна браузера */
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  
+  /* Shadow (левая часть) */
+  .shadow-container {
+    width: 30%; /* Занимает 30% ширины контейнера */
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Выравнивание текста слева */
+    color: white;
+    box-sizing: border-box;
+  }
+  
+  /* Slider (правая часть) */
+  .slider-container {
+    width: 70%; /* Занимает 70% ширины контейнера */
+    height: 100%; /* Полная высота родительского контейнера */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Адаптация изображения под контейнер */
+  }
+  
+  /* Кнопка */
+  .detail-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e37243;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font: 700 14px Inter, sans-serif;
+  }
+  .door-sales-section {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    min-width: 589px;
+    max-width: 589px;
+    padding: 210px 120px 114px;
+    
+  }
+  .door-description-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    align-self: flex-end;
+    justify-content: flex-end;
+    padding-left: 3px;
+  }
+  .door-divider {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 4px;
+    height: 110px;
+    margin-right: 17px;
+    background: #e37243;
+  }
+  .door-text-styler {
+    font: 26px Inter, sans-serif;
+    text-align: left;
+  }
+  .product-description-text-style {
+    flex: 0 0 auto;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 41px;
+    font: 400 14px Inter, sans-serif;
+    color: #b6b6b6;
+    text-align: left;
+  }
+  .shadow-overlay {
+    position: absolute;
+    z-index: 2; /* Поверх Slider */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3; /* Поверх Slider */
+    display: flex;
+    justify-content:left; /* Центрирует содержимое */
+    align-items: center;
+  }
+  
+  .door-both {
+    width: 100%; /* Ширина компонента Shadow */
+    max-width: 700px;
+    text-align: left;
+   height: 100%;
+   background-size: cover; /* Растягивает изображение, сохраняя пропорции */
+   background-repeat: no-repeat; 
+    background-image: url('../assets/img/shadow.png');
+    
+  }
+  

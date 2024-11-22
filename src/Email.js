@@ -26,7 +26,7 @@ function Email() {
       console.log("Success", res);
     }
   };
-
+//gfhjkl;
   return (
     <div className="email-container">
       <h2>Contact Us</h2>
