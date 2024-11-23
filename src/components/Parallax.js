@@ -28,7 +28,8 @@ const Parallax = () => {
         {/* Button Component is detected here. We've generated code using HTML. See other options in "Component library" dropdown in Settings */}
        
         <Button text="Оставить заявку" onClick={modalOpen} className="call-to-action-btn"/>
-        
+    
+
       </div>
        {/* Модальное окно */}
        {isModalOpen && (

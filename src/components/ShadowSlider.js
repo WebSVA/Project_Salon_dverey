@@ -8,13 +8,13 @@ function ShadowSlider() {
       <div className="shadow-overlay">
         <div className="door-both">
           <div className="shadow-container">
-            <div className="door-sales-section">
+            <div className="animate door-sales-section _animate-items">
               <div className="door-description-container">
                 <div className="door-divider" />
                 <p className="door-text-block">
                   <span className="door-text-styler">
-                    Продажа и установка<br />
-                    межкомнатных и входных<br />
+                    Продажа и установка
+                    межкомнатных и входных
                     дверей по доступным ценам
                   </span>
                 </p>

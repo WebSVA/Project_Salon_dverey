@@ -6,7 +6,6 @@
     background-size: cover;
     background-image: url(../assets/img/slider3.jpg);
     background-color: rgba(0, 0, 0, 0.5); /* Затемнение */
-
     margin-bottom: 60px;
   }
 
@@ -41,7 +40,7 @@
     color: #bbbbbb;
   }
   .contact-number-text-style {
-    font: 400 18px Inter, sans-serif;
+    font: 300 18px Inter, sans-serif;
   }
   .call-to-action-btn {
     box-sizing: border-box;
@@ -77,13 +76,12 @@
   .contact-info-text {
     flex: 0 0 auto;
     align-self: stretch;
-    padding: 0 auto;
     margin: 0;
     max-width: 20%;
     margin-top: 9.5px;
     margin-left: auto;
     margin-right: auto;
-    font: 400 14px Inter, sans-serif;
+    font: 300 14px Inter, sans-serif;
     color: #bbbbbb;
     text-align: center;
   }

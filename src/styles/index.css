@@ -17,7 +17,7 @@ body {
   padding: 0;
   height: 100%; /* Убедитесь, что высота занимает всё окно */
   background-image: url('../assets/img/fon.svg'); /* Укажите путь к изображению */
-size: 120%;
+  z-index: -1;
   background-repeat: repeat; /* Не повторять */
   background-position: center center; /* Центрировать изображение */
  

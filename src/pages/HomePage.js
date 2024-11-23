@@ -7,13 +7,11 @@ import Parallax from '../components/Parallax';
 function HomePage(){
     return(
         <>
-        {/* <ContactHeader/> */}
         <ShadowSlider/>
         <PreferencesContainer/>
         <AboutUsSection/>
         <Parallax/>
         <Location/>
-        {/* <Footer/> */}
         </>
     );
 }

@@ -1,7 +1,6 @@
 .about-us-section{
     /* убрать потом */
     margin-top: 100px;
-
     display: flex;
     width: 100%;
     align-items: center;
@@ -11,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     width: 80%;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 .separation-container{
     width: 50vw;
@@ -70,11 +69,16 @@
     margin-right: 20px;
 }
 
-.img-about-us{
-    width: 600px;
-    height: auto;
-}
 .separation-container:first-child{
     margin-right: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.separation-container:nth-child(2) {
+    background-image: url('../assets/img/slider2.png'); /* Укажите путь к вашему изображению */
+    background-size: cover; /* Заполнить элемент изображением */
+    background-repeat: no-repeat; /* Не повторять изображение */
+    background-position: center; /* Центрировать изображение */
 }
 

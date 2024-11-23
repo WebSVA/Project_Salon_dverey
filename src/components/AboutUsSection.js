@@ -17,7 +17,7 @@ function AboutUsSection(){
 
     return(
         <div className="about-us-section">
-            <div className="content-container">
+            <div className="animate content-container _animate-items">
             <div className="separation-container">
                 <div className="title-container">
                     <p className="title">О фирме Название фирмы</p>
@@ -46,7 +46,6 @@ function AboutUsSection(){
                 </div>
             </div>
             <div className="separation-container">
-                <img src={testImg} className="img-about-us"></img>
             </div>
             </div>
         </div>

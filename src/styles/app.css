@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    position: sticky; /* Липкое позиционирование */
+    top: 0; /* Привязка к верхней части окна при прокрутке */
+    justify-content: center;
+    align-items: center;
+    height: 63px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    z-index: 1000; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.title-company{
+    font: 700 20px Inter, sans-serif;
+    padding-left: 20px;
+    margin-top: 3px;
+    color: #383534;
+}
+.container-header{
+    width: 80%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.links-button-container{
+    display: flex;
+    flex-direction: row;
+}
+.logo-container{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.link-container{
+    display: flex;
+    gap: 3.125vw;
+    padding-right: 5.833vw;
+}
+
+button{
+    width: 160px;
+}
+
+.links{
+    margin-top: 3px;
+    font: 400 14px Inter, sans-serif;
+    text-decoration: none; /* Убирает подчеркивание */
+    color: #383534;
+}
+.logo{
+    height: 40px;
+}
+
