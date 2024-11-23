@@ -1,3 +1,5 @@
+import React, { useEffect } from 'react';
+
 import {Routes, Route, Link} from 'react-router-dom';
 import './styles/app.css';
 
@@ -10,8 +12,52 @@ import Footer from './components/Footer'
 import HomePage from './pages/HomePage';
 
 import logoIcon from './assets/logo.svg';
+import "./styles/animation/animation.css";
 
 function App(){
+  useEffect(() => {
+    const animItems = document.querySelectorAll('._animate-items');
+
+    if (animItems.length > 0) {
+        window.addEventListener('scroll', animOnScroll);
+
+        function animOnScroll() {
+            for (let index = 0; index < animItems.length; index++) {
+                const animItem = animItems[index];
+                const animItemHeight = animItem.offsetHeight;
+                const animItemOffset = offset(animItem).top;
+                const animStart = 4;
+                let animItemPoint = window.innerHeight - animItemHeight / animStart;
+
+                if (animItemHeight > window.innerHeight) {
+                    animItemPoint = window.innerHeight - window.innerHeight / animStart;
+                }
+
+                // Используем window.scrollY вместо pageYOffset
+                if ((window.scrollY > animItemOffset - animItemPoint) && window.scrollY < (animItemOffset + animItemHeight)) {
+                    animItem.classList.add('_activeScroll');
+                } else {
+                    animItem.classList.remove('_activeScroll');
+                }
+            }
+        }
+
+        function offset(el) {
+            const rect = el.getBoundingClientRect(),
+                scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+                scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            return { top: rect.top + scrollTop, left: rect.left + scrollLeft };
+        }
+
+        setTimeout(() => {
+            animOnScroll();
+        }, 300);
+
+        return () => {
+            window.removeEventListener('scroll', animOnScroll);
+        };
+    }
+}, []);
     return(
       <>
       <ContactHeader/>

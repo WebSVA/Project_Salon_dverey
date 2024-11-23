@@ -27,7 +27,6 @@ function PreferencesContainer(){
         </div>
         </div>
     )
-
 }
 
 export default PreferencesContainer;
