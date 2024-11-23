@@ -21,7 +21,9 @@ header{
 .logo-container{
     width: 10vw; 
     height: inherit;
-    background-color: antiquewhite;
+ display: flex;
+ align-items: center;
+ justify-content: start;
 }
 
 .link-container{
@@ -39,4 +41,8 @@ button{
     font: 400 14px Inter, sans-serif;
     text-decoration: none; /* Убирает подчеркивание */
     color: #383534;
+}
+.logo{
+    width: 40px;
+   
 }

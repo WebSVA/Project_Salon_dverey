@@ -9,6 +9,8 @@ import ContactHeader from './components/ContactHeader';
 import Footer from './components/Footer'
 import HomePage from './pages/HomePage';
 
+import logoIcon from './assets/logo.svg';
+
 function App(){
     return(
       <>
@@ -16,7 +18,7 @@ function App(){
       <header className='header'>
         <div className='container-header'>
           <div className='logo-container'>
-            <img src='' className='logo'></img>
+            <img src={logoIcon} className='logo'></img>
             <p className='title-company'></p>
           </div>
           <div className='links-button-container'>
