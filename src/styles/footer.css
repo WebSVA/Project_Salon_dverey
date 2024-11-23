@@ -43,9 +43,9 @@
   .company-logo-container {
     box-sizing: border-box;
     flex: 0 0 auto;
-    width: 102px;
-    height: 61px;
-    background: #d9d9d9;
+    width: 80px;
+    height: 80px;
+    background:url("../assets/logo.png");
   }
   .company-title-style {
     flex: 0 0 auto;
