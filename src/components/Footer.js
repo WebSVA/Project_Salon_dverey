@@ -5,7 +5,8 @@ import instaIcon from '../assets/instagram.png';
 import phoneIcon from '../assets/phone-call.png';
 import mapIcon from '../assets/maps-and-flags.png';
 import clockIcon from '../assets/clock.png';
-import logoIcon from '../assets/logo.svg';
+
+import footerLogoIcon from '../assets/logo.svg';
 
 function ComponentYouSelected() {
 return (
@@ -14,10 +15,8 @@ return (
         <div className="exclusive-door-firm-section">
           <div className="flex-container-with-text">
             <div className="company-title-container">
-              <div className="company-logo-container">
-                <jmg src={logoIcon} className='logo'></jmg>
-              </div>
-              <p className="company-title-style">Салон дверей</p>
+                {/* <img src={footerLogoIcon} className='footer-logo'></img> */}
+              <p className="company-title-style">О нас</p>
             </div>
             <div className="company-header-separator" />
           </div>

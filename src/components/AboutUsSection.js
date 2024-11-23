@@ -47,7 +47,6 @@ function AboutUsSection(){
                 </div>
             </div>
             <div className="separation-container">
-                <img src={testImg} className="img-about-us"></img>
             </div>
             </div>
              {/* Модальное окно

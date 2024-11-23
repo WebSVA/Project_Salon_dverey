@@ -13,8 +13,8 @@ function ShadowSlider() {
                 <div className="door-divider" />
                 <p className="door-text-block">
                   <span className="door-text-styler">
-                    Продажа и установка<br />
-                    межкомнатных и входных<br />
+                    Продажа и установка
+                    межкомнатных и входных
                     дверей по доступным ценам
                   </span>
                 </p>

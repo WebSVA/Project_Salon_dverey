@@ -19,7 +19,7 @@ function App(){
         <div className='container-header'>
           <div className='logo-container'>
             <img src={logoIcon} className='logo'></img>
-            <p className='title-company'></p>
+            <p className='title-company'>Салон дверей</p>
           </div>
           <div className='links-button-container'>
             <div className='link-container'>
@@ -34,6 +34,7 @@ function App(){
           </div>
         </div>
       </header>
+      
       <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="/about" element={<AboutPage/>}/>

@@ -11,7 +11,7 @@ const Parallax = () => {
       <p className="contact-info-text">Свяжитесь с нами по номеру телефона или оставьте заявку и мы свяжемся с Вами.</p>
     </div>
         <p className="contact-info-heading">
-          <span>+</span>
+        
           <span className="contact-number-text-style">8 029 928-92-89</span>
         </p>
         {/* Button Component is detected here. We've generated code using HTML. See other options in "Component library" dropdown in Settings */}

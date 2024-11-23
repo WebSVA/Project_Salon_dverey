@@ -40,18 +40,10 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .company-logo-container {
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    width: 80px;
-    height: 80px;
-    background:url("../assets/logo.png");
-  }
   .company-title-style {
     flex: 0 0 auto;
     padding: 0;
     margin: 0;
-    margin-left: 23px;
     font: bold 20px Inter, sans-serif;
     color: #f2f2f2;
   }
@@ -97,9 +89,6 @@
     margin-top: 17px;
 }
 
-.logo{
-    width: 40px;
-}
 
 /* КОНТАКТЫ */
 p{
@@ -124,7 +113,7 @@ p{
     margin-bottom: 10px;
 }
 .contact-info-style{
-    font: 300 14px Inter, sans-serif;
+    font: 200 14px Inter, sans-serif;
     color: #bdbdbd;
     text-align: left;
 }
@@ -134,7 +123,7 @@ p{
     text-decoration: none;
     color: #bdbdbd;
     text-align: left;
-    font: 300 14px Inter, sans-serif;
+    font: 200 14px Inter, sans-serif;
 }
 .title-contact{
     font: bold 20px Inter, sans-serif;
