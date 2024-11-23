@@ -87,3 +87,58 @@
     color: #bbbbbb;
     text-align: center;
   }
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+}
+
+.modal-content {
+    background: white;
+    /* padding: 20px 20px 40px 20px; */
+    height: 420px;
+    border-radius: 5px;
+    width: 65%; 
+    position: relative;
+    display: flex;
+}
+
+.close-modal-btn {
+  background: transparent; 
+  border: none; 
+  color: #e37243; 
+  font-size: 24px; 
+  cursor: pointer; 
+  position: absolute; 
+  top: 5px; 
+  right: 15px; 
+  padding: 0; 
+  transition: color 0.3s; 
+}
+
+.close-modal-btn:hover {
+  color: #c76338; 
+}
+
+.orang-strip {
+  width: 100%; 
+  
+  height: 3%; 
+  background-color: #e37243; 
+  border-bottom-left-radius: 5px; 
+  border-bottom-right-radius: 5px; 
+  position: absolute; 
+bottom: 0;
+left: 50%; 
+transform: translateX(-50%);
+
+ 
+}

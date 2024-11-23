@@ -1,7 +1,6 @@
 import "../styles/aboutUsSection.css";
 import React, { useState } from 'react';
 import testImg from '../assets/imgAboutUs.png';
-import Modal from "./Modal";
 import Button from "./Button";
 
 function AboutUsSection(){
@@ -50,12 +49,6 @@ function AboutUsSection(){
                 <img src={testImg} className="img-about-us"></img>
             </div>
             </div>
-             {/* Модальное окно
-             <Modal isOpen={isModalOpen} onClose={closeModal}>
-                <h2>Дополнительная информация</h2>
-                <p>Здесь можно разместить дополнительную информацию о вашей компании.</p>
-                
-            </Modal> */}
         </div>
     );
 }

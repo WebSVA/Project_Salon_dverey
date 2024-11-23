@@ -1,50 +1,104 @@
 .email-container {
-    max-width: 400px;
+    
     margin: 0 auto;
     padding: 20px;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 100%;
   }
   
   .email-container h2 {
-    text-align: center;
-    color: #333;
+    text-align:start;
+    color: #383534;
+    font:700 26px Inter, sans-serif;
     margin-bottom: 20px;
+  }
+  .email-container h3 {
+    text-align:start;
+    color: #383534;
+    font:400 12px Inter, sans-serif;
+    margin-bottom: 30px;
+    max-width: 40%;
   }
   
   .email-form {
     display: flex;
     flex-direction: column;
+ 
   }
-  
+
+  .input-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+  }
+  .text-only{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+  .input-group{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0 5px 15px 5px;
+    
+  }
+  .input-group label{
+margin: 0 0 5px 0px;
+font: 400 14px Inter, sans-serif;
+color: #747474;
+  }
+.text-only label{
+  margin: 0 0 5px 0px;
+  font: 400 14px Inter, sans-serif;
+color: #747474;
+}
   .email-form input,
   .email-form textarea {
     margin-bottom: 15px;
+    padding: 10px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    
+  }
+  .input-group-textarea-group{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 100px;
+  }
+  .email-form textarea {
+    height: 110px; 
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 14px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px 0 5px;
   }
-  
+
+  .submit-group{
+    display: flex;
+    justify-content: flex-end;
+    
+
+
+  }
   .email-form input:focus,
   .email-form textarea:focus {
-    border-color: #007bff;
+    border-color: #e37243;
     outline: none;
   }
   
-  .email-form button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
+
+
   .email-form button:hover {
-    background-color: #0056b3;
-  }
+    background-color: #c76338;
+  } 
   

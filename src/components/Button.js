@@ -4,7 +4,8 @@ function Button({
     text, 
     onClick, 
     navigateTo, 
-    isModal 
+    isModal,
+    className
 }) {
     //const history = useHistory();
 
@@ -20,7 +21,7 @@ function Button({
     };
 
     return (
-        <button onClick={handleClick} className="custom-button">
+        <button onClick={handleClick} className={`custom-button ${className}`}>
             {text}
         </button>
     );

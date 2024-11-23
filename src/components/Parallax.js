@@ -1,7 +1,18 @@
 import React from 'react';
 import '../styles/parallax.css';
+import Button from './Button';
+import Email from '../Email';
+import { useState } from 'react';
 const Parallax = () => {
-  
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const modalOpen = ()=>{
+      setIsModalOpen(true);
+  }
+  const modalClose = ()=>{
+    setIsModalOpen(false);
+  }
+
     return (  
     <div class="parallax">
   <div className="contact-section">
@@ -15,8 +26,22 @@ const Parallax = () => {
           <span className="contact-number-text-style">8 029 928-92-89</span>
         </p>
         {/* Button Component is detected here. We've generated code using HTML. See other options in "Component library" dropdown in Settings */}
-        <button className="call-to-action-btn">Оставить заявку</button>
+       
+        <Button text="Оставить заявку" onClick={modalOpen} className="call-to-action-btn"/>
+        
       </div>
+       {/* Модальное окно */}
+       {isModalOpen && (
+                <div className="modal-overlay" onClick={modalClose}>
+                    <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                        <Email />
+                        <button onClick={modalClose} className="close-modal-btn">x</button>
+                        <div className="orang-strip"></div>
+                    </div>
+                    
+                </div>
+                
+            )}
     </div>
    
   
