@@ -1,8 +1,7 @@
+import Breadcrumbs from "../components/Breadcrumbs";
 function ContactPage(){
     return(
-        <div>
-            <h1>Contact</h1>
-        </div>
+        <Breadcrumbs title="Контакты" />
     );
 }
 

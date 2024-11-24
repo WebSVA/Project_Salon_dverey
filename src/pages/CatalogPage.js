@@ -1,8 +1,7 @@
+import Breadcrumbs from "../components/Breadcrumbs";
 function CatalogPage(){
     return(
-        <div>
-            <h1>Catalog</h1>
-        </div>
+        <Breadcrumbs title="Каталог" />
     );
 }
 

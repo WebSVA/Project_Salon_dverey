@@ -1,8 +1,10 @@
+
+import Breadcrumbs from "../components/Breadcrumbs";
 function AboutPage(){
     return(
-        <div>
-            <h1>About</h1>
-        </div>
+        <>
+        <Breadcrumbs title="Продукция" />
+        </>
     );
 }
 

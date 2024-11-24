@@ -5,7 +5,6 @@ import Email from '../Email';
 import { useState } from 'react';
 const Parallax = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-
   const modalOpen = ()=>{
       setIsModalOpen(true);
   }
