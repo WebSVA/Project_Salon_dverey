@@ -12,7 +12,7 @@ function Breadcrumbs({ title }) {
     // Формируем хлебные крошки, включая "Главная"
     const breadcrumbs = [
       <span key="home">
-        <Link to="/">Главная</Link> /
+        <a href="/">Главная</a> /
       </span>,
       ...pathnames.map((value, index) => {
         const to = `/${pathnames.slice(0, index + 1).join("/")}`;
@@ -22,7 +22,7 @@ function Breadcrumbs({ title }) {
           <span key={to}>
             {!isLast ? (
               <>
-                <Link to={to}>{value}</Link> /
+                <a href={to}>{value}</a> /
               </>
             ) : (
               <span>{value}</span>

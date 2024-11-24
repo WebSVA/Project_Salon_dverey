@@ -69,10 +69,10 @@ function App(){
           </div>
           <div className='links-button-container'>
             <div className='link-container'>
-              <Link className='links' to='/'>Главная</Link>
-              <Link className='links' to='/about'>О нас</Link>
-              <Link className='links' to='/catalog'>Каталог</Link>
-              <Link className='links' to='/contact'>Контакты</Link>
+              <a className='links' href='/'>Главная</a>
+              <a className='links' href='/about'>О нас</a>
+              <a className='links' href='/catalog'>Каталог</a>
+              <a className='links' href='/contact'>Контакты</a>
             </div>
             <div className='button-form-container'>
               <button></button>
