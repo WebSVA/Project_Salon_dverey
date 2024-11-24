@@ -3,16 +3,13 @@
 function Button({ 
     text, 
     onClick, 
-    navigateTo, 
+    type, 
     isModal,
     className
 }) {
-    //const history = useHistory();
+
 
     const handleClick = () => {
-        // if (navigateTo) {
-        //     history.push(navigateTo); 
-        // } else 
         if (isModal) {
             onClick(); 
         } else if (onClick) {
@@ -21,7 +18,7 @@ function Button({
     };
 
     return (
-        <button onClick={handleClick} className={`custom-button ${className}`}>
+        <button type={type} onClick={handleClick} className={`custom-button ${className}`}>
             {text}
         </button>
     );

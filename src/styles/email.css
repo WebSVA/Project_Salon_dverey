@@ -11,7 +11,7 @@
     text-align:start;
     color: #383534;
     font:700 26px Inter, sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .email-container h3 {
     text-align:start;
@@ -44,7 +44,7 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    margin: 0 5px 15px 5px;
+    margin: 0 5px 15px 0;
     
   }
   .input-group label{
@@ -78,9 +78,10 @@ color: #747474;
     border-radius: 5px;
     font-size: 14px;
     width: 70%;
+    height: 20%;
     display: flex;
     flex-direction: column;
-    margin: 0 5px 0 5px;
+   
   }
 
   .submit-group{
