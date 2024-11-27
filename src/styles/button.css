@@ -1,4 +1,4 @@
-button{
+.custom-button{
     box-sizing: border-box;
     display: block;
     flex: 0 0 auto;
@@ -12,12 +12,12 @@ button{
     border-radius: 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-button:hover {
+.custom-button:hover {
     background: #d86a3e;
     color: #dcdcdc; /* Цвет при наведении */
 }
 
-button:active {
+.custom-button:active {
     background: #c65f34; /* Цвет при нажатии */
     transform: translateY(2px); /* Эффект нажатия */
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); /* Уменьшение тени при нажатии */
