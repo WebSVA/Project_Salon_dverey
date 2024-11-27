@@ -35,7 +35,9 @@ const Parallax = () => {
                 <div className="modal-overlay" onClick={modalClose}>
                     <div className="modal-content" onClick={(e) => e.stopPropagation()}>
                         <Email />
-                        <button onClick={modalClose} className="close-modal-btn">x</button>
+                        {/* <button onClick={modalClose}>x</button> */}
+                        <Button text="x" onClick={modalClose} className="close-modal-btn"/>
+    
                         <div className="orang-strip"></div>
                     </div>
                     

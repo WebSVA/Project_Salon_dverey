@@ -98,7 +98,7 @@
     display: flex;
 }
 
-.close-modal-btn {
+ .close-modal-btn {
   background: transparent; 
   border: none; 
   color: #e37243; 
@@ -112,9 +112,6 @@
   transition: color 0.3s; 
 }
 
-.close-modal-btn:hover {
-  color: #c76338; 
-}
 
 .orang-strip {
   width: 100%; 

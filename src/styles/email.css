@@ -10,13 +10,13 @@
   .email-container h2 {
     text-align:start;
     color: #383534;
-    font:700 26px Inter, sans-serif;
+    font:700 calc(20px + 6 * (100vw / 1440)) Inter, sans-serif;
     margin-bottom: 10px;
   }
   .email-container h3 {
     text-align:start;
     color: #383534;
-    font:400 12px Inter, sans-serif;
+    font:400 calc(12px + 2 * (100vw / 1440)) Inter, sans-serif;
     margin-bottom: 30px;
     max-width: 40%;
   }
@@ -49,12 +49,12 @@
   }
   .input-group label{
 margin: 0 0 5px 0px;
-font: 400 14px Inter, sans-serif;
+font: 400 calc(12px + 2 * (100vw / 1440)) Inter, sans-serif;
 color: #747474;
   }
 .text-only label{
   margin: 0 0 5px 0px;
-  font: 400 14px Inter, sans-serif;
+  font: 400 calc(12px + 2 * (100vw / 1440)) Inter, sans-serif;
 color: #747474;
 }
   .email-form input,
@@ -76,7 +76,7 @@ color: #747474;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-size: 14px;
+    font: 400 calc(12px + 2 * (100vw / 1440));
     width: 70%;
     height: 20%;
     display: flex;

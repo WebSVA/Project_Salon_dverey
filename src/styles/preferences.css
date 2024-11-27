@@ -38,14 +38,14 @@
 }
 
 .preferences-card__title{
-    font: 700 14px/20px Inter, sans-serif;
+    font: 700 calc(12px + 2 * (100vw / 1440)) Inter, sans-serif;
     text-align: center;
     padding: 15px;
     color: #383534;
 }
 .preferences-card__description{
     flex-grow: 1;
-    font: 400 14px/20px Inter, sans-serif;
+    font: 400 calc(12px + 2 * (100vw / 1440)) Inter, sans-serif;
     text-align: center;
     margin-bottom: 20px;
    padding-bottom: 20px;
@@ -67,7 +67,35 @@
     align-self: center;
     padding: 0;
     margin: 0;
-    font: 700 26px Inter, sans-serif;
+    font: 700 calc(20px + 6 * (100vw/1440) ) Inter, sans-serif;
     color: #383534;
     padding: 10px 0;
   }
+  @media (max-width: 480px) {
+    .PrefContainer {
+        grid-template-columns: 1fr; 
+        gap: 50px;
+    }
+    .preferences-card__description{
+        font-size: calc(14px + (6 + 6 * 0.7)*((100vw - 320px)) / 1440);
+    }
+
+    .preferences-card__title{
+        font-size: calc(14px + (6 + 6 * 0.7)*((100vw - 320px)) / 1440);
+    }
+    .preferences-card__image{
+        width: 20vw;
+    }
+
+  }
+
+  @media (max-width: 680px) and (min-width: 480px) {
+    .PrefContainer {
+        grid-template-columns: 1fr; 
+        gap: 50px;
+    }
+
+    .preferences-card__image{
+        width: 15vw;
+    }
+}
