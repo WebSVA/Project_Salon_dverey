@@ -55,9 +55,8 @@ function Email() {
         </div>
      
       <div className="submit-group">
-      <Button text="Отправить" onClick={onSubmit} className="call-to-action-btn"/>
+      <Button text="Отправить" type="submit" className="call-to-action-btn"/>
         </div>
-        <div className="orang-strip"></div>
       </div>
     
     </form>
