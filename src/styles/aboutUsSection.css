@@ -61,13 +61,7 @@
     width: 20vw;
     border-top: 2px solid #e37243;
 }
-/* див баттон */
-.button{
-    background-color: #e37243;
-    width: 10vw;
-    height: 20px;
-    margin-right: 20px;
-}
+
 
 .separation-container:first-child{
     margin-right: 5vw;

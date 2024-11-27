@@ -36,12 +36,7 @@ function AboutUsSection(){
                     </p>
                 </div>
                 <div className="button-with-line">
-                    <div className="button"></div> 
-                    {/* <Button 
-                            text="Узнать больше" 
-                            isModal={true} 
-                            onClick={openModal} 
-                        /> */}
+                    <Button  className="button-link-aboutUs" text = "Узнать больше"/>
                     <div className="separation-line-2"></div>
                 </div>
             </div>

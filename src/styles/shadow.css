@@ -39,12 +39,7 @@
     display: block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #e37243;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font: 700 14px Inter, sans-serif;
+
   }
   .door-sales-section {
     display: flex;

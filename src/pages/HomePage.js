@@ -4,6 +4,7 @@ import PreferencesContainer from '../components/PreferencesContainer';
 import AboutUsSection from '../components/AboutUsSection'
 import Parallax from '../components/Parallax';
 
+
 function HomePage(){
     return(
         <>

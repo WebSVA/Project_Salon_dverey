@@ -10,11 +10,29 @@ header {
     z-index: 1000; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
+/* все шрифты исправляем на формулу калк: 
+14px - это минималка на 320px устройства, 
+14px + 6 = 20px - это размеры в фигме все остальное оставляем также*/
 .title-company{
-    font: 700 20px Inter, sans-serif;
+    font: 700 calc(14px + 6 * (100vw/1440) ) Inter, sans-serif;
     padding-left: 20px;
     margin-top: 3px;
     color: #383534;
+}
+/* это пишем обязательно на размер 480px без этого верхняя формула не имеет смысла на мобобилки 
+принцип тотже 14px - это граница размера для телефона 6 для того чтобы добить 
+до фигмовского размера все остально оставляем у себя также  */
+
+/* размеры: там где было 26 те заголовки пишем 20px + 6 
+там где 14px пишем 12px + 2, где 20px это мой пример пишем как тут
+остальных быть не длжно только такие размеры если что уточняем у меня*/
+@media (max-width: 480px) {
+    .title-company{
+        font-size: calc(14px + (6 + 6 * 0.7)*((100vw - 320px)) / 1440);
+    }
+    .links{
+        font-size: calc(12px + (2 + 2 * 0.7)*((100vw - 320px)) / 1440);
+    }
 }
 .container-header{
     width: 80%;
@@ -37,6 +55,7 @@ header {
 
 .link-container{
     display: flex;
+    align-items: center;
     gap: 3.125vw;
     padding-right: 5.833vw;
 }
@@ -47,8 +66,8 @@ button{
 
 .links{
     margin-top: 3px;
-    font: 400 14px Inter, sans-serif;
-    text-decoration: none; /* Убирает подчеркивание */
+    font: 400 calc(12px + 2 * (100vw/1440) ) Inter, sans-serif;
+    text-decoration: none;
     color: #383534;
 }
 .logo{

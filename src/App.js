@@ -13,6 +13,8 @@ import HomePage from './pages/HomePage';
 
 import logoIcon from './assets/logo.svg';
 import "./styles/animation/animation.css";
+import "./styles/button.css";
+
 
 function App(){
   useEffect(() => {
