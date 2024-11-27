@@ -10,6 +10,7 @@ import AboutPage from './pages/AboutPage';
 import ContactHeader from './components/ContactHeader';
 import Footer from './components/Footer'
 import HomePage from './pages/HomePage';
+import Button from './components/Button';
 
 import logoIcon from './assets/logo.svg';
 import "./styles/animation/animation.css";
@@ -77,7 +78,7 @@ function App(){
               <a className='links' href='/contact'>Контакты</a>
             </div>
             <div className='button-form-container'>
-              <button></button>
+              <Button text="Оставить заявку" ></Button>
             </div>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import "../styles/shadow.css";
 import Slider from '../components/Slider.js'; // Импорт компонента Slider
+import Button from './Button';
 
 function ShadowSlider() {
   return (
@@ -23,7 +24,7 @@ function ShadowSlider() {
                 Наша фирма предлагает широкий ассортимент продукции, включая межкомнатные и входные двери, выполненные из высококачественных материалов.
               </p>
               <div className="door-button-container">
-                <button className="detail-button">Подробнее</button>
+                <Button className="detail-button" text="Подробнее"></Button>
               </div>
             </div>
           </div>
