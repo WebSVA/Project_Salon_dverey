@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/parallax.css';
 import Button from './Button';
 import Email from '../Email';
-import { useState } from 'react';
+import { useState, useEffect} from 'react';
 const Parallax = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const modalOpen = ()=>{
@@ -11,6 +11,18 @@ const Parallax = () => {
   const modalClose = ()=>{
     setIsModalOpen(false);
   }
+
+  useEffect(() => {
+    if (isModalOpen) {
+        document.body.style.overflow = 'hidden'; 
+    } else {
+        document.body.style.overflow = 'auto'; 
+    }
+
+    return () => {
+        document.body.style.overflow = 'auto';
+    };
+}, [isModalOpen]);
 
     return (  
     <div class="parallax">
@@ -32,7 +44,7 @@ const Parallax = () => {
       </div>
        {/* Модальное окно */}
        {isModalOpen && (
-                <div className="modal-overlay" onClick={modalClose}>
+                <div className="modal-overlay">
                     <div className="modal-content" onClick={(e) => e.stopPropagation()}>
                         <Email />
                         {/* <button onClick={modalClose}>x</button> */}

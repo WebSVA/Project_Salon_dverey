@@ -55,7 +55,8 @@ function Email() {
         </div>
      
       <div className="submit-group">
-      <Button text="Отправить" type="submit" className="call-to-action-btn"/>
+      <Button text="Отправить" type="submit" className="send-btn"/>
+      {/* <button type="submit" className="send-btn">Отправить</button> */}
         </div>
       </div>
     

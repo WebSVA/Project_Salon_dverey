@@ -1,7 +1,6 @@
 .email-container {
     
-    margin: 0 auto;
-    padding: 20px;
+    margin:20px;
     border-radius: 5px;
     background-color: #ffffff;
     width: 100%;
@@ -30,7 +29,7 @@
   .input-row{
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     
   }
   .text-only{
@@ -59,28 +58,27 @@ color: #747474;
 }
   .email-form input,
   .email-form textarea {
-    margin-bottom: 15px;
     padding: 10px 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #C9C9C9;
     border-radius: 5px;
-    font-size: 14px;
+    resize: none;
     
   }
   .input-group-textarea-group{
     display: flex;
     align-items: flex-end;
-    margin-bottom: 100px;
+   
   }
   .email-form textarea {
-    height: 110px; 
+    height: 80px; 
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #C9C9C9;
     border-radius: 5px;
-    font: 400 calc(12px + 2 * (100vw / 1440));
-    width: 70%;
-    height: 20%;
+    font: 400 calc(12px + 2 * (100vw / 1440)) Inter, sans-serif;
+    width: 85%;
     display: flex;
     flex-direction: column;
+margin-bottom: 0;
    
   }
 
@@ -102,4 +100,47 @@ color: #747474;
   .email-form button:hover {
     background-color: #c76338;
   } 
+
+  .send-btn{
+    margin-top: 15px;
+  }
   
+
+  @media(max-width:1440px) and (min-width:960px){
+    .email-container h3{
+      max-width: 100%;
+    }
+  }
+  @media(max-width:960px) and (min-width:480px){
+    .email-container h3{
+      max-width: 100%;
+    }
+    .input-group-textarea-group{
+      flex-wrap: wrap;
+    }
+
+    .email-form textarea{
+      width: auto;
+    }
+  }
+  @media(max-width:480px){
+      .email-container h3{
+        max-width: 100%;
+      }
+
+      .input-group-textarea-group  {
+       align-items: center; 
+        flex-direction: column;
+    }
+
+    .text-only{
+      width: 100%;
+    }
+
+    .email-form textarea{
+      width: auto;
+
+    }
+
+  }
+
