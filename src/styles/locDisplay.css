@@ -41,17 +41,17 @@
 
   }
   .address-info-heading {
-    font: 700 14px Inter, sans-serif;
+    font: 700 calc(12px + 2 * (100vw / 1440)) Inter, sans-serif;
     color: #383534;
     text-align: left;
   }
   .address-info-text-style {
-    font: 400 14px Inter, sans-serif;
+    font: 400 calc(12px + 2 * (100vw / 1440)) Inter, sans-serif;
     color: #383534;
     text-align: left;
   }
   .address-details {
-    font: 400 14px Inter, sans-serif;
+    font: 400 calc(12px + 2 * (100vw / 1440)) Inter, sans-serif;
     text-align: left;
   }
   .orange-strip {

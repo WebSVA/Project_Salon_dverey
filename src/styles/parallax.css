@@ -90,12 +90,12 @@
 
 .modal-content {
     background: white;
-    /* padding: 20px 20px 40px 20px; */
-    height: 420px;
+    padding: 20px;
     border-radius: 5px;
-    width: 65%; 
+    width: 60%; 
     position: relative;
     display: flex;
+    justify-content: center;
 }
 
  .close-modal-btn {
