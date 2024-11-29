@@ -72,14 +72,17 @@ function App(){
           </div>
           <div className='links-button-container'>
             <div className='link-container'>
-              <a className='links' href='/'>Главная</a>
-              <a className='links' href='/about'>О нас</a>
-              <a className='links' href='/catalog'>Каталог</a>
-              <a className='links' href='/contact'>Контакты</a>
+            <input type="checkbox" id="burger-checkbox" className="burger-checkbox"/>
+            <label for="burger-checkbox" className="burger"></label>
+              <ul className='menu-list'>
+                <li><a className='links' href='/'>Главная</a><div className='line-div'/></li>
+                <li><a className='links' href='/about'>О нас</a><div className='line-div'/></li>
+                <li><a className='links' href='/catalog'>Каталог</a><div className='line-div'/></li>
+                <li><a className='links' href='/contact'>Контакты</a><div className='line-div'/></li>
+              </ul>
+              
             </div>
-            <div className='button-form-container'>
-              <Button text="Оставить заявку" ></Button>
-            </div>
+           
           </div>
         </div>
       </header>

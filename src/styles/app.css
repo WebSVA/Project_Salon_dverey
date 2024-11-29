@@ -1,4 +1,157 @@
 header {
+  display: flex;
+  position: sticky; /* Липкое позиционирование */
+  top: 0; /* Привязка к верхней части окна при прокрутке */
+  justify-content: center;
+  align-items: center;
+  height: 63px;
+  padding: 5px;
+  background-color: #FFFFFF;
+  z-index: 1000; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+/* все шрифты исправляем на формулу калк: 
+14px - это минималка на 320px устройства, 
+14px + 6 = 20px - это размеры в фигме все остальное оставляем также*/
+.title-company{
+  font: 700 calc(14px + 6 * (100vw/1440) ) Inter, sans-serif;
+  padding-left: 20px;
+  margin-top: 3px;
+  color: #383534;
+}
+/* это пишем обязательно на размер 480px без этого верхняя формула не имеет смысла на мобобилки 
+принцип тотже 14px - это граница размера для телефона 6 для того чтобы добить 
+до фигмовского размера все остально оставляем у себя также  */
+
+/* размеры: там где было 26 те заголовки пишем 20px + 6 
+там где 14px пишем 12px + 2, где 20px это мой пример пишем как тут
+остальных быть не длжно только такие размеры если что уточняем у меня*/
+
+.container-header{
+  width: 80%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.links-button-container{
+  display: flex;
+  flex-direction: row;
+}
+.logo-container{
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.link-container{
+  display: flex;
+  align-items: center;
+}
+.links{
+  margin-top: 3px;
+  font: 400 calc(12px + 2 * (100vw/1440) ) Inter, sans-serif;
+  text-decoration: none;
+  color: #383534;
+}
+.logo{
+  height: 40px;
+}
+
+.burger-checkbox{
+  visibility: hidden;
+}
+.burger{
+  visibility: hidden;
+}
+.menu-list{
+  display: flex;
+  align-items: center;
+  gap: 3.125vw;
+  padding-right: 5.833vw;
+}
+li{
+  list-style-type: none; /* Убирает маркеры */
+  padding: 0; /* Убирает отступы */
+  margin: 0;
+}
+
+@media (max-width: 960px) {
+
+  .title-company{
+      font-size: calc(14px + (6 + 6 * 0.7)*((100vw - 320px)) / 1440);
+  }
+  .links{
+      transition: transform 0.5s, opacity 0.1s;
+      font-size: calc(14px + (2 + 2 * 0.7)*((100vw - 320px)) / 1440);
+  }
+  .line-div{
+    height: 0.3px; /* Высота полоски */
+    width: 100%; /* Занимает всю ширину li */
+    background-color: rgb(230, 230, 230); /* Цвет полоски */
+    
+  }
+  li{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 80vw;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  .burger-checkbox {
+      position: absolute;
+    }
+.burger {
+  visibility: inherit;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  display: block;
+  border: none;
+  background: transparent;
+  width: 30px; /* Уменьшено в 2 раза */
+  height: 20px; /* Уменьшено в 2 раза */
+}
+
+.burger::before,
+.burger::after {
+  content: '';
+  left: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px; /* Уменьшено в 2 раза */
+  border-radius: 10px;
+  background: #000;
+}
+
+.burger::before {
+  top: 0;
+  box-shadow: 0 9px 0 #000; /* Уменьшено для пропорциональности */
+  transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+}
+
+.burger::after {
+  bottom: 0;
+  transition: bottom .3s .15s, transform .3s;
+}
+
+.burger-checkbox:checked + .burger::before {
+  top: 10px; /* Уменьшено в 2 раза */
+  transform: rotate(45deg);
+  box-shadow: 0 6px 0 rgba(0,0,0,0); /* Уменьшено для пропорциональности */
+  transition: box-shadow .15s, top .3s, transform .3s .15s;
+}
+
+.burger-checkbox:checked + .burger::after {
+  bottom: 5px; /* Уменьшено в 2 раза */
+  transform: rotate(-45deg);
+  transition: bottom .3s, transform .3s .15s;
+}
+    header {
     display: flex;
     position: sticky; /* Липкое позиционирование */
     top: 0; /* Привязка к верхней части окна при прокрутке */
@@ -26,14 +179,7 @@ header {
 /* размеры: там где было 26 те заголовки пишем 20px + 6 
 там где 14px пишем 12px + 2, где 20px это мой пример пишем как тут
 остальных быть не длжно только такие размеры если что уточняем у меня*/
-@media (max-width: 480px) {
-    .title-company{
-        font-size: calc(14px + (6 + 6 * 0.7)*((100vw - 320px)) / 1440);
-    }
-    .links{
-        font-size: calc(12px + (2 + 2 * 0.7)*((100vw - 320px)) / 1440);
-    }
-}
+
 .container-header{
     width: 80%;
     height: inherit;
@@ -56,14 +202,7 @@ header {
 .link-container{
     display: flex;
     align-items: center;
-    gap: 3.125vw;
-    padding-right: 5.833vw;
 }
-
-button{
-    width: 160px;
-}
-
 .links{
     margin-top: 3px;
     font: 400 calc(12px + 2 * (100vw/1440) ) Inter, sans-serif;
@@ -74,3 +213,122 @@ button{
     height: 40px;
 }
 
+.burger-checkbox{
+    visibility: hidden;
+}
+.burger{
+    visibility: hidden;
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+    gap: 3.125vw;
+    padding-right: 5.833vw;
+}
+li{
+    list-style-type: none; /* Убирает маркеры */
+    padding: 0; /* Убирает отступы */
+    margin: 0;
+}
+
+@media (max-width: 960px) {
+  
+    .title-company{
+        font-size: calc(14px + (6 + 6 * 0.7)*((100vw - 320px)) / 1440);
+    }
+    .links{
+        transition: transform 0.5s, opacity 0.1s;
+        font-size: calc(14px + (2 + 2 * 0.7)*((100vw - 320px)) / 1440);
+    }
+    .line-div{
+      height: 0.3px; /* Высота полоски */
+      width: 100%; /* Занимает всю ширину li */
+      background-color: rgb(230, 230, 230); /* Цвет полоски */
+      
+    }
+    li{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      width: 80vw;
+      height: 30px;
+      margin-bottom: 10px;
+    }
+    .burger-checkbox {
+        position: absolute;
+      }
+.burger {
+    visibility: inherit;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    display: block;
+    border: none;
+    background: transparent;
+    width: 30px; /* Уменьшено в 2 раза */
+    height: 20px; /* Уменьшено в 2 раза */
+}
+
+.burger::before,
+.burger::after {
+    content: '';
+    left: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px; /* Уменьшено в 2 раза */
+    border-radius: 10px;
+    background: #000;
+}
+
+.burger::before {
+    top: 0;
+    box-shadow: 0 9px 0 #000; /* Уменьшено для пропорциональности */
+    transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+}
+
+.burger::after {
+    bottom: 0;
+    transition: bottom .3s .15s, transform .3s;
+}
+
+.burger-checkbox:checked + .burger::before {
+    top: 10px; /* Уменьшено в 2 раза */
+    transform: rotate(45deg);
+    box-shadow: 0 6px 0 rgba(0,0,0,0); /* Уменьшено для пропорциональности */
+    transition: box-shadow .15s, top .3s, transform .3s .15s;
+}
+
+.burger-checkbox:checked + .burger::after {
+    bottom: 5px; /* Уменьшено в 2 раза */
+    transform: rotate(-45deg);
+    transition: bottom .3s, transform .3s .15s;
+}
+.menu-list {
+  top: 73px;
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  padding: 20px 0;
+  margin: 0;
+  background: white;
+  list-style-type: none;
+  transform: translateY(-30%); 
+  transition: transform 0.3s, opacity 0.3s; /* Плавный переход для трансформации и прозрачности */
+  opacity: 0; /* Изначально невидимо */
+  visibility: hidden; /* Скрываем элемент */
+  z-index: -1; /* Убедитесь, что меню находится под другими элементами */
+}
+.burger-checkbox:checked ~ .menu-list {
+  transform: translateY(0); /* Возвращаем в исходное положение */
+  opacity: 1; /* Делаем видимым */
+  visibility: visible; /* Показываем элемент */
+  z-index: 1; /* Поднимаем на передний план */
+}
+.links:hover {
+  background: rgba(255,255,255,.2);
+}
+}
+}
