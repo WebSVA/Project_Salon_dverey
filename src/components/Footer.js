@@ -15,7 +15,6 @@ return (
         <div className="exclusive-door-firm-section">
           <div className="flex-container-with-text">
             <div className="company-title-container">
-                {/* <img src={footerLogoIcon} className='footer-logo'></img> */}
               <p className="company-title-style">О нас</p>
             </div>
             <div className="company-header-separator" />
@@ -60,7 +59,9 @@ return (
                     <img src={phoneIcon} className="title-icon" />
                     <p className="title-contact">Связаться с нами</p>
                 </div>
-                <p className="contact-info-style">Тел: 8 029 928-92-89</p>
+                <a href="tel:80299289289" className="email-link">
+                  <p className="contact-info-style">Тел: 8 029 928-92-89</p>
+                </a>
                 <a href="mailto:info@gmail.com" className="email-link">
                     <span className="email-label-text-style">Email: </span>
                     <span className="email-link-text-style">&nbsp;info@gmail.com</span>
