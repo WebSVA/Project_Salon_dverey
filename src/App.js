@@ -80,9 +80,7 @@ function App(){
                 <li><a className='links' href='/catalog'>Каталог</a><div className='line-div'/></li>
                 <li><a className='links' href='/contact'>Контакты</a><div className='line-div'/></li>
               </ul>
-              
             </div>
-           
           </div>
         </div>
       </header>
@@ -92,7 +90,6 @@ function App(){
         <Route path="/about" element={<AboutPage/>}/>
         <Route path="/contact" element={<ContactPage/>}/>
         <Route path="/catalog" element={<CatalogPage/>}/>
-        {/* если ничего не совпало*/}
         <Route path="*" element={<HomePage/>}/>
       </Routes>
       <Footer/>

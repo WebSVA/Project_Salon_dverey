@@ -6,7 +6,7 @@
     align-items: stretch;
     justify-content: flex-start;
     padding-bottom: 50px;
-    width: 100vw; 
+    /* width: 100vw;   кто это поставит обратно тому пзда */
     z-index: 1;
   }
   .location-title-text-style {
