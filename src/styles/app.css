@@ -91,8 +91,13 @@ li{
       align-content: center;
   }
   .links:hover{
-
+      color: #e37243;
+      font-weight: bold;
   }
+  .links:checked{
+    color: #e37243;
+    font-weight: bold;
+}
   .line-div{
     height: 0.3px; /* Высота полоски */
     width: 100%; /* Занимает всю ширину li */
