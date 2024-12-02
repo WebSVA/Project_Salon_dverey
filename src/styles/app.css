@@ -79,6 +79,15 @@ li{
 }
 
 @media (max-width: 960px) {
+
+  
+.main-content {
+  transition: margin-top 0.3s; 
+}
+
+.main-content.shifted {
+  margin-top: 200px;
+}
   
   .title-company{
       font-size: calc(14px + (6 + 6 * 0.7)*((100vw - 320px)) / 1440);
@@ -161,7 +170,7 @@ li{
       transition: bottom .3s, transform .3s .15s;
   }
   .menu-list {
-    top: 72px;
+    top: 75px;
     left: 0;
     gap: 0;
     position: absolute;
@@ -173,16 +182,18 @@ li{
     background: white;
     list-style-type: none;
     transform: translateY(-30%); 
-    transition: transform 0.3s, opacity 0.3s; /* Плавный переход для трансформации и прозрачности */
+    transition: opacity 0.3s , transform 0.3s; /* Плавный переход для трансформации и прозрачности */
     opacity: 0; /* Изначально невидимо */
     visibility: hidden; /* Скрываем элемент */
     z-index: -1; /* Убедитесь, что меню находится под другими элементами */
   }
   .burger-checkbox:checked ~ .menu-list {
-    transform: translateY(0); /* Возвращаем в исходное положение */
+     /* Возвращаем в исходное положение */
+    visibility: visible;
     opacity: 1; /* Делаем видимым */
+    transform: translateY(0);
     width: 100%;
-    visibility: visible; /* Показываем элемент */
+     /* Показываем элемент */
     z-index: 1; /* Поднимаем на передний план */
   }
   .links:hover {
