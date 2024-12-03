@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import {Routes, Route, Link} from 'react-router-dom';
 import './styles/app.css';
@@ -18,6 +18,12 @@ import "./styles/button.css";
 
 
 function App(){
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toogleMenu = ()=>{
+    setIsMenuOpen((prev)=> !prev);
+  }
+
   useEffect(() => {
     const animItems = document.querySelectorAll('._animate-items');
 
@@ -72,7 +78,7 @@ function App(){
           </div>
           <div className='links-button-container'>
             <div className='link-container'>
-            <input type="checkbox" id="burger-checkbox" className="burger-checkbox"/>
+            <input type="checkbox" id="burger-checkbox" className="burger-checkbox " checked={isMenuOpen} onChange={toogleMenu}/>
             <label for="burger-checkbox" className="burger"></label>
               <ul className='menu-list'>
                 <li><a className='links' href='/'>Главная</a><div className='line-div'/></li>
@@ -84,7 +90,7 @@ function App(){
           </div>
         </div>
       </header>
-      
+      <div className={`main-content ${isMenuOpen ? 'shifted' : ''}`}>
       <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="/about" element={<AboutPage/>}/>
@@ -92,6 +98,7 @@ function App(){
         <Route path="/catalog" element={<CatalogPage/>}/>
         <Route path="*" element={<HomePage/>}/>
       </Routes>
+      </div>
       <Footer/>
       </>
     );
