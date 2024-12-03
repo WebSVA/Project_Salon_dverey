@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "SORRENTO-1",
+        "description": "Входная дверь",
+        "image": "/imgProducts/doorTest.png"
+    },
+    {
+        "id": 2,
+        "name": "SORRENTO-2",
+        "description": "Входная дверь",
+        "image": "/imgProducts/doorTest.png"
+    },
+    {
+        "id": 1,
+        "name": "SORRENTO-3",
+        "description": "Входная дверь",
+        "image": "/imgProducts/doorTest.png"
+    },
+    {
+        "id": 2,
+        "name": "SORRENTO-4",
+        "description": "Входная дверь",
+        "image": "/imgProducts/doorTest.png"
+    },
+    {
+        "id": 1,
+        "name": "SORRENTO-5",
+        "description": "Входная дверь",
+        "image": "/imgProducts/doorTest.png"
+    },
+    {
+        "id": 2,
+        "name": "SORRENTO-6",
+        "description": "Входная дверь",
+        "image": "/imgProducts/doorTest.png"
+    }
+]

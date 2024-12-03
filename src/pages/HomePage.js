@@ -3,6 +3,7 @@ import ShadowSlider from '../components/ShadowSlider'
 import PreferencesContainer from '../components/PreferencesContainer';
 import AboutUsSection from '../components/AboutUsSection'
 import Parallax from '../components/Parallax';
+import UpCatalogSection from '../components/UpCatalogSection';
 
 
 function HomePage(){
@@ -10,6 +11,7 @@ function HomePage(){
         <>
         <ShadowSlider/>
         <PreferencesContainer/>
+        <UpCatalogSection/>
         <AboutUsSection/>
         <Parallax/>
         <Location/>
