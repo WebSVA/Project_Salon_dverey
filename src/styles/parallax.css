@@ -36,11 +36,11 @@
    
     margin-top: 36px;
     margin-left: -4px;
-    font: 700 18px Inter, sans-serif;
+    font: 700 calc(14px + 6 * (100vw/1440) ) Inter, sans-serif;
     color: #bbbbbb;
   }
   .contact-number-text-style {
-    font: 300 18px Inter, sans-serif;
+    font: 300 calc(14px + 6 * (100vw/1440) ) Inter, sans-serif;
   }
   .call-to-action-btn {
    
@@ -59,7 +59,7 @@
     flex: 0 0 auto;
     padding: 0;
     margin: 0;
-    font: 700 26px Inter, sans-serif;
+    font: 700 calc(20px + 6 * (100vw/1440) ) Inter, sans-serif;
     color: #f2f2f2;
   }
   .contact-info-text {
@@ -70,7 +70,7 @@
     margin-top: 9.5px;
     margin-left: auto;
     margin-right: auto;
-    font: 300 14px Inter, sans-serif;
+    font: 300 calc(12px + 2 * (100vw/1440) ) Inter, sans-serif;
     color: #bbbbbb;
     text-align: center;
   }
@@ -116,7 +116,6 @@
 
 .orang-strip {
   width: 100%; 
-  
   height: 3%; 
   background-color: #e37243; 
   border-bottom-left-radius: 5px; 
@@ -127,4 +126,11 @@ left: 50%;
 transform: translateX(-50%);
 
  
+}
+
+@media (max-width: 680px) {
+
+  .contact-info-text {
+  max-width: 50%;}
+
 }
