@@ -5,8 +5,7 @@ function ProductCard({
     product: { 
         id, 
         name, 
-        description, 
-        price, 
+        type,  
         image 
     }, 
     onClick 
@@ -25,7 +24,7 @@ function ProductCard({
                     <img className='product-img' src={image} alt={name} />
                 </div>
                 <div className='text-container'>
-                    <h2 className='product-description'>{description}</h2>
+                    <h2 className='product-description'>{type}</h2>
                     <h1 className='product-name'>{name}</h1>
                 </div>
             </div>
