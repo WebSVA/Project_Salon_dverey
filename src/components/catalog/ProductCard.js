@@ -6,10 +6,12 @@ function ProductCard({
         id, 
         name, 
         type,  
-        image 
+        color 
     }, 
     onClick 
-}) {
+}) 
+{
+    const [firstColorName, firstColorImage] = Object.entries(color)[0];
     const handleClick = () => {
         if (onClick) {
             onClick(id); // Передаем id товара при клике
@@ -21,7 +23,7 @@ function ProductCard({
         <div className="product-card" onClick={handleClick}>
             <div className='product-content'>
                 <div className='product-img-container'>
-                    <img className='product-img' src={image} alt={name} />
+                    <img className='product-img' src={firstColorImage} alt={firstColorName} />
                 </div>
                 <div className='text-container'>
                     <h2 className='product-description'>{type}</h2>
