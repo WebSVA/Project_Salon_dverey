@@ -2,7 +2,7 @@
     position: relative;
     display: flex; /* Flexbox для горизонтального расположения */
     width: 100%; /* Ширина на весь экран */
-    height: 100vh; /* Высота равна высоте окна браузера */
+    height:  800px; /* Высота равна высоте окна браузера */
     box-sizing: border-box;
     justify-content: center;
     margin-bottom: 60px;
@@ -10,10 +10,9 @@
   
   /* Shadow (левая часть) */
   .shadow-container {
-    width: 450px; /* Занимает 30% ширины контейнера */
-    height: 30%;  
-    /* было 100 */
-    padding: 20px 20px 20px 50px;
+    width: 60%; /* Занимает 30% ширины контейнера */
+    height: 100%;
+    padding: 20px 20% 20px 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,7 +47,7 @@
     height: 340px;
     justify-content: space-between;
   }
-  /* .door-description-container {
+  .door-description-container {
     display: flex;
     flex: 0 0 auto;
     height: 90px;
@@ -56,7 +55,7 @@
     align-items: center;
     align-self: flex-end;
     justify-content: flex-end;
-  } */
+  }
   .door-divider {
     box-sizing: border-box;
     flex: 0 0 auto;
@@ -66,8 +65,8 @@
     margin-right: 17px;
     background: #e37243;
   }
-  .door-text-styler {
-    font: 26px Inter, sans-serif;
+  .door-text-block {
+    font: calc(20px + 6 * (100vw/1440) ) Inter, sans-serif;
     text-align: left;
   }
   .product-description-text-style {
@@ -76,8 +75,7 @@
     margin: 0;
     width: 270px;
     margin-bottom: 30px;
-    /* font: 200 14px Inter, sans-serif; */
-    font: 200 34px Areal;
+    font: 200 calc(12px + 2 * (100vw/1440) ) Inter, sans-serif;
     color: #b6b6b6;
     text-align: left;
   }
@@ -107,3 +105,26 @@
     
   }
   
+  @media (max-width: 980px) {
+    .slider-container {
+      display: none;
+    }
+  .door-both::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-image: url('../assets/img/media-slider.png'); /* Путь к новому изображению */
+ 
+  }
+  .container {
+    
+     height: 500px; /* Высота равна высоте окна браузера */
+  }
+  .shadow-container {
+  padding: 20px 30% 20px 13%;
+  }
+
+  }

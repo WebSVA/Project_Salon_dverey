@@ -1,7 +1,7 @@
 .transparent-overlay-container {
     
     text-align: center; 
-    height: 55vh;
+    height: 45vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
@@ -16,7 +16,7 @@
     color: #bdbdbd;
   }
   .product-title-text-style {
-    padding-top: 24vh;
+    padding-top: 20vh;
     padding-bottom: 2vh;
     justify-content: center;
    margin:auto,auto;
@@ -26,7 +26,7 @@
   }
   .shadow{
     background: rgba(56, 53, 52, 0.7);
-    height: 55vh;
+    height: 45vh;
   }
   .product-info-heading a:visited,
 .product-info-heading a:hover,

@@ -13,11 +13,11 @@ function ShadowSlider() {
               <div className="door-description-container">
                 <div className="door-divider" />
                 <p className="door-text-block">
-                  <span className="door-text-styler">
+                  
                     Продажа и установка
                     межкомнатных и входных
                     дверей по доступным ценам
-                  </span>
+
                 </p>
               </div>
               <p className="product-description-text-style">
@@ -30,8 +30,9 @@ function ShadowSlider() {
           </div>
         </div>
       </div>
-      {/* Slider: Правая часть */}
-      <Slider />
+      <div className="slider-container">
+        <Slider />
+      </div>
     </div>
   );
 }
