@@ -4,6 +4,7 @@ import data from '../../data/data.json';
 import ProductCard from './ProductCard';
 import '../../styles/catalog/catalogContainer.css';
 
+
 function CatalogContainer() {
     const [products, setProducts] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
@@ -30,11 +31,11 @@ function CatalogContainer() {
                     <div className='filter-section'></div>
                     <div className="product-list">
                         {currentProducts.map(product => (
-                            <ProductCard 
+                            <a key={product.id} href={`/catalog/${product.id}`}><ProductCard 
                                 key={product.id} 
                                 product={product} 
                                 onClick={(id) => console.log(`Clicked on product with ID: ${id}`)} 
-                            />
+                            /></a>
                         ))}
                     </div>
                 </div>

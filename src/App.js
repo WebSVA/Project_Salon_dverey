@@ -1,20 +1,21 @@
 import React, { useEffect, useState } from 'react';
 
-import {Routes, Route, Link} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 import './styles/app.css';
 
 import ContactPage from './pages/ContactPage';
 import CatalogPage from './pages/CatalogPage';
 import AboutPage from './pages/AboutPage';
+import ProductPage from './pages/ProductPage';
 
 import ContactHeader from './components/ContactHeader';
 import Footer from './components/Footer'
 import HomePage from './pages/HomePage';
-import Button from './components/Button';
 
 import logoIcon from './assets/logo.svg';
 import "./styles/animation/animation.css";
 import "./styles/button.css";
+
 
 
 function App(){
@@ -96,6 +97,7 @@ function App(){
         <Route path="/about" element={<AboutPage/>}/>
         <Route path="/contact" element={<ContactPage/>}/>
         <Route path="/catalog" element={<CatalogPage/>}/>
+        <Route path="/catalog/:id" element={<ProductPage/>}/>
         <Route path="*" element={<HomePage/>}/>
       </Routes>
       </div>
