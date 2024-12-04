@@ -81,3 +81,12 @@
         padding: 10px;
     }
 }
+@media (max-width: 630px) {
+    .contact-info-section{
+        padding: 10px;
+    }
+    .contact-info-section2 {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}

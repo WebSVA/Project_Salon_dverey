@@ -19,6 +19,9 @@ body {
     background-size: 100% auto; /* Растянуть по ширине, высота авто */
 
 }
+a{
+  text-decoration: none;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

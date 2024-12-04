@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react';
 import Button from './Button';
 import ProductCard from '../components/catalog/ProductCard';
 import data from '../data/data.json';
-import '../styles/upCatalogSection.css';
+import '../styles/CatalogSection.css';
 
-function UpCatalogSection() {
+function CatalogSection() {
     const [products, setProducts] = useState([]);
    
 
@@ -30,11 +30,11 @@ function UpCatalogSection() {
                     <div className='catalog'>
                         <div className="product-list">
                             {currentProducts.map(product => (
-                                <ProductCard 
-                                    key={product.id} 
-                                    product={product} 
-                                    onClick={(id) => console.log(`Clicked on product with ID: ${id}`)} 
-                                />
+                            <a key={product.id} href={`/catalog/${product.id}`}><ProductCard 
+                                key={product.id} 
+                                product={product} 
+                                onClick={(id) => console.log(`Clicked on product with ID: ${id}`)} 
+                            /></a>
                             ))}
                         </div>
                     </div>
@@ -50,11 +50,11 @@ function UpCatalogSection() {
                     <div className='catalog'>
                         <div className="product-list">
                             {currentProducts.map(product => (
-                                <ProductCard 
+                                 <a key={product.id} href={`/catalog/${product.id}`}><ProductCard 
                                     key={product.id} 
                                     product={product} 
                                     onClick={(id) => console.log(`Clicked on product with ID: ${id}`)} 
-                                />
+                                /></a>
                             ))}
                         </div>
                     </div>
@@ -68,4 +68,4 @@ function UpCatalogSection() {
     );
 }
 
-export default UpCatalogSection;
+export default CatalogSection;

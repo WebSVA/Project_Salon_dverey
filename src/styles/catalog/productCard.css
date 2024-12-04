@@ -4,6 +4,7 @@
     flex-direction: column;
     width: 224px;
     height: 360px;
+    text-decoration: none;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -29,6 +30,7 @@
 .product-description{
     color: #747474;
     margin-bottom: 5px;
+    text-decoration: none;
     font: 700 calc(12px + 2 * (100vw/1440) ) Inter, sans-serif;
 }
 .product-name{

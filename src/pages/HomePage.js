@@ -3,7 +3,7 @@ import ShadowSlider from '../components/ShadowSlider'
 import PreferencesContainer from '../components/PreferencesContainer';
 import AboutUsSection from '../components/AboutUsSection'
 import Parallax from '../components/Parallax';
-import UpCatalogSection from '../components/UpCatalogSection';
+import UpCatalogSection from '../components/CatalogSection';
 
 
 function HomePage(){

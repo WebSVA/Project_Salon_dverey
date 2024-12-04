@@ -27,40 +27,116 @@
         "high_lock": "",
         "low_lock": ""
 },
-    {
-        "id": 1,
-        "name": "SORRENTO-1",
-        "description": "Входная дверь",
-        "image": "/imgProducts/doorTest.png"
+{
+    "id": 2,
+    "name": "Порта-22",
+    "type": "Межкомнатная",
+    "color": {
+            "Snow Veralinga": "/imgProducts/doorTest.png",
+            "Bianco Veralinga": "img1.png",
+            "Nordic Grey Oak": "img.png",
+            "Cappuccino Veralinga": "img1.png",
+            "Wenge Veralinga": "img1.png"
     },
-    {
-        "id": 2,
-        "name": "SORRENTO-2",
-        "description": "Входная дверь",
-        "image": "/imgProducts/doorTest.png"
+    "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
+    "glass": "Magic Fog",
+    "fill": "",
+    "size": [
+            "200*35",
+            "200*40",
+            "200*60",
+            "200*70",
+            "200*80",
+            "200*90"
+    ],
+    "thickness": "36",
+    "fabricator": "elporta",
+    "eye": "",
+    "high_lock": "",
+    "low_lock": ""
+},
+{
+    "id": 3,
+    "name": "Порта-22",
+    "type": "Межкомнатная",
+    "color": {
+            "Snow Veralinga": "/imgProducts/doorTest.png",
+            "Bianco Veralinga": "img1.png",
+            "Nordic Grey Oak": "img.png",
+            "Cappuccino Veralinga": "img1.png",
+            "Wenge Veralinga": "img1.png"
     },
-    {
-        "id": 1,
-        "name": "SORRENTO-3",
-        "description": "Входная дверь",
-        "image": "/imgProducts/doorTest.png"
+    "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
+    "glass": "Magic Fog",
+    "fill": "",
+    "size": [
+            "200*35",
+            "200*40",
+            "200*60",
+            "200*70",
+            "200*80",
+            "200*90"
+    ],
+    "thickness": "36",
+    "fabricator": "elporta",
+    "eye": "",
+    "high_lock": "",
+    "low_lock": ""
+},
+{
+    "id": 4,
+    "name": "Порта-22",
+    "type": "Межкомнатная",
+    "color": {
+            "Snow Veralinga": "/imgProducts/doorTest.png",
+            "Bianco Veralinga": "img1.png",
+            "Nordic Grey Oak": "img.png",
+            "Cappuccino Veralinga": "img1.png",
+            "Wenge Veralinga": "img1.png"
     },
-    {
-        "id": 2,
-        "name": "SORRENTO-4",
-        "description": "Входная дверь",
-        "image": "/imgProducts/doorTest.png"
+    "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
+    "glass": "Magic Fog",
+    "fill": "",
+    "size": [
+            "200*35",
+            "200*40",
+            "200*60",
+            "200*70",
+            "200*80",
+            "200*90"
+    ],
+    "thickness": "36",
+    "fabricator": "elporta",
+    "eye": "",
+    "high_lock": "",
+    "low_lock": ""
+},
+{
+    "id": 5,
+    "name": "Порта-22",
+    "type": "Межкомнатная",
+    "color": {
+            "Snow Veralinga": "/imgProducts/doorTest.png",
+            "Bianco Veralinga": "img1.png",
+            "Nordic Grey Oak": "img.png",
+            "Cappuccino Veralinga": "img1.png",
+            "Wenge Veralinga": "img1.png"
     },
-    {
-        "id": 1,
-        "name": "SORRENTO-5",
-        "description": "Входная дверь",
-        "image": "/imgProducts/doorTest.png"
-    },
-    {
-        "id": 2,
-        "name": "SORRENTO-6",
-        "description": "Входная дверь",
-        "image": "/imgProducts/doorTest.png"
-    }
+    "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
+    "glass": "Magic Fog",
+    "fill": "",
+    "size": [
+            "200*35",
+            "200*40",
+            "200*60",
+            "200*70",
+            "200*80",
+            "200*90"
+    ],
+    "thickness": "36",
+    "fabricator": "elporta",
+    "eye": "",
+    "high_lock": "",
+    "low_lock": ""
+}
 ]
