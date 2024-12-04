@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+import Button from './Button';
 import ProductCard from '../components/catalog/ProductCard';
 import data from '../data/data.json';
 import '../styles/upCatalogSection.css';
@@ -39,9 +40,27 @@ function UpCatalogSection() {
                     </div>
                     <div className='link-to-catalog'>
                         <p>Перейти к полному каталогу</p>
-                        <button>
-
-                        </button>
+                        <Button text="Каталог"  className="call-to-catalog-link"/>
+                    </div>
+                    <div className='info-with-lines'>
+                        <div className='first-line'></div>
+                        <h2 className='formal-title'>Межкомнатные двери</h2>
+                        <div className='second-line'></div>
+                    </div>
+                    <div className='catalog'>
+                        <div className="product-list">
+                            {currentProducts.map(product => (
+                                <ProductCard 
+                                    key={product.id} 
+                                    product={product} 
+                                    onClick={(id) => console.log(`Clicked on product with ID: ${id}`)} 
+                                />
+                            ))}
+                        </div>
+                    </div>
+                    <div className='link-to-catalog'>
+                        <p>Перейти к полному каталогу</p>
+                        <Button text="Каталог"  className="call-to-catalog-link"/>
                     </div>
                 </div>
             </div>
