@@ -4,11 +4,11 @@
                 "name": "Порта-22",
                 "type": "Межкомнатная дверь",
                 "color": {
-                        "Snow Veralinga": "img.png",
-                        "Bianco Veralinga": "img1.png",
-                        "Nordic Grey Oak": "img.png",
-                        "Cappuccino Veralinga": "img1.png",
-                        "Wenge Veralinga": "img1.png"
+                       "Snow Veralinga": "/imgProducts/ELPORTA/Порта-22_Snow.jpg",
+                        "Bianco Veralinga": "/imgProducts/ELPORTA/Порта-22_Bianco.jpg",
+                        "Nordic Grey Oak": "/imgProducts/ELPORTA/Порта-22_Nordic.jpg",
+                        "Cappuccino Veralinga": "/imgProducts/ELPORTA/Порта-22_Cappuccino.jpg",
+                        "Wenge Veralinga": "/imgProducts/ELPORTA/Порта-22_Wenge.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
                 "glass": "Magic Fog",
@@ -32,11 +32,11 @@
                 "name": "Порта-27",
                 "type": "Межкомнатная дверь",
                 "color": {
-                        "Snow Veralinga": "img.png",
-                        "Bianco Veralinga": "img1.png",
-                        "Nordic Grey Oak": "img.png",
-                        "Cappuccino Veralinga": "img1.png",
-                        "Wenge Veralinga": "img1.png"
+                        "Snow Veralinga": "/imgProducts/ELPORTA/Порта-27_Snow.jpg",
+                        "Bianco Veralinga": "/imgProducts/ELPORTA/Порта-27_Bianco.jpg",
+                        "Nordic Grey Oak": "/imgProducts/ELPORTA/Порта-27_Nordic.jpg",
+                        "Cappuccino Veralinga": "/imgProducts/ELPORTA/Порта-27_Cappuccino.jpg",
+                        "Wenge Veralinga": "/imgProducts/ELPORTA/Порта-27_Wenge.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
                 "glass": "Magic Fog",
@@ -58,11 +58,11 @@
                 "name": "Порта-28",
                 "type": "Межкомнатная дверь",
                 "color": {
-                        "Snow Veralinga": "img.png",
-                        "Bianco Veralinga": "img1.png",
-                        "Nordic Grey Oak": "img.png",
-                        "Cappuccino Veralinga": "img1.png",
-                        "Wenge Veralinga": "img1.png"
+                        "Snow Veralinga": "/imgProducts/ELPORTA/Порта-28_Snow.jpg",
+                        "Bianco Veralinga": "/imgProducts/ELPORTA/Порта-28_Bianco.jpg",
+                        "Nordic Grey Oak": "/imgProducts/ELPORTA/Порта-28_Nordic.jpg",
+                        "Cappuccino Veralinga": "/imgProducts/ELPORTA/Порта-28_Cappuccino.jpg",
+                        "Wenge Veralinga": "/imgProducts/ELPORTA/Порта-28_Wenge.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
                 "glass": "Magic Fog",
@@ -84,10 +84,10 @@
                 "name": "Порта-29.3",
                 "type": "Межкомнатная дверь",
                 "color": {
-                        "Ash White": "img.png",
-                        "Art Wood Light": "img1.png",
-                        "Light Sonoma": "img.png",
-                        "Art Wood Dark": "img1.png"
+                        "Ash White": "/imgProducts/ELPORTA/Порта-29.3_Ash_White.jpg",
+                        "Art Wood Light": "/imgProducts/ELPORTA/Порта-29.3_Art_Wood_Light.jpg",
+                        "Light Sonoma": "/imgProducts/ELPORTA/Порта-29.3_Light_Sonomat.jpg",
+                        "Art Wood Dark": "/imgProducts/ELPORTA/Порта-29.3_Art_Wood_Dark.jpg"
                 },
                 "material": "Композитный мебельный щит на основе соснового бруса, бруса LVL и MDF",
                 "glass": "Magic Fog",
@@ -109,10 +109,10 @@
                 "name": "Порта-25.3",
                 "type": "Межкомнатная дверь",
                 "color": {
-                        "Ash White": "img.png",
-                        "Art Wood Light": "img1.png",
-                        "Light Sonoma": "img.png",
-                        "Art Wood Dark": "img1.png"
+                       "Ash White": "/imgProducts/ELPORTA/Порта-25.3_Ash_White.jpg",
+                        "Art Wood Light": "/imgProducts/ELPORTA/Порта-25.3_Art_Wood_Light.jpg",
+                        "Light Sonoma": "/imgProducts/ELPORTA/Порта-25.3_Light_Sonomat.jpg",
+                        "Art Wood Dark": "/imgProducts/ELPORTA/Порта-25.3_Art_Wood_Dark.jpg"
                 },
                 "material": "Композитный мебельный щит на основе соснового бруса, бруса LVL и MDF",
                 "glass": "Magic Fog",
@@ -134,7 +134,7 @@
                 "name": "Неоклассико-2 PRO",
                 "type": "Межкомнатная дверь",
                 "color": {
-                        "Ice": "img.png"
+                        "Ice": "/imgProducts/ELPORTA/Неоклассико-2_PRO_ice.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
                 "glass": "",
@@ -156,7 +156,7 @@
                 "name": "Неоклассико-3 PRO",
                 "type": "Межкомнатная дверь",
                 "color": {
-                        "Ice Milling White II": "img.png"
+                        "Ice Milling White II": "/imgProducts/ELPORTA/Неоклассико-3_PRO_Ice_Milling_White.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
                 "glass": "Milling White II - белое сатинированное с гравировкой.",
@@ -178,8 +178,8 @@
                 "name": "Порта-50 4AF",
                 "type": "Межкомнатная дверь",
                 "color": {
-                        "Alaska": "img.png",
-                        "Nardo Grey": "img.png"
+                        "Alaska": "/imgProducts/ELPORTA/Порта-50_4AF_Alaska.jpg",
+                        "Nardo Grey": "/imgProducts/ELPORTA/Порта-50_4AF_Grey_Art.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
                 "glass": "",
@@ -201,8 +201,8 @@
                 "name": "Порта-50 4AB",
                 "type": "Межкомнатная дверь",
                 "color": {
-                        "Alaska": "img.png",
-                        "Nardo Grey": "img.png"
+                          "Alaska": "/imgProducts/ELPORTA/Порта-50_4AB_Alaska.jpg",
+                        "Nardo Grey": "/imgProducts/ELPORTA/Порта-50_4AB_Grey_Art.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
                 "glass": "",
@@ -224,8 +224,8 @@
                 "name": "Порта-50.1 B",
                 "type": "Межкомнатная дверь",
                 "color": {
-                        "Alaska": "img.png",
-                        "Nardo Grey": "img.png"
+                           "Alaska": "/imgProducts/ELPORTA/Порта-50_1B_Alaska.jpg",
+                        "Nardo Grey": "/imgProducts/ELPORTA/Порта-50_1B_Grey_Art.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
                 "glass": "",
@@ -247,8 +247,8 @@
                 "name": "Порта-51 4AB",
                 "type": "Межкомнатная дверь",
                 "color": {
-                        "Alaska Black Star": "img.png",
-                        "Nardo Grey Black Star": "img.png"
+                        "Alaska Black Star": "/imgProducts/ELPORTA/Порта-51_4AB_Alaska.jpg",
+                        "Nardo Grey Black Star":  "/imgProducts/ELPORTA/Порта-51_4AB_Nardo_Grey.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
                 "glass": "Black Star - черный окрашенный лакобель (lacobel), технология 'алмазная грань'",
@@ -270,8 +270,8 @@
                 "name": "Порта-58 4AB",
                 "type": "Межкомнатная дверь",
                 "color": {
-                        "Alaska": "img.png",
-                        "Nardo Grey": "img.png"
+                        "Alaska": "/imgProducts/ELPORTA/Порта-58_4AB_Alaska.jpg",
+                        "Nardo Grey": "/imgProducts/ELPORTA/Порта-58_4AB_Grey_Art.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
                 "glass": "",
@@ -293,8 +293,8 @@
                 "name": "Порта-50 B",
                 "type": "Межкомнатная дверь",
                 "color": {
-                        "Alaska": "img.png",
-                        "Nardo Grey": "img.png"
+                       "Alaska": "/imgProducts/ELPORTA/Порта-50_B_Alaska.jpg",
+                        "Nardo Grey": "/imgProducts/ELPORTA/Порта-50_B_Grey_Art.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
                 "glass": "",
@@ -316,8 +316,8 @@
                 "name": "Порта-52 4AB",
                 "type": "Межкомнатная дверь",
                 "color": {
-                        "Alaska": "img.png",
-                        "Nardo Grey": "img.png"
+                         "Alaska": "/imgProducts/ELPORTA/Порта-52_4AB_Alaska.jpg",
+                        "Nardo Grey": "/imgProducts/ELPORTA/Порта-52_4AB_Grey_Art.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
                 "glass": "",
@@ -339,31 +339,8 @@
                 "name": "Порта-54 4AB",
                 "type": "Межкомнатная дверь",
                 "color": {
-                        "Alaska": "img.png",
-                        "Nardo Grey": "img.png"
-                },
-                "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
-                "glass": "",
-                "fill": "",
-                "size": [
-                        "200*60",
-                        "200*70",
-                        "200*80",
-                        "200*90"
-                ],
-                "thickness": "38",
-                "fabricator": "elporta",
-                "eye": "",
-                "high_lock": "",
-                "low_lock": ""
-        },
-        {
-                "id": 15,
-                "name": "Порта-54 4AB",
-                "type": "Межкомнатная дверь",
-                "color": {
-                        "Alaska": "img.png",
-                        "Nardo Grey": "img.png"
+                     "Alaska": "/imgProducts/ELPORTA/Порта-54_4AB_Alaska.jpg",
+                        "Nardo Grey": "/imgProducts/ELPORTA/Порта-54_4AB_Grey_Art.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
                 "glass": "",
@@ -385,7 +362,7 @@
                 "name": "Porta R 88.1.50.1",
                 "type": "Входная дверь",
                 "color": {
-                        "Moon Stone/Light Sonoma/Super White": "img.png"
+                        "Moon Stone/Light Sonoma/Super White": "/imgProducts/ELPORTA/Porta_R_88.1.50.1.jpeg"
                 },
                 "material": "",
                 "glass": "",
@@ -407,7 +384,7 @@
                 "name": "Porta R 99.99В",
                 "type": "Входная дверь",
                 "color": {
-                        "Moon Stone/Super White": "img.png"
+                        "Moon Stone/Super White": "/imgProducts/ELPORTA/Porta_R_99.99В.jpeg"
                 },
                 "material": "",
                 "glass": "",
@@ -429,7 +406,7 @@
                 "name": "Porta R 15.15",
                 "type": "Входная дверь",
                 "color": {
-                        "Graphite Art/Super White": "img.png"
+                        "Graphite Art/Super White": "/imgProducts/ELPORTA/Porta_R_15.15.jpg"
                 },
                 "material": "Высококачественная конструкционная углеродистая сталь (08пс).",
                 "glass": "",
@@ -451,7 +428,7 @@
                 "name": "Порта Invisible 4A Праймер",
                 "type": "Скрытая дверь",
                 "color": {
-                        "White": "img.png"
+                        "White": "/imgProducts/ELPORTA/Порта_Invisible.jpg"
                 },
                 "material": "Высококачественная конструкционная углеродистая сталь (08пс).",
                 "glass": "",
