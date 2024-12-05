@@ -1,6 +1,6 @@
 .product-card{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-direction: column;
     width: 224px;
     height: 360px;
@@ -14,10 +14,10 @@
     background-color: rgb(242, 242, 242);
 }
 .product-content{
-    padding: 30px 20px 20px 20px;
+    padding: 30px 20px 0px 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     height: 90%;
 }
 .underline{
@@ -35,7 +35,12 @@
 }
 .product-name{
     color: #383534;
-    font: 700 calc(14px + 2 * (100vw/1440) ) Inter, sans-serif;
+    font: 700 calc(12px + 2 * (100vw/1440) ) Inter, sans-serif;
+    display: -webkit-box; /* Включаем flex-контейнер */
+    -webkit-box-orient: vertical; /* Указываем вертикальную ориентацию */
+    -webkit-line-clamp: 2; /* Ограничиваем количество строк до 2 */
+    overflow: hidden; /* Скрываем текст, выходящий за пределы */
+    text-overflow: ellipsis; /* Добавляем многоточие в конце */
 }
 .product-img-container{
     display: flex;
