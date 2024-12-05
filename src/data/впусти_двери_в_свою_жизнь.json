@@ -2,13 +2,13 @@
         {
                 "id": 1,
                 "name": "Порта-22",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
-                        "Snow Veralinga": "img.png",
-                        "Bianco Veralinga": "img1.png",
-                        "Nordic Grey Oak": "img.png",
-                        "Cappuccino Veralinga": "img1.png",
-                        "Wenge Veralinga": "img1.png"
+                       "Snow Veralinga": "/imgProducts/ELPORTA/Порта-22_Snow.jpg",
+                        "Bianco Veralinga": "/imgProducts/ELPORTA/Порта-22_Bianco.jpg",
+                        "Nordic Grey Oak": "/imgProducts/ELPORTA/Порта-22_Nordic.jpg",
+                        "Cappuccino Veralinga": "/imgProducts/ELPORTA/Порта-22_Cappuccino.jpg",
+                        "Wenge Veralinga": "/imgProducts/ELPORTA/Порта-22_Wenge.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
                 "glass": "Magic Fog",
@@ -30,13 +30,13 @@
         {
                 "id": 2,
                 "name": "Порта-27",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
-                        "Snow Veralinga": "img.png",
-                        "Bianco Veralinga": "img1.png",
-                        "Nordic Grey Oak": "img.png",
-                        "Cappuccino Veralinga": "img1.png",
-                        "Wenge Veralinga": "img1.png"
+                        "Snow Veralinga": "/imgProducts/ELPORTA/Порта-27_Snow.jpg",
+                        "Bianco Veralinga": "/imgProducts/ELPORTA/Порта-27_Bianco.jpg",
+                        "Nordic Grey Oak": "/imgProducts/ELPORTA/Порта-27_Nordic.jpg",
+                        "Cappuccino Veralinga": "/imgProducts/ELPORTA/Порта-27_Cappuccino.jpg",
+                        "Wenge Veralinga": "/imgProducts/ELPORTA/Порта-27_Wenge.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
                 "glass": "Magic Fog",
@@ -56,13 +56,13 @@
         {
                 "id": 3,
                 "name": "Порта-28",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
-                        "Snow Veralinga": "img.png",
-                        "Bianco Veralinga": "img1.png",
-                        "Nordic Grey Oak": "img.png",
-                        "Cappuccino Veralinga": "img1.png",
-                        "Wenge Veralinga": "img1.png"
+                        "Snow Veralinga": "/imgProducts/ELPORTA/Порта-28_Snow.jpg",
+                        "Bianco Veralinga": "/imgProducts/ELPORTA/Порта-28_Bianco.jpg",
+                        "Nordic Grey Oak": "/imgProducts/ELPORTA/Порта-28_Nordic.jpg",
+                        "Cappuccino Veralinga": "/imgProducts/ELPORTA/Порта-28_Cappuccino.jpg",
+                        "Wenge Veralinga": "/imgProducts/ELPORTA/Порта-28_Wenge.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
                 "glass": "Magic Fog",
@@ -82,12 +82,12 @@
         {
                 "id": 4,
                 "name": "Порта-29.3",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
-                        "Ash White": "img.png",
-                        "Art Wood Light": "img1.png",
-                        "Light Sonoma": "img.png",
-                        "Art Wood Dark": "img1.png"
+                        "Ash White": "/imgProducts/ELPORTA/Порта-29.3_Ash_White.jpg",
+                        "Art Wood Light": "/imgProducts/ELPORTA/Порта-29.3_Art_Wood_Light.jpg",
+                        "Light Sonoma": "/imgProducts/ELPORTA/Порта-29.3_Light_Sonomat.jpg",
+                        "Art Wood Dark": "/imgProducts/ELPORTA/Порта-29.3_Art_Wood_Dark.jpg"
                 },
                 "material": "Композитный мебельный щит на основе соснового бруса, бруса LVL и MDF",
                 "glass": "Magic Fog",
@@ -107,12 +107,12 @@
         {
                 "id": 5,
                 "name": "Порта-25.3",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
-                        "Ash White": "img.png",
-                        "Art Wood Light": "img1.png",
-                        "Light Sonoma": "img.png",
-                        "Art Wood Dark": "img1.png"
+                       "Ash White": "/imgProducts/ELPORTA/Порта-25.3_Ash_White.jpg",
+                        "Art Wood Light": "/imgProducts/ELPORTA/Порта-25.3_Art_Wood_Light.jpg",
+                        "Light Sonoma": "/imgProducts/ELPORTA/Порта-25.3_Light_Sonomat.jpg",
+                        "Art Wood Dark": "/imgProducts/ELPORTA/Порта-25.3_Art_Wood_Dark.jpg"
                 },
                 "material": "Композитный мебельный щит на основе соснового бруса, бруса LVL и MDF",
                 "glass": "Magic Fog",
@@ -132,9 +132,9 @@
         {
                 "id": 6,
                 "name": "Неоклассико-2 PRO",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
-                        "Ice": "img.png"
+                        "Ice": "/imgProducts/ELPORTA/Неоклассико-2_PRO_ice.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
                 "glass": "",
@@ -154,9 +154,9 @@
         {
                 "id": 7,
                 "name": "Неоклассико-3 PRO",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
-                        "Ice Milling White II": "img.png"
+                        "Ice Milling White II": "/imgProducts/ELPORTA/Неоклассико-3_PRO_Ice_Milling_White.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
                 "glass": "Milling White II - белое сатинированное с гравировкой.",
@@ -176,10 +176,10 @@
         {
                 "id": 8,
                 "name": "Порта-50 4AF",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
-                        "Alaska": "img.png",
-                        "Nardo Grey": "img.png"
+                        "Alaska": "/imgProducts/ELPORTA/Порта-50_4AF_Alaska.jpg",
+                        "Nardo Grey": "/imgProducts/ELPORTA/Порта-50_4AF_Grey_Art.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
                 "glass": "",
@@ -199,10 +199,10 @@
         {
                 "id": 9,
                 "name": "Порта-50 4AB",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
-                        "Alaska": "img.png",
-                        "Nardo Grey": "img.png"
+                          "Alaska": "/imgProducts/ELPORTA/Порта-50_4AB_Alaska.jpg",
+                        "Nardo Grey": "/imgProducts/ELPORTA/Порта-50_4AB_Grey_Art.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
                 "glass": "",
@@ -222,10 +222,10 @@
         {
                 "id": 10,
                 "name": "Порта-50.1 B",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
-                        "Alaska": "img.png",
-                        "Nardo Grey": "img.png"
+                           "Alaska": "/imgProducts/ELPORTA/Порта-50_1B_Alaska.jpg",
+                        "Nardo Grey": "/imgProducts/ELPORTA/Порта-50_1B_Grey_Art.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
                 "glass": "",
@@ -245,10 +245,10 @@
         {
                 "id": 11,
                 "name": "Порта-51 4AB",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
-                        "Alaska Black Star": "img.png",
-                        "Nardo Grey Black Star": "img.png"
+                        "Alaska Black Star": "/imgProducts/ELPORTA/Порта-51_4AB_Alaska.jpg",
+                        "Nardo Grey Black Star":  "/imgProducts/ELPORTA/Порта-51_4AB_Nardo_Grey.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
                 "glass": "Black Star - черный окрашенный лакобель (lacobel), технология 'алмазная грань'",
@@ -268,10 +268,10 @@
         {
                 "id": 12,
                 "name": "Порта-58 4AB",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
-                        "Alaska": "img.png",
-                        "Nardo Grey": "img.png"
+                        "Alaska": "/imgProducts/ELPORTA/Порта-58_4AB_Alaska.jpg",
+                        "Nardo Grey": "/imgProducts/ELPORTA/Порта-58_4AB_Grey_Art.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
                 "glass": "",
@@ -291,10 +291,10 @@
         {
                 "id": 13,
                 "name": "Порта-50 B",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
-                        "Alaska": "img.png",
-                        "Nardo Grey": "img.png"
+                       "Alaska": "/imgProducts/ELPORTA/Порта-50_B_Alaska.jpg",
+                        "Nardo Grey": "/imgProducts/ELPORTA/Порта-50_B_Grey_Art.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
                 "glass": "",
@@ -314,10 +314,10 @@
         {
                 "id": 14,
                 "name": "Порта-52 4AB",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
-                        "Alaska": "img.png",
-                        "Nardo Grey": "img.png"
+                         "Alaska": "/imgProducts/ELPORTA/Порта-52_4AB_Alaska.jpg",
+                        "Nardo Grey": "/imgProducts/ELPORTA/Порта-52_4AB_Grey_Art.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
                 "glass": "",
@@ -337,33 +337,10 @@
         {
                 "id": 15,
                 "name": "Порта-54 4AB",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
-                        "Alaska": "img.png",
-                        "Nardo Grey": "img.png"
-                },
-                "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
-                "glass": "",
-                "fill": "",
-                "size": [
-                        "200*60",
-                        "200*70",
-                        "200*80",
-                        "200*90"
-                ],
-                "thickness": "38",
-                "fabricator": "elporta",
-                "eye": "",
-                "high_lock": "",
-                "low_lock": ""
-        },
-        {
-                "id": 15,
-                "name": "Порта-54 4AB",
-                "type": "Межкомнатные",
-                "color": {
-                        "Alaska": "img.png",
-                        "Nardo Grey": "img.png"
+                     "Alaska": "/imgProducts/ELPORTA/Порта-54_4AB_Alaska.jpg",
+                        "Nardo Grey": "/imgProducts/ELPORTA/Порта-54_4AB_Grey_Art.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
                 "glass": "",
@@ -383,9 +360,9 @@
         {
                 "id": 16,
                 "name": "Porta R 88.1.50.1",
-                "type": "Входные",
+                "type": "Входная дверь",
                 "color": {
-                        "Moon Stone/Light Sonoma/Super White": "img.png"
+                        "Moon Stone/Light Sonoma/Super White": "/imgProducts/ELPORTA/Porta_R_88.1.50.1.jpeg"
                 },
                 "material": "",
                 "glass": "",
@@ -405,9 +382,9 @@
         {
                 "id": 17,
                 "name": "Porta R 99.99В",
-                "type": "Входные",
+                "type": "Входная дверь",
                 "color": {
-                        "Moon Stone/Super White": "img.png"
+                        "Moon Stone/Super White": "/imgProducts/ELPORTA/Porta_R_99.99В.jpeg"
                 },
                 "material": "",
                 "glass": "",
@@ -427,9 +404,9 @@
         {
                 "id": 18,
                 "name": "Porta R 15.15",
-                "type": "Входные",
+                "type": "Входная дверь",
                 "color": {
-                        "Graphite Art/Super White": "img.png"
+                        "Graphite Art/Super White": "/imgProducts/ELPORTA/Porta_R_15.15.jpg"
                 },
                 "material": "Высококачественная конструкционная углеродистая сталь (08пс).",
                 "glass": "",
@@ -449,9 +426,9 @@
         {
                 "id": 19,
                 "name": "Порта Invisible 4A Праймер",
-                "type": "Скрытые",
+                "type": "Скрытая дверь",
                 "color": {
-                        "White": "img.png"
+                        "White": "/imgProducts/ELPORTA/Порта_Invisible.jpg"
                 },
                 "material": "Высококачественная конструкционная углеродистая сталь (08пс).",
                 "glass": "",
@@ -471,7 +448,7 @@
         {
                 "id": 20,
                 "name": "ФЛЭШ ЭКО КЛАССИК ПО-03",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_ПО-03.jpg"
                 },
@@ -493,7 +470,7 @@
         {
                 "id": 21,
                 "name": "ФЛЭШ ЭКО КЛАССИК 02 Парящая филёнка / Чёрное стекло",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_02_Парящая филёнка_Чёрное стекло.jpg"
                 },
@@ -515,7 +492,7 @@
         {
                 "id": 22,
                 "name": "ФЛЭШ ЭКО КЛАССИК ПО-02 / Матовое стекло",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_02_Парящая филёнка_Чёрное стекло.jpg"
                 },
@@ -536,10 +513,10 @@
         },
         {
                 "id": 23,
-                "name": "ФЛЭШ ЭКО КЛАССИК ПО-02 / Матовое стекло",
-                "type": "Межкомнатные",
+                "name": "ФЛЭШ ЭКО КЛАССИК ПО-03 / Матовое стекло",
+                "type": "Межкомнатная дверь",
                 "color": {
-                        "White": "/imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_ПО-02_Матовое_стекло.jpg"
+                        "White": "/imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_ПО-03_Матовое_стекло.jpg"
                 },
                 "material": "Массив сосны (стоевые, горизонтальные царги)",
                 "glass": "Матовое (пропускает свет, не прозрачное) с UF рисунком (ромб) или без рисунка",
@@ -559,7 +536,7 @@
         {
                 "id": 24,
                 "name": "ФЛЭШ ЭКО КЛАССИК ПО-01 / Матовое стекло",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_ПО-01_Матовое_стекло.jpg"
                 },
@@ -581,12 +558,13 @@
         {
                 "id": 25,
                 "name": "ФЛЭШ ЭКО КЛАССИК ПГ-03",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_ПГ-03.jpg"
                 },
                 "material": "Массив сосны (стоевые, горизонтальные царги)",
                 "glass": "",
+                "fill": "",
                 "size": [
                         "200*60",
                         "200*70",
@@ -602,12 +580,13 @@
         {
                 "id": 26,
                 "name": "ФЛЭШ ЭКО КЛАССИК ПГ-02",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_ПГ-02.jpg"
                 },
                 "material": "Массив сосны (стоевые, горизонтальные царги)",
                 "glass": "",
+                "fill": "",
                 "size": [
                         "200*60",
                         "200*70",
@@ -623,12 +602,13 @@
         {
                 "id": 27,
                 "name": "ФЛЭШ ЭКО КЛАССИК ПГ-01",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_ПГ-01.jpg"
                 },
                 "material": "Массив сосны (стоевые, горизонтальные царги)",
                 "glass": "",
+                "fill": "",
                 "size": [
                         "200*60",
                         "200*70",
@@ -644,12 +624,13 @@
         {
                 "id": 28,
                 "name": "ФЛЭШ ЭКО КЛАССИК 01 Парящая филёнка / Белое стекло",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_01_Парящая_филёнка_Белое_стекло.jpg"
                 },
                 "material": "Массив сосны (стоевые, горизонтальные царги)",
                 "glass": "Белое глянцевое (не пропускает свет, не прозрачное)",
+                "fill": "",
                 "size": [
                         "200*60",
                         "200*70",
@@ -665,12 +646,13 @@
         {
                 "id": 29,
                 "name": "ФЛЭШ ЭКО КЛАССИК 01 Парящая филёнка / Чёрное стекло",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_01_Парящая_филёнка_Чёрное_стекло.jpg"
                 },
                 "material": "Массив сосны (стоевые, горизонтальные царги)",
                 "glass": "Чёрное глянцевое (не пропускает свет, не прозрачное)",
+                "fill": "",
                 "size": [
                         "200*60",
                         "200*70",
@@ -686,12 +668,13 @@
         {
                 "id": 30,
                 "name": "ФЛЭШ ЭКО КЛАССИК 01 Парящая филёнка / Матовое стекло",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_01_Парящая_филёнка_Матовое_стекло.jpg"
                 },
                 "material": "Массив сосны (стоевые, горизонтальные царги)",
                 "glass": "Матовое (пропускает свет, не прозрачное)",
+                "fill": "",
                 "size": [
                         "200*60",
                         "200*70",
@@ -705,37 +688,17 @@
                 "low_lock": ""
         },
 
-        {
-                "id": 31,
-                "name": "ФЛЭШ ЭКО КЛАССИК 01 Парящая филёнка / Матовое стекло",
-                "type": "Межкомнатные",
-                "color": {
-                        "White": "/imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_01_Парящая_филёнка_Матовое_стекло.jpg"
-                },
-                "material": "Массив сосны (стоевые, горизонтальные царги)",
-                "glass": "Матовое (пропускает свет, не прозрачное)",
-                "size": [
-                        "200*60",
-                        "200*70",
-                        "200*80",
-                        "200*90"
-                ],
-                "thickness": "40",
-                "fabricator": "ЮНИ Двери",
-                "eye": "",
-                "high_lock": "",
-                "low_lock": ""
-        },
         
         {
                 "id": 32,
                 "name": "ФЛЭШ ЭКО КЛАССИК 02 Парящая филёнка / Матовое стекло",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_02_Парящая_филёнка_Матовое стекло.jpg"
                 },
                 "material": "Массив сосны (стоевые, горизонтальные царги)",
                 "glass": "Матовое (пропускает свет, не прозрачное)",
+                "fill": "",
                 "size": [
                         "200*60",
                         "200*70",
@@ -751,12 +714,13 @@
         {
                 "id": 33,
                 "name": "ФЛЭШ ЭКО КЛАССИК 02 Парящая филёнка / Белое стекло",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_02_Парящая_филёнка_Белое_стекло.jpg"
                 },
                 "material": "Массив сосны (стоевые, горизонтальные царги)",
                 "glass": "Белое глянцевое (не пропускает свет, не прозрачное)",
+                "fill": "",
                 "size": [
                         "200*60",
                         "200*70",
@@ -772,7 +736,7 @@
         {
                 "id": 34,
                 "name": "ЭМАЛЬ ПГ-01",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/EMAL/ЭМАЛЬ_ПГ-01_White.jpg",
                         "Vanila":"/imgProducts/EMAL/ЭМАЛЬ_ПГ-01_Vanila.jpg",
@@ -780,8 +744,9 @@
                         "Grey":"/imgProducts/EMAL/ЭМАЛЬ_ПГ-01_Grey.jpg",
                         "Capuchino":"/imgProducts/EMAL/ЭМАЛЬ_ПГ-01_Capuchino.jpg"
                 },
-                "material": "Массив сосны (стоевые, горизонтальные царги), cотовый наполнитель",
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
                 "glass": "",
+                "fill": "Сотовый наполнитель",
                 "size": [
                         "200*60",
                         "200*70",
@@ -797,7 +762,7 @@
         {
                 "id": 35,
                 "name": "ЭМАЛЬ ПГ-11",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/EMAL/ЭМАЛЬ_ПГ-11_White.jpg",
                         "Vanila":"/imgProducts/EMAL/ЭМАЛЬ_ПГ-11_Vanila.jpg",
@@ -805,7 +770,8 @@
                         "Grey":"/imgProducts/EMAL/ЭМАЛЬ_ПГ-11_Grey.jpg",
                         "Capuchino":"/imgProducts/EMAL/ЭМАЛЬ_ПГ-11_Capuchino.jpg"
                 },
-                "material": "Массив сосны (стоевые, горизонтальные царги), cотовый наполнитель",
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "fill": "Сотовый наполнитель",
                 "glass": "",
                 "size": [
                         "200*60",
@@ -822,7 +788,7 @@
         {
                 "id": 36,
                 "name": "ЭМАЛЬ ПГ-22",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/EMAL/ЭМАЛЬ_ПГ-22_White.jpg",
                         "Vanila":"/imgProducts/EMAL/ЭМАЛЬ_ПГ-22_Vanila.jpg",
@@ -830,8 +796,9 @@
                         "Grey":"/imgProducts/EMAL/ЭМАЛЬ_ПГ-22_Grey.jpg",
                         "Capuchino":"/imgProducts/EMAL/ЭМАЛЬ_ПГ-22_Capuchino.jpg"
                 },
-                "material": "Массив сосны (стоевые, горизонтальные царги), cотовый наполнитель",
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
                 "glass": "",
+                "fill": "Сотовый наполнитель",
                 "size": [
                         "200*60",
                         "200*70",
@@ -847,7 +814,7 @@
         {
                 "id": 37,
                 "name": "ЭМАЛЬ ПГ-23",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/EMAL/ЭМАЛЬ_ПГ-23_White.jpg",
                         "Vanila":"/imgProducts/EMAL/ЭМАЛЬ_ПГ-23_Vanila.jpg",
@@ -855,8 +822,9 @@
                         "Grey":"/imgProducts/EMAL/ЭМАЛЬ_ПГ-23_Grey.jpg",
                         "Capuchino":"/imgProducts/EMAL/ЭМАЛЬ_ПГ-23_Capuchino.jpg"
                 },
-                "material": "Массив сосны (стоевые, горизонтальные царги), cотовый наполнитель",
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
                 "glass": "",
+                "fill": "Сотовый наполнитель",
                 "size": [
                         "200*60",
                         "200*70",
@@ -872,7 +840,7 @@
         {
                 "id": 38,
                 "name": "ЭМАЛЬ ПГ-26",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/EMAL/ЭМАЛЬ_ПГ-26_White.jpg",
                         "Vanila":"/imgProducts/EMAL/ЭМАЛЬ_ПГ-26_Vanila.jpg",
@@ -880,8 +848,9 @@
                         "Grey":"/imgProducts/EMAL/ЭМАЛЬ_ПГ-26_Grey.jpg",
                         "Capuchino":"/imgProducts/EMAL/ЭМАЛЬ_ПГ-26_Capuchino.jpg"
                 },
-                "material": "Массив сосны (стоевые, горизонтальные царги), cотовый наполнитель",
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
                 "glass": "",
+                "fill": "Сотовый наполнитель",
                 "size": [
                         "200*60",
                         "200*70",
@@ -897,7 +866,7 @@
         {
                 "id": 39,
                 "name": "ЭМАЛЬ ПГ-29",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/EMAL/ЭМАЛЬ_ПГ-29_White.jpg",
                         "Vanila":"/imgProducts/EMAL/ЭМАЛЬ_ПГ-29_Vanila.jpg",
@@ -905,8 +874,9 @@
                         "Grey":"/imgProducts/EMAL/ЭМАЛЬ_ПГ-29_Grey.jpg",
                         "Capuchino":"/imgProducts/EMAL/ЭМАЛЬ_ПГ-29_Capuchino.jpg"
                 },
-                "material": "Массив сосны (стоевые, горизонтальные царги), cотовый наполнитель",
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
                 "glass": "",
+                "fill": "Сотовый наполнитель",
                 "size": [
                         "200*60",
                         "200*70",
@@ -922,12 +892,13 @@
         {
                 "id": 40,
                 "name": "ПЕРФЕТО 6 (6.1)",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/PERFETO/ПЕРФЕТО_6_(6.1).jpg"
                 },
-                "material": "Массив сосны (стоевые, горизонтальные царги), cотовый наполнитель",
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
                 "glass": "",
+                "fill": "Сотовый наполнитель",
                 "size": [
                         "200*60",
                         "200*70",
@@ -943,12 +914,13 @@
         {
                 "id": 41,
                 "name": "ПЕРФЕТО 5 (5.1)",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/PERFETO/ПЕРФЕТО_5_(5.1).jpg"
                 },
-                "material": "Массив сосны (стоевые, горизонтальные царги), cотовый наполнитель",
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
                 "glass": "",
+                "fill": "Сотовый наполнитель",
                 "size": [
                         "200*60",
                         "200*70",
@@ -964,12 +936,13 @@
         {
                 "id": 42,
                 "name": "ПЕРФЕТО 4 (4.1)",
-                "type": "Межкомнатные",
+                "type": "Межкомнатная дверь",
                 "color": {
                         "White": "/imgProducts/PERFETO/ПЕРФЕТО_4_(4.1).jpg"
                 },
-                "material": "Массив сосны (стоевые, горизонтальные царги), cотовый наполнитель",
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
                 "glass": "",
+                "fill": "Сотовый наполнитель",
                 "size": [
                         "200*60",
                         "200*70",
@@ -981,8 +954,222 @@
                 "eye": "",
                 "high_lock": "",
                 "low_lock": ""
+        },
+        {
+                "id": 43,
+                "name": "АМАТИ 05 (Матовое стекло)",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "Белая Шагрень": "/imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Белый.jpg",
+                        "Бьянко": "/imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Бьянко.jpg",
+                        "Сканди Классик":"imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Сканди_Классик.jpg",
+                        "Эшвайт": "/imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Эшвайт.jpg",
+                        "Белёный Дуб": "/imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Белёный_Дуб.jpg",
+                        "Дуб Дымчатый":"/imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Дуб_Дымчатый.jpg",
+                        "Бетон Светлый": "/imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Бетон_Светлый.jpg",
+                        "Дуб шале-графит": "/imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Дуб_шале_графит.jpg",
+                        "Дуб шфле-корица":"/imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Дуб_шале_корица.jpg",
+                        "Венге":"/imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Венге.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "Белый сатин",
+                "fill": "",
+                "size": [
+                        "200*60",
+                        "200*70",
+                        "200*80",
+                        "200*90"
+                ],
+                "thickness": "38",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 44,
+                "name": "АМАТИ 18 (Матовое стекло)",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "Белая Шагрень": "/imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Белый.jpg",
+                        "Бьянко": "/imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Бьянко.jpg",
+                        "Эшвайт": "/imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Эшвайт.jpg",
+                        "Сканди Классик":"imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Сканди_Классик.jpg",
+                        "Белёный Дуб": "/imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Белёный_Дуб.jpg",
+                        "Дуб Дымчатый":"/imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Дуб_Дымчатый.jpg",
+                        "Бетон Светлый": "/imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Бетон_Светлый.jpg",
+                        "Дуб шале-графит": "/imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Дуб_шале_графит.jpg",
+                        "Дуб шфле-корица":"/imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Дуб_шале_корица.jpg",
+                        "Венге":"/imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Венге.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "Белый сатин",
+                "fill": "",
+                "size": [
+                        "200*60",
+                        "200*70",
+                        "200*80",
+                        "200*90"
+                ],
+                "thickness": "38",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 45,
+                "name": "АМАТИ 19 (Матовое стекло)",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "Белая Шагрень": "/imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Белый.jpg",
+                        "Бьянко": "/imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Бьянко.jpg",
+                        "Эшвайт": "/imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Эшвайт.jpg",
+                        "Сканди Классик":"imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Сканди_Классик.jpg",
+                        "Белёный Дуб": "/imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Белёный_Дуб.jpg",
+                        "Дуб Дымчатый":"/imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Дуб_Дымчатый.jpg",
+                        "Бетон Светлый": "/imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Бетон_Светлый.jpg",
+                        "Дуб шале-графит": "/imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Дуб_шале_графит.jpg",
+                        "Дуб шфле-корица":"/imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Дуб_шале_корица.jpg",
+                        "Венге":"/imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Венге.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "Белый сатин",
+                "fill": "",
+                "size": [
+                        "200*60",
+                        "200*70",
+                        "200*80",
+                        "200*90"
+                ],
+                "thickness": "38",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+      
+        {
+                "id": 46,
+                "name": "Пантеон",
+                "type": "Входная дверь",
+                "color": {
+                        "7016": [
+                                "/imgProducts/MEDVEDEV/Пантеон_7016.jpg",
+                                "/imgProducts/MEDVEDEV/Пантеон_7016(2).jpg"
+                        ],
+                        "8019": [
+                                "/imgProducts/MEDVEDEV/Пантеон_8019.jpg",
+                                "/imgProducts/MEDVEDEV/Пантеон_8019(2).jpg"
+                        ]
+                },
+                "material": "Окраска МУАР 7016,8019, 2-хкамерный стеклопакет тонированный (бронза), накладка черная",
+                "glass": "",
+                "fill": "Пеноплекс, фольгированный изолон, мин. вата Knauf (Isover)",
+                "size": [
+                        "205*86",
+                        "205*96"
+                ],
+                "thickness": "Толщина металла полотна 1.2",
+                "fabricator": "МЕДВЕДВ И К",
+                "eye": "",
+                "high_lock": "Аналог Kale 257L сувальдный",
+                "low_lock": "Аналог Kale 252R цилиндровый"
+        },
+        {
+                "id": 47,
+                "name": "Элеганс лайт",
+                "type": "Входная дверь",
+                "color": {
+                        "COL": [
+                                "/imgProducts/MEDVEDEV/Элеганс_лайт.jpg",
+                                "/imgProducts/MEDVEDEV/Элеганс_лайт(2).jpg"
+                        ]
+                },
+                "material": "МДФ 10 мм, покрытие PVC «Бетон-графит MI-11» + вставка из черного стекла лакобель 90мм",
+                "glass": "",
+                "fill": "Трехконтурные. Утеплитель Knauf (Изовер)",
+                "size": [
+                        "205*86",
+                        "205*96"
+                ],
+                "thickness": "Толщина металла полотна 1.2",
+                "fabricator": "МЕДВЕДВ И К",
+                "eye": "есть",
+                "high_lock": "Kale 257L сувальдный",
+                "low_lock": "Kale 252R цилиндровый"
+        },
+        {
+                "id": 48,
+                "name": "Аметист Грин",
+                "type": "Входная дверь",
+                "color": {
+                        "col": [
+                                "/imgProducts/MEDVEDEV/Аметист_Грин.jpg",
+                                "/imgProducts/MEDVEDEV/Аметист_Грин(2).jpg"
+                        ]
+                },
+                "material": "МДФ 10 мм Green, покрытие PVC 'SAT 22' + вставка металлизированная",
+                "glass": "",
+                "fill": "Пеноплекс, фольгированный изолон, мин. вата Knauf (Isover)",
+                "size": [
+                        "205*86",
+                        "205*96"
+                ],
+                "thickness": "Толщина металла полотна 1.2",
+                "fabricator": "МЕДВЕДВ И К",
+                "eye": "Глазок Fuaro черный квадрат",
+                "high_lock": "Аналог Kale 257R цилиндровый",
+                "low_lock": "Аналог Kale 252R цилиндровый"
+        },
+        {
+                "id": 49,
+                "name": "Лабиринт",
+                "type": "Входная дверь",
+                "color": {
+                        "7016": [
+                                "/imgProducts/MEDVEDEV/Лабиринт.jpg",
+                                "/imgProducts/MEDVEDEV/Лабиринт(2).jpg"
+                        ]
+                },
+                "material": "МДФ 10 мм, покрытие PVC «Бетон антрацит 122» + вставка из черного стекла лакобель 'Лабиринт'",
+                "glass": "",
+                "fill": "Knauf (Изовер)",
+                "size": [
+                        "205*86",
+                        "205*96"
+                ],
+                "thickness": "Толщина металла полотна 1.2",
+                "fabricator": "МЕДВЕДВ И К",
+                "eye": "есть",
+                "high_lock": "Аналог Kale 257R цилиндровый",
+                "low_lock": "Аналог Kale 252R цилиндровый"
+        },
+        {
+                "id": 50,
+                "name": "Мираж",
+                "type": "Входная дверь",
+                "color": {
+                        "col": [
+                                "/imgProducts/MEDVEDEV/Мираж.jpg",
+                                "/imgProducts/MEDVEDEV/Мираж(2).jpg"
+                        ]
+                },
+                "material": "МДФ 10 мм, покрытие PVC «MDP 6 серый распил»",
+                "glass": "",
+                "fill": "Knauf (Isover)",
+                "size": [
+                        "205*86",
+                        "205*96"
+                ],
+                "thickness": "85",
+                "fabricator": "МЕДВЕДВ И К",
+                "eye": "есть",
+                "high_lock": "Kale 257 цилиндровый",
+                "low_lock": "Kale 252R цилиндровый"
         }
-    
+
+
 
 
         
