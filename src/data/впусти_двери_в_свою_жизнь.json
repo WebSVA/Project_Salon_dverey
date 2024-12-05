@@ -1070,6 +1070,126 @@
                 "eye": "",
                 "high_lock": "",
                 "low_lock": ""
+        },
+      
+        {
+                "id": 46,
+                "name": "Пантеон",
+                "type": "Входная дверь",
+                "color": {
+                        "7016": [
+                                "/imgProducts/MEDVEDEV/Пантеон_7016.jpg",
+                                "/imgProducts/MEDVEDEV/Пантеон_7016(2).jpg"
+                        ],
+                        "8019": [
+                                "/imgProducts/MEDVEDEV/Пантеон_8019.jpg",
+                                "/imgProducts/MEDVEDEV/Пантеон_8019(2).jpg"
+                        ]
+                },
+                "material": "Окраска МУАР 7016,8019, 2-хкамерный стеклопакет тонированный (бронза), накладка черная",
+                "glass": "",
+                "fill": "Пеноплекс, фольгированный изолон, мин. вата Knauf (Isover)",
+                "size": [
+                        "205*86",
+                        "205*96"
+                ],
+                "thickness": "Толщина металла полотна 1.2",
+                "fabricator": "МЕДВЕДВ И К",
+                "eye": "",
+                "high_lock": "Аналог Kale 257L сувальдный",
+                "low_lock": "Аналог Kale 252R цилиндровый"
+        },
+        {
+                "id": 47,
+                "name": "Элеганс лайт",
+                "type": "Входная дверь",
+                "color": {
+                        "COL": [
+                                "/imgProducts/MEDVEDEV/Элеганс_лайт.jpg",
+                                "/imgProducts/MEDVEDEV/Элеганс_лайт(2).jpg"
+                        ]
+                },
+                "material": "МДФ 10 мм, покрытие PVC «Бетон-графит MI-11» + вставка из черного стекла лакобель 90мм",
+                "glass": "",
+                "fill": "Трехконтурные. Утеплитель Knauf (Изовер)",
+                "size": [
+                        "205*86",
+                        "205*96"
+                ],
+                "thickness": "Толщина металла полотна 1.2",
+                "fabricator": "МЕДВЕДВ И К",
+                "eye": "есть",
+                "high_lock": "Kale 257L сувальдный",
+                "low_lock": "Kale 252R цилиндровый"
+        },
+        {
+                "id": 48,
+                "name": "Аметист Грин",
+                "type": "Входная дверь",
+                "color": {
+                        "col": [
+                                "/imgProducts/MEDVEDEV/Аметист_Грин.jpg",
+                                "/imgProducts/MEDVEDEV/Аметист_Грин(2).jpg"
+                        ]
+                },
+                "material": "МДФ 10 мм Green, покрытие PVC 'SAT 22' + вставка металлизированная",
+                "glass": "",
+                "fill": "Пеноплекс, фольгированный изолон, мин. вата Knauf (Isover)",
+                "size": [
+                        "205*86",
+                        "205*96"
+                ],
+                "thickness": "Толщина металла полотна 1.2",
+                "fabricator": "МЕДВЕДВ И К",
+                "eye": "Глазок Fuaro черный квадрат",
+                "high_lock": "Аналог Kale 257R цилиндровый",
+                "low_lock": "Аналог Kale 252R цилиндровый"
+        },
+        {
+                "id": 49,
+                "name": "Лабиринт",
+                "type": "Входная дверь",
+                "color": {
+                        "7016": [
+                                "/imgProducts/MEDVEDEV/Лабиринт.jpg",
+                                "/imgProducts/MEDVEDEV/Лабиринт(2).jpg"
+                        ]
+                },
+                "material": "МДФ 10 мм, покрытие PVC «Бетон антрацит 122» + вставка из черного стекла лакобель 'Лабиринт'",
+                "glass": "",
+                "fill": "Knauf (Изовер)",
+                "size": [
+                        "205*86",
+                        "205*96"
+                ],
+                "thickness": "Толщина металла полотна 1.2",
+                "fabricator": "МЕДВЕДВ И К",
+                "eye": "есть",
+                "high_lock": "Аналог Kale 257R цилиндровый",
+                "low_lock": "Аналог Kale 252R цилиндровый"
+        },
+        {
+                "id": 50,
+                "name": "Мираж",
+                "type": "Входная дверь",
+                "color": {
+                        "col": [
+                                "/imgProducts/MEDVEDEV/Мираж.jpg",
+                                "/imgProducts/MEDVEDEV/Мираж(2).jpg"
+                        ]
+                },
+                "material": "МДФ 10 мм, покрытие PVC «MDP 6 серый распил»",
+                "glass": "",
+                "fill": "Knauf (Isover)",
+                "size": [
+                        "205*86",
+                        "205*96"
+                ],
+                "thickness": "85",
+                "fabricator": "МЕДВЕДВ И К",
+                "eye": "есть",
+                "high_lock": "Kale 257 цилиндровый",
+                "low_lock": "Kale 252R цилиндровый"
         }
 
 
