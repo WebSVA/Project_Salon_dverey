@@ -76,8 +76,7 @@
 
 /* Поле ввода */
 .search-input {
- 
-    border: none; /* Убираем стандартную границу */
+  width: 120vh;
     outline: none; /* Убираем обводку при фокусе */
     font-size: 16px;
     padding: 8px;
