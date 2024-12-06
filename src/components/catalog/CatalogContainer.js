@@ -8,7 +8,7 @@ import '../../styles/catalog/catalogContainer.css';
 function CatalogContainer() {
     const [products, setProducts] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
-    const itemsPerPage = 10; // сколько будет на одной странице
+    const itemsPerPage = 50; // сколько будет на одной странице
 
     useEffect(() => {
         setProducts(data);
