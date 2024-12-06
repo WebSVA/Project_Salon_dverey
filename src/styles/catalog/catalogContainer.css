@@ -12,10 +12,7 @@
     flex-direction: row;
     justify-content: flex-start;
 }
-.filter-section{
-    background-color: azure;
-    width: 300px;
-}
+
 .product-list{
     display: flex;
     flex-direction: row;
