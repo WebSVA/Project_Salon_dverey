@@ -49,3 +49,43 @@
 .pagination button:hover {
     background-color: #e37243;
 }
+
+
+/* Контейнер для строки поиска */
+.search-bar {
+    display: flex;
+    align-items: center;
+   
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Лёгкая тень */
+    border-radius: 4px; /* Скругление углов у контейнера */
+    width: 85%; /* Ширина контейнера */
+    max-width: 224px;
+    margin: 20px auto; /* Центровка на странице */
+}
+
+/* Иконка внутри строки поиска */
+.search-icon {
+    width: 24px;
+    height: 24px;
+    background-color: #584949; /* Серый фон */
+    border-radius: 4px; /* Небольшое скругление */
+   
+}
+
+/* Поле ввода */
+.search-input {
+ 
+    border: none; /* Убираем стандартную границу */
+    outline: none; /* Убираем обводку при фокусе */
+    font-size: 16px;
+    padding: 8px;
+    color: #333; /* Цвет текста */
+}
+
+/* Placeholder */
+.search-input::placeholder {
+    color: #aaa; /* Цвет для текста внутри placeholder */
+    font-style: italic; /* Курсив */
+}
