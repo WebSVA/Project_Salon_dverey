@@ -31,7 +31,7 @@
     color: #747474;
     margin-bottom: 5px;
     text-decoration: none;
-    font: 700 calc(12px + 2 * (100vw/1440) ) Inter, sans-serif;
+    font: 400 calc(12px + 2 * (100vw/1440) ) Inter, sans-serif;
 }
 .product-name{
     color: #383534;
@@ -49,6 +49,13 @@
 }
 .product-img{
     height: 90%;
+}
+.product-img-entry-doors{
+    height: 80%;
+    margin-top: 10px;
+}
+.product-img-entry-doors:first-child{
+    margin-right: 8px;
 }
 .text-container{
     margin-bottom: 10px;

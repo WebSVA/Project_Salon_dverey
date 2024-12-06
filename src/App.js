@@ -7,10 +7,10 @@ import ContactPage from './pages/ContactPage';
 import CatalogPage from './pages/CatalogPage';
 import AboutPage from './pages/AboutPage';
 import ProductPage from './pages/ProductPage';
+import HomePage from './pages/HomePage';
 
 import ContactHeader from './components/ContactHeader';
 import Footer from './components/Footer'
-import HomePage from './pages/HomePage';
 
 import logoIcon from './assets/logo.svg';
 import "./styles/animation/animation.css";
@@ -68,42 +68,78 @@ function App(){
         };
     }
 }, []);
-    return(
-      <>
-      <ContactHeader/>
-      <header className='header'>
-        <div className='container-header'>
-          <div className='logo-container'>
-            <img src={logoIcon} className='logo'></img>
-            <p className='title-company'>Салон дверей</p>
-          </div>
-          <div className='links-button-container'>
-            <div className='link-container'>
-            <input type="checkbox" id="burger-checkbox" className="burger-checkbox " checked={isMenuOpen} onChange={toogleMenu}/>
-            <label for="burger-checkbox" className="burger"></label>
-              <ul className='menu-list'>
-                <li><a className='links' href='/'>Главная</a><div className='line-div'/></li>
-                <li><a className='links' href='/about'>О нас</a><div className='line-div'/></li>
-                <li><a className='links' href='/catalog'>Каталог</a><div className='line-div'/></li>
-                <li><a className='links' href='/contact'>Контакты</a><div className='line-div'/></li>
-              </ul>
-            </div>
+return (
+  <>
+    <ContactHeader />
+    <header className="header">
+      <div className="container-header">
+        <div className="logo-container">
+          <img src={logoIcon} className="logo" alt="Логотип"></img>
+          <p className="title-company">Салон дверей</p>
+        </div>
+        <div className="links-button-container">
+          <div className="link-container">
+            <input
+              type="checkbox"
+              id="burger-checkbox"
+              className="burger-checkbox"
+              checked={isMenuOpen}
+              onChange={toogleMenu}
+            />
+            <label htmlFor="burger-checkbox" className="burger"></label>
+            <ul className="menu-list">
+              <li>
+                <a className="links" href="/">
+                  Главная
+                </a>
+                <div className="line-div" />
+              </li>
+              <li>
+                <a className="links" href="/about">
+                  О нас
+                </a>
+                <div className="line-div" />
+              </li>
+              <li className="dropdown">
+                <a className="links dropdown-link" href="/catalog">
+                  Каталог
+                  <span className="arrow"></span>
+                </a>
+                <div className="dropdown-menu">
+                  <a className="dropdown-item" href="/catalog/interior-doors">
+                    Межкомнатные двери
+                  </a>
+                  <a className="dropdown-item" href="/catalog/entry-doors">
+                    Входные двери
+                  </a>
+                </div>
+                <div className="line-div" />
+              </li>
+              <li>
+                <a className="links" href="/contact">
+                  Контакты
+                </a>
+                <div className="line-div" />
+              </li>
+            </ul>
           </div>
         </div>
-      </header>
-      <div className={`main-content ${isMenuOpen ? 'shifted' : ''}`}>
-      <Routes>
-        <Route path="/" element={<HomePage/>}/>
-        <Route path="/about" element={<AboutPage/>}/>
-        <Route path="/contact" element={<ContactPage/>}/>
-        <Route path="/catalog" element={<CatalogPage/>}/>
-        <Route path="/catalog/:id" element={<ProductPage/>}/>
-        <Route path="*" element={<HomePage/>}/>
-      </Routes>
       </div>
-      <Footer/>
-      </>
-    );
+    </header>
+    <div className={`main-content ${isMenuOpen ? "shifted" : ""}`}>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/catalog" element={<CatalogPage />} />
+        <Route path="/catalog/:id" element={<ProductPage />} />
+        <Route path="*" element={<HomePage />} />
+      </Routes>
+    </div>
+    <Footer />
+  </>
+  );
+
 }
 
 export default App;

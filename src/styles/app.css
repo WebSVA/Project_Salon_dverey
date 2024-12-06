@@ -56,6 +56,9 @@ header {
   text-decoration: none;
   color: #383534;
 }
+.links:hover{
+  color: #e37243;
+}
 .logo{
   height: 40px;
 }
@@ -78,9 +81,68 @@ li{
   margin: 0;
 }
 
+/* Стили для выпадающего подменю */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none; /* Скрыто по умолчанию */
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #ffffff;
+  padding: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  flex-direction: column;
+  list-style: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: flex;
+  width: 200px; /* Появляется при наведении */
+}
+
+.dropdown-item {
+  padding: 5px 15px;
+  text-decoration: none;
+  color: #383534;
+  font: 400 calc(12px + 2 * (100vw / 1440)) Inter, sans-serif;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(227, 114, 67, 0.2);
+  color: #e37243;
+  
+}
+/* Общий стиль для ссылки "Каталог" с стрелкой */
+.dropdown-link {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+/* Стили для стрелки */
+.arrow {
+  display: inline-block;
+  margin-top: 2px;
+  margin-left: 8px; /* Отступ между текстом и стрелкой */
+  width: 5px;
+  height: 5px;
+  border: solid #e37243;
+  border-width: 0 2px 2px 0;
+  transform: rotate(-135deg);
+  transition: transform 0.3s ease; /* Плавная анимация вращения */
+}
+
+/* При наведении на ссылку стрелка переворачивается */
+.dropdown:hover .arrow {
+  transform: rotate(45deg); /* Поворот на 180 градусов */
+}
+
 @media (max-width: 960px) {
 
-  
 .main-content {
   transition: margin-top 0.3s; 
 }
@@ -196,8 +258,21 @@ li{
      /* Показываем элемент */
     z-index: 1; /* Поднимаем на передний план */
   }
-  .links:hover {
-    background: rgba(255,255,255,.2);
+
+  .dropdown-menu {
+    position: static;
+    display: none;
+    box-shadow: none; /* Скрываем в мобильной версии */
   }
 
+  .burger-checkbox:checked ~ .menu-list .dropdown-menu {
+    display: flex; /* Показ в бургер-меню */
+    flex-direction: column;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: flex;
+    width: 100%;
+    
+  }
 }
