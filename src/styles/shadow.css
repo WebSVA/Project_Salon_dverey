@@ -59,7 +59,7 @@
   .door-divider {
     box-sizing: border-box;
     flex: 0 0 auto;
-    width: 2px;
+    width: 3px;
     border-radius: 1px;
     height: inherit;
     margin-right: 17px;
