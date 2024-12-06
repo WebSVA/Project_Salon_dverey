@@ -1,61 +1,88 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import data from "../../data/data.json";
+import '../../styles/catalog/singleProduct.css';
 
 function SingleProduct() {
     const { id } = useParams();
     const [product, setProduct] = useState(null);
+    const [selectedImage, setSelectedImage] = useState(null);
 
     useEffect(() => {
         const foundProduct = data.find(item => item.id === parseInt(id));
-        setProduct(foundProduct);
+        if (foundProduct) {
+            setProduct(foundProduct);
+            const firstImage = Object.values(foundProduct.color)[0]; // Первая картинка из цветов
+            setSelectedImage(Array.isArray(firstImage) ? firstImage[0] : firstImage); // Если массив, берем первый элемент
+        }
     }, [id]);
+
+    const handleImageClick = (imagePath) => {
+        setSelectedImage(imagePath);
+    };
 
     return (
         <>
             {product ? (
-                <div>
-                    <h1>{product.name}</h1>
-                    <p>Тип: {product.type}</p>
-                    <p>Материал: {product.material}</p>
-                    <p>Толщина: {product.thickness} мм</p>
-                    <p>Производитель: {product.fabricator}</p>
-                    <p>Стекло: {product.glass}</p>
-
-                    {/* Отображение всех цветов с изображениями */}
-                    <div>
-                        <h3>Цвета:</h3>
-                        <ul>
-                            {Object.entries(product.color).map(([colorName, imagePath]) => (
-                                <li key={colorName}>
-                                    <p>{colorName}</p>
-                                    {Array.isArray(imagePath) ? (
-                                        <div style={{ display: "flex", gap: "10px" }}>
-                                            {imagePath.map((imageSrc, index) => (
-                                                <img 
-                                                    key={index} 
-                                                    src={imageSrc} 
-                                                    alt={`${colorName}-${index}`} 
-                                                    width={100} 
-                                                />
-                                            ))}
-                                        </div>
+                <div className="single-container-info">
+                    <div className="product-information-container">
+                        <div className="product-img-container">
+                            {/* Большая картинка */}
+                            <img 
+                                className="select-img-product" 
+                                src={selectedImage} 
+                                alt="Selected product" 
+                            />
+                            {/* Маленькие картинки */}
+                            <div className="other-img-container">
+                                {Object.entries(product.color).map(([colorName, imagePath]) =>
+                                    Array.isArray(imagePath) ? (
+                                        // Если массив, отобразить до двух картинок
+                                        imagePath.slice(0, 2).map((img, index) => (
+                                            <img
+                                                key={`${colorName}-${index}`}
+                                                src={img}
+                                                alt={`${colorName}-${index}`}
+                                                className="small-img"
+                                                onClick={() => handleImageClick(img)}
+                                            />
+                                        ))
                                     ) : (
-                                        <img src={imagePath} alt={colorName} width={100} />
-                                    )}
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-
-                    {/* Отображение доступных размеров */}
-                    <div>
-                        <h3>Доступные размеры:</h3>
-                        <ul>
-                            {product.size.map((size, index) => (
-                                <li key={index}>{size}</li>
-                            ))}
-                        </ul>
+                                        // Если одиночная картинка
+                                        <img
+                                            key={colorName}
+                                            src={imagePath}
+                                            alt={colorName}
+                                            className="small-img"
+                                            onClick={() => handleImageClick(imagePath)}
+                                        />
+                                    )
+                                )}
+                            </div>
+                        </div>
+                        <div className="single-product-info-container">
+                            <h1>{product.name}</h1>
+                            {product.name && <p className="info-description"><span>Название:</span> {product.name}</p>}
+                            {product.type && <p className="info-description"><span>Тип:</span> {product.type}</p>}
+                            {product.material && <p className="info-description"><span>Материал:</span> {product.material}</p>}
+                            {product.glass && <p className="info-description"><span>Стекло:</span> {product.glass}</p>}
+                            {product.fill && <p className="info-description"><span>Наполнитель:</span> {product.fill}</p>}
+                            {product.thickness && <p className="info-description"><span>Толщина:</span> {product.thickness}</p>}
+                            {product.fabricator && <p className="info-description"><span>Производитель:</span> {product.fabricator}</p>}
+                            {product.eye && <p className="info-description"><span>Глазок:</span> {product.eye}</p>}
+                            {product.high_lock && <p className="info-description"><span>Верхний замок:</span> {product.high_lock}</p>}
+                            {product.low_lock && <p className="info-description"><span>Нижний замок:</span> {product.low_lock}</p>}
+                            <div className="size-info-container">
+                                <h3>Доступные размеры:</h3>
+                                <div className="size-info">
+                                    <ul>
+                                        {product.size.map((size, index) => (
+                                            <li key={index}>{size}</li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             ) : (

@@ -1,0 +1,59 @@
+.single-container-info{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+.product-information-container{
+    width: 80%;
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.single-product-info-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.product-information-container > .product-img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: inherit;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.select-img-product {
+    width: 100px; /* Большая картинка */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.other-img-container {
+    height: 50px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.small-img {
+    width: 70px; /* Маленькие картинки */
+    height: auto;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.small-img:hover {
+    border-color: #007BFF;
+}
