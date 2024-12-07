@@ -104,6 +104,11 @@
     background-image: url('../assets/img/shadow.png');
     
   }
+  .door-button-container > .detail-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   @media (max-width: 980px) {
     .slider-container {

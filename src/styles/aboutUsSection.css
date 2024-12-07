@@ -89,6 +89,12 @@
     background-position: center; /* Центрировать изображение */
 }
 
+.separation-container > .button-with-line > .button-link-aboutUs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 960px){
     .content-container{
         display: flex;

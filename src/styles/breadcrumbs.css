@@ -1,5 +1,4 @@
 .transparent-overlay-container {
-    
     text-align: center; 
     height: 45vh;
     background-attachment: fixed;
@@ -44,3 +43,19 @@
     text-decoration: none; /* Убираем подчеркивание */
     color: #bdbdbd; /* Цвет ссылок */
   }
+
+  
+
+@media (min-height: 980px) {
+
+  .transparent-overlay-container {
+    height: 30vh;
+  }
+  .shadow {
+   
+    height: 30vh;}
+
+    .product-title-text-style {
+      padding-top: 11vh;
+      padding-bottom: 1vh;}
+}

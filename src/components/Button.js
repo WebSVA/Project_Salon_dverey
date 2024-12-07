@@ -3,9 +3,10 @@
 function Button({ 
     text, 
     onClick, 
-    type, 
+    type = 'button', 
     isModal,
-    className
+    className,
+    href
 }) {
 
 
@@ -16,6 +17,17 @@ function Button({
             onClick(); 
         }
     };
+    if (href) {
+        return (
+            <a 
+                href={href} 
+                className={`custom-button ${className}`} 
+                onClick={isModal ? handleClick : undefined}
+            >
+                {text}
+            </a>
+        );
+    }
 
     return (
         <button type={type} onClick={handleClick} className={`custom-button ${className}`}>

@@ -1,3 +1,4 @@
+
 .single-container-info{
     display: flex;
     align-items: center;
@@ -5,55 +6,171 @@
     justify-content: center;
     width: 100%;
     margin-top: 60px;
-    margin-bottom: 60px;
-
 }
 .product-information-container{
     width: 80%;
-    display: flex;
-    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
     flex-direction: row;
+    align-items: start;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
+    padding: 30px 0px;
+    gap: 20px;
 }
 .single-product-info-container{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    margin-right: 3vw;
+    gap: 8px;
 }
 
 .product-information-container > .product-img-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
     height: inherit;
-    padding: 20px;
-    background-color: aliceblue;
+    padding: 0px 20px;
 }
 
-.select-img-product {
-    width: 100px; /* Большая картинка */
-    height: auto;
+.select-img-product-container{
+    border: 1px solid #C7C7C7;
+    width: 350px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 20px;
     margin-bottom: 20px;
+}
+.select-img-product {
+    width: 150px; /* Большая картинка */
+    
+    height: auto;
 }
 
 .other-img-container {
-    height: 50px;
     display: flex;
     gap: 10px;
-    justify-content: center;
+    padding: 0 20px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 350px;
 }
 
-.small-img {
-    width: 70px; /* Маленькие картинки */
-    height: auto;
-    cursor: pointer;
+.circle-container {
+    width: 35px; /* ширина круга */
+    height: 35px; /* высота круга */
+    overflow: hidden;
+    border-radius: 50%; /* делает контейнер круглым */
+    cursor: pointer; /* курсор при наведении */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2px solid transparent;
     transition: border-color 0.3s;
 }
 
-.small-img:hover {
-    border-color: #007BFF;
+.circle-container img {
+    width: 120%; /* заполняет круг */
+    height: auto; /* сохраняет пропорции */
+    object-fit: cover; /* обрезает изображение, сохраняя его пропорции */
+}
+
+.circle-container:hover {
+    border-color: #e37243;
+}
+
+.single-product-info-container > h1{
+    font: 700 calc(14px + 6 * (100vw / 1440)) Inter, sans-serif;
+    margin-bottom: 20px;
+    color: #383534;
+}
+.info-item{
+    height: auto;
+    border-bottom: 1px solid #C7C7C7;
+}
+.info-item > p > span {
+    font: 700 calc(12px + 2 * (100vw / 1440)) Inter, sans-serif;
+    color: #383534;
+    margin-right: 10px;
+}
+.info-item > p {
+    font: 400 calc(12px + 2 * (100vw / 1440)) Inter, sans-serif;
+    color: #747474;
+}
+
+.size-info-container > h3{
+    font: 700 calc(12px + 2 * (100vw / 1440)) Inter, sans-serif;
+    color: #383534;
+    margin-bottom: 10px;
+}
+
+.size-info > ul > li{
+    font: 400 calc(12px + 2 * (100vw / 1440)) Inter, sans-serif;
+    color: #747474;
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+.text-description-to-button{
+    margin-top: 20px;
+}
+.text-description-to-button > p{
+    font: 400 calc(12px + 2 * (100vw / 1440)) Inter, sans-serif;
+    color: #747474;
+}
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* контаинер услуг стили */
+
+.services-container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.services-info-container{
+    width: 80%;
+    display: flex;
+    gap: 5%;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.single-services-info{
+    display: flex;
+    gap: 3vw;
+    margin: 20px 40px;
+    flex-direction: row;
+}
+.services-img-cotainer{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #F8F5F0;
+}
+.services-img{ /* заполняет круг */
+    height: auto; /* сохраняет пропорции */
+    object-fit: cover;
+}
+
+.services-text-container > h3{
+    font: 700 calc(12px + 2 * (100vw / 1440)) Inter, sans-serif;
+    color: #383534;
+    margin-bottom: 10px;
+}
+.services-text-container > p{
+    font: 400 calc(12px + 2 * (100vw / 1440)) Inter, sans-serif;
+    color: #747474;
 }

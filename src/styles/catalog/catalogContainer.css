@@ -52,14 +52,15 @@
 .search-bar {
     display: flex;
     align-items: center;
-   
-    padding: 10px;
+   height: 25px;
+    padding: 5px;
     background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Лёгкая тень */
-    border-radius: 4px; /* Скругление углов у контейнера */
-    width: 85%; /* Ширина контейнера */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Лёгкая тень */
+    border-radius: 5px; /* Скругление углов у контейнера */
+     /* Ширина контейнера */
     max-width: 224px;
-    margin: 20px auto; /* Центровка на странице */
+    
+    /* Центровка на странице */
 }
 
 /* Иконка внутри строки поиска */
@@ -75,14 +76,22 @@
 .search-input {
   width: 110vh;
     outline: none; /* Убираем обводку при фокусе */
-    font-size: 16px;
-    padding: 8px;
-    color: #333; /* Цвет текста */
-   border-color: #aaa;
+
+    font: 400 calc(12px + 2 * (100vw/1440)) Inter, sans-serif;
+    color: #747474;
+
 }
 
 /* Placeholder */
 .search-input::placeholder {
     color: #aaa; /* Цвет для текста внутри placeholder */
     font-style: italic; /* Курсив */
+}
+
+.filter-section{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+
 }
