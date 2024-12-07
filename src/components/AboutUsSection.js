@@ -36,7 +36,7 @@ function AboutUsSection(){
                     </p>
                 </div>
                 <div className="button-with-line">
-                    <Button  className="button-link-aboutUs" text = "Узнать больше"/>
+                    <Button  className="button-link-aboutUs" href='/about' text = "Узнать больше"/>
                     <div className="separation-line-2"></div>
                 </div>
             </div>

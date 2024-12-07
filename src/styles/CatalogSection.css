@@ -71,3 +71,9 @@
     color: #383534;
 }
 
+.link-to-catalog > .call-to-catalog-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

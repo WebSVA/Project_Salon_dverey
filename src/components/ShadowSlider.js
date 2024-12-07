@@ -24,7 +24,7 @@ function ShadowSlider() {
                 Наша фирма предлагает широкий ассортимент продукции, включая межкомнатные и входные двери, выполненные из высококачественных материалов.
               </p>
               <div className="door-button-container">
-                <Button className="detail-button" text="Подробнее"></Button>
+                <Button className="detail-button" href='/about' text="Подробнее"></Button>
               </div>
             </div>
           </div>

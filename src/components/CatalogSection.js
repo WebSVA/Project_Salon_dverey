@@ -40,7 +40,7 @@ function CatalogSection() {
                     </div>
                     <div className='link-to-catalog'>
                         <p>Перейти к полному каталогу</p>
-                        <Button text="Каталог"  className="call-to-catalog-link"/>
+                        <Button text="Каталог" href='/catalog'  className="call-to-catalog-link"/>
                     </div>
                     <div className='info-with-lines'>
                         <div className='first-line'></div>
@@ -60,7 +60,7 @@ function CatalogSection() {
                     </div>
                     <div className='link-to-catalog'>
                         <p>Перейти к полному каталогу</p>
-                        <Button text="Каталог"  className="call-to-catalog-link"/>
+                        <Button text="Каталог" href='/catalog'  className="call-to-catalog-link"/>
                     </div>
                 </div>
             </div>
