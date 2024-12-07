@@ -75,7 +75,7 @@ header {
   gap: 3.125vw;
   padding-right: 5.833vw;
 }
-li{
+.menu-list > li{
   list-style-type: none; /* Убирает маркеры */
   padding: 0; /* Убирает отступы */
   margin: 0;
@@ -175,7 +175,7 @@ li{
     background-color: rgb(230, 230, 230); /* Цвет полоски */
     
   }
-  li{
+  .menu-list >li{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
