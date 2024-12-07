@@ -12,7 +12,7 @@
     position: relative;
     width: 190px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-radius: 5px 5px 0px 0px;
     padding: 5px 15px;
     display: flex;
     flex-direction: column;
