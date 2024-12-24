@@ -40,8 +40,12 @@ function SingleProduct() {
             {product ? (
                 <div className="single-container-info">
                     <div className="product-information-container">
+                   
                         <div className="product-img-container">
                             {/* Большая картинка */}
+                            <div className="single-product-info-name-adapt">
+                        <h1>{product.name}</h1>
+                    </div>
                             <div className="select-img-product-container">
                                 {selectedImages.length > 1 ? (
                                     <div className="combined-img-container">
