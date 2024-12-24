@@ -79,6 +79,7 @@
 
     font: 400 calc(12px + 2 * (100vw/1440)) Inter, sans-serif;
     color: #747474;
+    border: none;
 
 }
 
@@ -86,6 +87,7 @@
 .search-input::placeholder {
     color: #aaa; /* Цвет для текста внутри placeholder */
     font-style: italic; /* Курсив */
+   
 }
 
 .filter-section{
