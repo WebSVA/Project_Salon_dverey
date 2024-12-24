@@ -1,9 +1,21 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom"; // Для маршрутизации
+import { useLocation } from "react-router-dom"; // Для маршрутизации
 import "../styles/breadcrumbs.css";
 
 function Breadcrumbs({ title }) {
   const location = useLocation();
+
+  // Словарь для перевода сегментов URI
+  const translations = {
+    catalog: "Каталог",
+    products: "Продукты",
+    about: "О нас",
+    contact: "Контакты",
+    // Добавьте другие переводы по необходимости
+  };
+
+  // Функция для перевода сегмента на русский
+  const translate = (segment) => translations[segment] || segment;
 
   // Генерация хлебных крошек
   const generateBreadcrumbs = () => {
@@ -22,10 +34,10 @@ function Breadcrumbs({ title }) {
           <span key={to}>
             {!isLast ? (
               <>
-                <a href={to}>{value}</a> /
+                <a href={to}>{translate(value)}</a> /
               </>
             ) : (
-              <span>{value}</span>
+              <span>{translate(value)}</span>
             )}
           </span>
         );
