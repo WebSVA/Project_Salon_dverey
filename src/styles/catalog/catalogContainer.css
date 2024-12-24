@@ -74,11 +74,12 @@
 
 /* Поле ввода */
 .search-input {
- 
-    border: none; /* Убираем стандартную границу */
+  width: 110vh;
     outline: none; /* Убираем обводку при фокусе */
+
     font: 400 calc(12px + 2 * (100vw/1440)) Inter, sans-serif;
     color: #747474;
+
 }
 
 /* Placeholder */
