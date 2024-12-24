@@ -18,7 +18,7 @@
     flex-direction: row;
     gap: 20px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .pagination {
@@ -100,8 +100,11 @@
 
 
 @media (max-width: 960px) and (min-width: 680px) {
+    .search-bar{
+        max-width: 180px;
+    }
     .filter-section{
-        width: 97%;
+        width: 100%;
     }
 }
 
@@ -122,11 +125,14 @@
     .filter-section{
         flex-direction: column;
         width: 100%;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .search-bar{
          padding: 5px 15px; 
         width: 224px;
+    }
+    .product-list{
+        justify-content: center;
     }
 }
