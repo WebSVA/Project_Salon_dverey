@@ -107,6 +107,7 @@ return (
                 </a>
                 <div className="dropdown-menu">
                   <a className="dropdown-item" href="/catalog/interior-doors">
+                  {/* <a className="dropdown-item" href="/catalog/interior-doors"> */}
                     Межкомнатные двери
                   </a>
                   <a className="dropdown-item" href="/catalog/entry-doors">
@@ -132,6 +133,8 @@ return (
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/catalog" element={<CatalogPage />} />
+        <Route path="/catalog/interior-doors" element={<CatalogPage doorType="Межкомнатная дверь" />} />
+        <Route path="/catalog/entry-doors" element={<CatalogPage doorType="Входная дверь" />} />
         <Route path="/catalog/:id" element={<ProductPage />} />
         <Route path="*" element={<HomePage />} />
       </Routes>
