@@ -2,19 +2,20 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start; 
+    align-items: center; 
     gap: 20px;
-    margin-bottom: 20px;
+
 }
 
 .filter-group {
-    background-color: white;
+    background-color: #F7F7F7;
     position: relative;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px 5px 0px 0px;
-    padding: 5px 15px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    /* border-radius: 5px 5px 0px 0px; */
+    padding: 1px 20px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .filter-group .filter-summary {
@@ -31,8 +32,8 @@
 
 .filter-arrow {
     display: inline-block;
-    margin-top: 2px;
-    margin-left: 8px;
+    margin-top: 7px;
+    margin-left: 5px;
     width: 5px;
     height: 5px;
     border: solid #747474;
@@ -41,9 +42,13 @@
     transition: transform 0.3s ease;
 }
 
-.filter-group:hover .filter-arrow {
+.filter-summary:hover .filter-arrow {
     transform: rotate(45deg);
 }
+
+/* .filter-group:hover .filter-arrow{
+    transform: rotate(45deg);
+} */
 
 .filter-group ul {
     width: 100%;
@@ -61,11 +66,17 @@
     overflow-x: hidden; 
 }
 
-.filter-group:hover ul {
+.filter-summary:hover + ul {
     max-height: 250px; 
     opacity: 1; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+/* .filter-group:hover ul{
+    max-height: 250px; 
+    opacity: 1; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+} */
 
 .filter-group li {
     font: 400 calc(12px + 2 * (100vw/1440)) Inter, sans-serif;

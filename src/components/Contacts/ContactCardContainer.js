@@ -15,12 +15,12 @@ function ContactCardContainer(){
             <ContactCard
                 imageSrc = {mail}
                 title = "Наша почта: "
-                description="info@gmail.com"
+                description="andrey.Yarashevich.2015@mail.ru"
             />
             <ContactCard
                 imageSrc = {phonecall}
                 title = "Наш нoмер телефона:"
-                description="8 029 928-92-89"
+                description="+375-29-928-9289"
             />
         </div>
         </div>
