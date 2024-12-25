@@ -61,7 +61,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Лёгкая тень */
     border-radius: 5px; /* Скругление углов у контейнера */
      /* Ширина контейнера */
-    max-width: 224px;
+    width: 230px;
     
     /* Центровка на странице */
 }
@@ -77,7 +77,7 @@
 
 /* Поле ввода */
 .search-input {
-  width: 110vh;
+  width: 85%;
     outline: none; /* Убираем обводку при фокусе */
 
     font: 400 calc(12px + 2 * (100vw/1440)) Inter, sans-serif;
