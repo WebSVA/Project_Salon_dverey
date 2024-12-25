@@ -3,6 +3,7 @@ import ContactMap from "../components/ContactMap";
 import Email from "../Email";
 import "../styles/contact/contact.css"
 import "../styles/contact/contactForm.css"
+import ContactCardContainer from "../components/Contacts/ContactCardContainer";
 import {Helmet} from "react-helmet";
 
 function ContactPage(){
@@ -23,6 +24,7 @@ function ContactPage(){
         <Breadcrumbs title="Контакты" />
         <div className="contact-container-all">
                 <div className="contact-container">
+                    <ContactCardContainer/>
                      <div className="email-contact-container">
                      <Email></Email>
                      </div>
