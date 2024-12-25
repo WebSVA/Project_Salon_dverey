@@ -12,7 +12,10 @@
     flex-direction: row;
     justify-content: flex-start;
 }
-
+.icon-image {
+    margin-left: 5px;
+    margin-right: 12px; /* Отступ между иконкой и полем ввода */
+}
 .product-list{
     display: flex;
     flex-direction: row;

@@ -3,7 +3,7 @@ import Filter from './Filter';
 import data from '../../data/data.json';
 import ProductCard from './ProductCard';
 import '../../styles/catalog/catalogContainer.css';
-
+import searchsvg from '../../assets/loupe.png';
 function CatalogContainer() {
     const [products, setProducts] = useState([]);
     const [searchQuery, setSearchQuery] = useState(''); 
@@ -78,7 +78,11 @@ function CatalogContainer() {
         <div className='catalog-container-main'>
             <div className='filter-section'>
                     <div className='search-bar'>
-                        <input
+                    <img 
+      src= {searchsvg} 
+      alt="Search" 
+      className="icon-image" 
+    /> <input
                             type='text'
                             placeholder='Поиск...'
                             value={searchQuery}
