@@ -60,3 +60,16 @@
 .text-container{
     margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+    .product-card{
+       
+        width: 174px;
+        height: 260px;
+    }
+    .product-img-container{
+       
+        height: 140px;
+       
+    }
+}
