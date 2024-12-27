@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import {Routes, Route} from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './styles/app.css';
 
 import ContactPage from './pages/ContactPage';
@@ -69,7 +69,8 @@ function App(){
     }
 }, []);
 return (
-  <>
+  
+   <Router>
     <ContactHeader />
     <header className="header">
       <div className="container-header">
@@ -140,7 +141,8 @@ return (
       </Routes>
     </div>
     <Footer />
-  </>
+    </Router>
+  
   );
 
 }
