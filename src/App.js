@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './styles/app.css';
 
 import ContactPage from './pages/ContactPage';
@@ -89,41 +89,30 @@ return (
             />
             <label htmlFor="burger-checkbox" className="burger"></label>
             <ul className="menu-list">
-              <li>
-                <a className="links" href="/">
-                  Главная
-                </a>
-                <div className="line-div" />
-              </li>
-              <li>
-                <a className="links" href="/about">
-                  О нас
-                </a>
-                <div className="line-div" />
-              </li>
-              <li className="dropdown">
-                <a className="links dropdown-link" href="/catalog">
-                  Каталог
-                  <span className="arrow"></span>
-                </a>
-                <div className="dropdown-menu">
-                  <a className="dropdown-item" href="/catalog/interior-doors">
-                  {/* <a className="dropdown-item" href="/catalog/interior-doors"> */}
-                    Межкомнатные двери
-                  </a>
-                  <a className="dropdown-item" href="/catalog/entry-doors">
-                    Входные двери
-                  </a>
-                </div>
-                <div className="line-div" />
-              </li>
-              <li>
-                <a className="links" href="/contact">
-                  Контакты
-                </a>
-                <div className="line-div" />
-              </li>
-            </ul>
+                <li key="home">
+                    <Link className="links" to="/">Главная</Link>
+                    <div className="line-div" />
+                </li>
+                <li key="about">
+                  <Link className="links" to="/about">О нас</Link>
+                  <div className="line-div" />
+                </li>
+                <li key="catalog" className="dropdown">
+                  <Link className="links dropdown-link" to="/catalog">
+                    Каталог
+                    <span className="arrow"></span>
+                  </Link>
+                  <div className="dropdown-menu">
+                    <Link className="dropdown-item" to="/catalog/interior-doors">Межкомнатные двери</Link>
+                    <Link className="dropdown-item" to="/catalog/entry-doors">Входные двери</Link>
+                  </div>
+                  <div className="line-div" />
+                </li>
+                <li key="contact">
+                  <Link className="links" to="/contact">Контакты</Link>
+                  <div className="line-div" />
+                </li>
+              </ul>
           </div>
         </div>
       </div>
