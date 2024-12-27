@@ -73,10 +73,10 @@ return (
     <ContactHeader />
     <header className="header">
       <div className="container-header">
-        <div className="logo-container">
-          <img src={logoIcon} className="logo" alt="Логотип"></img>
+      <a className="links" href="/"><div className="logo-container">
+        <img src={logoIcon} className="logo" alt="Логотип"></img>
           <p className="title-company">Салон дверей</p>
-        </div>
+        </div></a>
         <div className="links-button-container">
           <div className="link-container">
             <input

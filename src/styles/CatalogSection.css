@@ -93,7 +93,26 @@
     width: 100%;
     padding-bottom: 10px; /* Добавляем отступ снизу для полосы прокрутки */
 }
+.home-page-catalog-container > div > .title-section{
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    font: 700 calc(20px + 6*(100vw / 1440)) Inter, sans-serif;
+    color: #383534;
+    padding: 10px 0;
+}
+.info-with-lines > .formal-title {
+    font: 400 calc(14px + 2*(100vw / 1440)) Inter, sans-serif;
+    text-align: center;
+    width: 300px;
+    color: #383534;
+}
 
+.link-to-catalog > p{
+    font: 400 calc(12px + 2*(100vw / 1440)) Inter, sans-serif;
+    text-align: center;
+    color: #383534;
+}
 /* Стилизация полосы прокрутки */
 .home-page-catalog-container > .catalog > .product-list::-webkit-scrollbar {
     height: 10px; /* Высота полосы прокрутки */
