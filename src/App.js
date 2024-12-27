@@ -73,10 +73,10 @@ return (
     <ContactHeader />
     <header className="header">
       <div className="container-header">
-        <div className="logo-container">
-          <img src={logoIcon} className="logo" alt="Логотип"></img>
+      <a className="links" href="/"><div className="logo-container">
+        <img src={logoIcon} className="logo" alt="Логотип"></img>
           <p className="title-company">Салон дверей</p>
-        </div>
+        </div></a>
         <div className="links-button-container">
           <div className="link-container">
             <input
@@ -107,6 +107,7 @@ return (
                 </a>
                 <div className="dropdown-menu">
                   <a className="dropdown-item" href="/catalog/interior-doors">
+                  {/* <a className="dropdown-item" href="/catalog/interior-doors"> */}
                     Межкомнатные двери
                   </a>
                   <a className="dropdown-item" href="/catalog/entry-doors">
@@ -132,6 +133,8 @@ return (
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/catalog" element={<CatalogPage />} />
+        <Route path="/catalog/interior-doors" element={<CatalogPage doorType="Межкомнатная дверь" />} />
+        <Route path="/catalog/entry-doors" element={<CatalogPage doorType="Входная дверь" />} />
         <Route path="/catalog/:id" element={<ProductPage />} />
         <Route path="*" element={<HomePage />} />
       </Routes>

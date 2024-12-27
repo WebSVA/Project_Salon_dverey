@@ -4,7 +4,8 @@ import data from '../../data/data.json';
 import ProductCard from './ProductCard';
 import '../../styles/catalog/catalogContainer.css';
 import searchsvg from '../../assets/loupe.png';
-function CatalogContainer() {
+
+function CatalogContainer({ doorType }) {
     const [products, setProducts] = useState([]);
     const [searchQuery, setSearchQuery] = useState(''); 
     const [filteredProducts, setFilteredProducts] = useState([]); 
@@ -41,14 +42,18 @@ function CatalogContainer() {
                         return true;
                 }
             });
-            return matchesSearch && matchesFilters;
+
+            // Фильтрация по типу двери
+            const matchesDoorType = !doorType || product.type === doorType;
+
+            return matchesSearch && matchesFilters && matchesDoorType;
         });
 
         setFilteredProducts(filtered);
         if (currentPage !== 1) {
             setCurrentPage(1);
         }
-    }, [searchQuery, activeFilters, products]);
+    }, [searchQuery, activeFilters, products, doorType]); // Добавляем doorType в зависимость
 
     // Обновление активных фильтров
     const handleFilterChange = (updatedFilters) => {
@@ -71,33 +76,32 @@ function CatalogContainer() {
         { category: "Производитель", options: ["elporta", "TEMIDOORS", "ООО 'Двери Гранит'", "ЮНИ Двери", "МЕДВЕДВ И К", "Гарда", "DEFORM V"] },
         { category: "Остекление", options: ["Есть", "Нет", "Матовое", "Зеркало"] },
         { category: "Размер полотна", options: ["350 x 2000", "400 x 2000", "600 х 2000", "700 x 2000", "800 x 2000", "900 x 2000","860 x 2050", "880 х 2050", "960 x 2050", "980 х 2000", "1050 x 2070"] }
-        // { category: "Материал", options: ["МДФ панель", "Массив сосны", "Массив дуба", "Массив ясеня", "Массив ольхи", "Массив бука", "Эмаль"] }
     ];
 
     return (
         <div className='catalog-container-main'>
             <div className='filter-section'>
-                    <div className='search-bar'>
+                <div className='search-bar'>
                     <img 
-      src= {searchsvg} 
-      alt="Search" 
-      className="icon-image" 
-    /> <input
-                            type='text'
-                            placeholder='Поиск...'
-                            value={searchQuery}
-                            onChange={(e) => setSearchQuery(e.target.value)}
-                            className='search-input' />
-                    </div>
-                    <Filter filters={filters} onFilterChange={handleFilterChange} />
+                        src= {searchsvg} 
+                        alt="Search" 
+                        className="icon-image" 
+                    /> 
+                    <input
+                        type='text'
+                        placeholder='Поиск...'
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        className='search-input' 
+                    />
                 </div>
+                <Filter filters={filters} onFilterChange={handleFilterChange} />
+            </div>
             <div className='catalog-container'>
-                
                 <div className="product-list">
                     {currentProducts.map(product => (
                         <a key={product.id} href={`/catalog/${product.id}`}>
                             <ProductCard 
-                                key={product.id} 
                                 product={product} 
                                 onClick={(id) => console.log(`Clicked on product with ID: ${id}`)} 
                             />
