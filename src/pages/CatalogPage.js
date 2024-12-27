@@ -2,7 +2,7 @@ import Breadcrumbs from "../components/Breadcrumbs";
 import CatalogContainer from '../components/catalog/CatalogContainer';
 import { Helmet } from "react-helmet";
 
-function CatalogPage() {
+function CatalogPage({ doorType }) {
    
 
     return (
@@ -18,7 +18,7 @@ function CatalogPage() {
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           </Helmet>
             <Breadcrumbs title="Каталог" />
-            <CatalogContainer/>
+            <CatalogContainer doorType={doorType}/>
         </>
     );
 }
