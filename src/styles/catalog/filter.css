@@ -1,7 +1,8 @@
 .filter-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:flex-end;
+    width: 100%;
     align-items: center; 
     gap: 20px;
 
@@ -10,11 +11,10 @@
 .filter-group {
     background-color: #F7F7F7;
     position: relative;
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-    /* border-radius: 5px 5px 0px 0px; */
     padding: 1px 20px;
     display: flex;
     flex-direction: column;
+    width: 23%;
     
 }
 
@@ -46,12 +46,9 @@
     transform: rotate(45deg);
 }
 
-/* .filter-group:hover .filter-arrow{
-    transform: rotate(45deg);
-} */
 
-.filter-group ul {
-    width: 100%;
+.hiden-menu {
+    display: none;
     position: absolute;
     background-color: white;
     list-style: none;
@@ -59,24 +56,20 @@
     top: 100%;
     z-index: 1000;
     margin: 0;
-    max-height: 250px;
-    opacity: 0;
     transition: max-height 0.3s ease, opacity 0.3s ease;
     overflow-y: auto;
     overflow-x: hidden; 
 }
 
-.filter-summary:hover + ul {
+.filter-summary:hover .hiden-menu{
+    display: block;
+    width: 100%;
     max-height: 250px; 
-    opacity: 1; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-
-/* .filter-group:hover ul{
-    max-height: 250px; 
-    opacity: 1; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-} */
+.filter-group li:hover{
+    background-color: #f7f7f7;
+}
 
 .filter-group li {
     font: 400 calc(12px + 2 * (100vw/1440)) Inter, sans-serif;

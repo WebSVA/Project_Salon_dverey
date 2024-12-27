@@ -116,7 +116,7 @@
 
 .orang-strip {
   width: 100%; 
-  height: 3%; 
+  height: 10px; 
   background-color: #e37243; 
   border-bottom-left-radius: 5px; 
   border-bottom-right-radius: 5px; 
@@ -128,7 +128,22 @@ transform: translateX(-50%);
  
 }
 
+@media(max-width:480px){
+  .modal-content{
+    padding: 10px;
+  }
+
+  .email-container h2{
+    font-size: calc(14px + (6 + 6 * 0.7)*((100vw - 320px)) / 1440);
+  }
+
+}
+
 @media (max-width: 680px) {
+  .modal-content{
+    width: 75%;
+    padding: 0px;
+  }
 
   .contact-info-text {
   max-width: 50%;}
@@ -139,5 +154,10 @@ transform: translateX(-50%);
   .parallax{
     height: 30vh;
   }
+  .modal-content{
+    width: 75%;
+    padding: 0px 20px;
+  }
+
 
 }

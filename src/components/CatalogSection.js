@@ -14,6 +14,7 @@ function CatalogSection() {
     }, []);
 
     const currentProducts = products.slice(0, 5);
+    const currentProductsOut = products.slice(168, 175);
 
     return (
         <div>
@@ -29,13 +30,16 @@ function CatalogSection() {
                     </div>
                     <div className='catalog'>
                         <div className="product-list">
-                            {currentProducts.map(product => (
-                            <a key={product.id} href={`/catalog/${product.id}`}><ProductCard 
-                                key={product.id} 
-                                product={product} 
-                                onClick={(id) => console.log(`Clicked on product with ID: ${id}`)} 
-                            /></a>
-                            ))}
+                            {currentProductsOut
+                                .filter(product => product.type == "Входная дверь") // Фильтруем входные двери
+                                .map(product => (
+                                    <a key={product.id} href={`/catalog/${product.id}`}>
+                                        <ProductCard 
+                                            product={product} 
+                                            onClick={(id) => console.log(`Clicked on product with ID: ${id}`)} 
+                                        />
+                                    </a>
+                                ))}
                         </div>
                     </div>
                     <div className='link-to-catalog'>
