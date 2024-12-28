@@ -9,7 +9,7 @@ function ShadowSlider() {
       <div className="shadow-overlay">
         <div className="door-both">
           <div className="shadow-container">
-            <div className="animate door-sales-section _animate-items">
+            <div className="door-sales-section">
               <div className="door-description-container">
                 <div className="door-divider" />
                 <p className="door-text-block">
