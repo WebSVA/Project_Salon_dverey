@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 import './styles/app.css';
 
 import ContactPage from './pages/ContactPage';
@@ -70,7 +70,7 @@ function App(){
 }, []);
 return (
   
-   <Router>
+   <>
     <ContactHeader />
     <header className="header">
       <div className="container-header">
@@ -90,37 +90,36 @@ return (
             <label htmlFor="burger-checkbox" className="burger"></label>
             <ul className="menu-list">
               <li>
-                <a className="links" href="/">
+                <Link className="links" to="/">
                   Главная
-                </a>
+                </Link>
                 <div className="line-div" />
               </li>
               <li>
-                <a className="links" href="/about">
+                <Link className="links" to="/about">
                   О нас
-                </a>
+                </Link>
                 <div className="line-div" />
               </li>
               <li className="dropdown">
-                <a className="links dropdown-link" href="/catalog">
+                <Link className="links dropdown-link" to="/catalog">
                   Каталог
                   <span className="arrow"></span>
-                </a>
+                </Link>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item" href="/catalog/interior-doors">
-                  {/* <a className="dropdown-item" href="/catalog/interior-doors"> */}
+                  <Link className="dropdown-item" to="/catalog/interior-doors">
                     Межкомнатные двери
-                  </a>
-                  <a className="dropdown-item" href="/catalog/entry-doors">
+                  </Link>
+                  <Link className="dropdown-item" to="/catalog/entry-doors">
                     Входные двери
-                  </a>
+                  </Link>
                 </div>
                 <div className="line-div" />
               </li>
               <li>
-                <a className="links" href="/contact">
+                <Link className="links" to="/contact">
                   Контакты
-                </a>
+                </Link>
                 <div className="line-div" />
               </li>
             </ul>
@@ -141,7 +140,7 @@ return (
       </Routes>
     </div>
     <Footer />
-    </Router>
+    </>
   
   );
 

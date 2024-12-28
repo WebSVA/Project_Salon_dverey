@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Project_Salon_dverey/static/css/main.b3329a3d.css",
-    "main.js": "/Project_Salon_dverey/static/js/main.1cb2d467.js",
+    "main.js": "/Project_Salon_dverey/static/js/main.c0b7f0db.js",
     "static/media/imgAboutUs.png": "/Project_Salon_dverey/static/media/imgAboutUs.350ed415443198ed3e64.png",
     "static/media/slider2.jpg": "/Project_Salon_dverey/static/media/slider2.7b8ddae77be149d5d220.jpg",
     "static/media/slider1.jpg": "/Project_Salon_dverey/static/media/slider1.8b904f8d220fc9eef838.jpg",
@@ -16,10 +16,10 @@
     "static/media/logo.svg": "/Project_Salon_dverey/static/media/logo.86742e88a1024927ab1ed26baf7c0c64.svg",
     "index.html": "/Project_Salon_dverey/index.html",
     "main.b3329a3d.css.map": "/Project_Salon_dverey/static/css/main.b3329a3d.css.map",
-    "main.1cb2d467.js.map": "/Project_Salon_dverey/static/js/main.1cb2d467.js.map"
+    "main.c0b7f0db.js.map": "/Project_Salon_dverey/static/js/main.c0b7f0db.js.map"
   },
   "entrypoints": [
     "static/css/main.b3329a3d.css",
-    "static/js/main.1cb2d467.js"
+    "static/js/main.c0b7f0db.js"
   ]
 }
