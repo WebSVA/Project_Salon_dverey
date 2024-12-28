@@ -232,7 +232,7 @@ header {
       transition: bottom .3s, transform .3s .15s;
   }
   .menu-list {
-    top: 75px;
+    top: 73px;
     left: 0;
     gap: 0;
     position: absolute;
