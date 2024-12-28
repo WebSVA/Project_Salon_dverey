@@ -268,4 +268,8 @@
     .single-container-info {
         margin-top: 30px;
     }
+    .select-img-product{
+        width: 80px;
+        height: 160px;
+    }
 }

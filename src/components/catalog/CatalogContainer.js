@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Filter from './Filter';
+import { Link } from 'react-router-dom';
 import data from '../../data/data.json';
 import ProductCatalog from './ProductCatalog';
 import '../../styles/catalog/catalogContainer.css';
@@ -101,12 +102,12 @@ function CatalogContainer({ doorType }) {
             <div className='catalog-container'>
                 <div className="product-list">
                     {currentProducts.map(product => (
-                        <a className='a' key={product.id} href={`/catalog/${product.id}`}>
+                        <Link className='a' key={product.id} to={`/catalog/${product.id}`}>
                             <ProductCatalog 
                                 product={product} 
                                 onClick={(id) => console.log(`Clicked on product with ID: ${id}`)} 
                             />
-                        </a>
+                        </Link>
                     ))}
                 </div>
             </div>

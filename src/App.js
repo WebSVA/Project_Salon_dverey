@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import {Routes, Route} from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 import './styles/app.css';
 
 import ContactPage from './pages/ContactPage';
@@ -13,9 +13,7 @@ import ContactHeader from './components/ContactHeader';
 import Footer from './components/Footer'
 
 import logoIcon from './assets/logo.svg';
-import "./styles/animation/animation.css";
 import "./styles/button.css";
-
 
 
 function App(){
@@ -25,58 +23,20 @@ function App(){
     setIsMenuOpen((prev)=> !prev);
   }
 
-  useEffect(() => {
-    const animItems = document.querySelectorAll('._animate-items');
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
 
-    if (animItems.length > 0) {
-        window.addEventListener('scroll', animOnScroll);
-
-        function animOnScroll() {
-            for (let index = 0; index < animItems.length; index++) {
-                const animItem = animItems[index];
-                const animItemHeight = animItem.offsetHeight;
-                const animItemOffset = offset(animItem).top;
-                const animStart = 4;
-                let animItemPoint = window.innerHeight - animItemHeight / animStart;
-
-                if (animItemHeight > window.innerHeight) {
-                    animItemPoint = window.innerHeight - window.innerHeight / animStart;
-                }
-
-                // Используем window.scrollY вместо pageYOffset
-                if ((window.scrollY > animItemOffset - animItemPoint) && window.scrollY < (animItemOffset + animItemHeight)) {
-                    animItem.classList.add('_activeScroll');
-                } else {
-                    animItem.classList.remove('_activeScroll');
-                }
-            }
-        }
-
-        function offset(el) {
-            const rect = el.getBoundingClientRect(),
-                scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-                scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            return { top: rect.top + scrollTop, left: rect.left + scrollLeft };
-        }
-
-        setTimeout(() => {
-            animOnScroll();
-        }, 300);
-
-        return () => {
-            window.removeEventListener('scroll', animOnScroll);
-        };
-    }
-}, []);
 return (
-  <>
+  
+   <>
     <ContactHeader />
     <header className="header">
       <div className="container-header">
-      <a className="links" href="/"><div className="logo-container">
+      <Link className="links" to="/" onClick={closeMenu}><div className="logo-container">
         <img src={logoIcon} className="logo" alt="Логотип"></img>
           <p className="title-company">Салон дверей</p>
-        </div></a>
+        </div></Link>
         <div className="links-button-container">
           <div className="link-container">
             <input
@@ -89,37 +49,36 @@ return (
             <label htmlFor="burger-checkbox" className="burger"></label>
             <ul className="menu-list">
               <li>
-                <a className="links" href="/">
+                <Link className="links" to="/" onClick={closeMenu}>
                   Главная
-                </a>
+                </Link>
                 <div className="line-div" />
               </li>
               <li>
-                <a className="links" href="/about">
+                <Link className="links" to="/about" onClick={closeMenu}>
                   О нас
-                </a>
+                </Link>
                 <div className="line-div" />
               </li>
               <li className="dropdown">
-                <a className="links dropdown-link" href="/catalog">
+                <Link className="links dropdown-link" to="/catalog" onClick={closeMenu}>
                   Каталог
                   <span className="arrow"></span>
-                </a>
+                </Link>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item" href="/catalog/interior-doors">
-                  {/* <a className="dropdown-item" href="/catalog/interior-doors"> */}
+                  <Link className="dropdown-item" to="/catalog/interior-doors" onClick={closeMenu}>
                     Межкомнатные двери
-                  </a>
-                  <a className="dropdown-item" href="/catalog/entry-doors">
+                  </Link>
+                  <Link className="dropdown-item" to="/catalog/entry-doors" onClick={closeMenu}>
                     Входные двери
-                  </a>
+                  </Link>
                 </div>
                 <div className="line-div" />
               </li>
               <li>
-                <a className="links" href="/contact">
+                <Link className="links" to="/contact" onClick={closeMenu}>
                   Контакты
-                </a>
+                </Link>
                 <div className="line-div" />
               </li>
             </ul>
@@ -140,7 +99,8 @@ return (
       </Routes>
     </div>
     <Footer />
-  </>
+    </>
+  
   );
 
 }
