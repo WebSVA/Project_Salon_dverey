@@ -1,0 +1,156 @@
+.product-card1{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    height: 360px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.product-card1:hover{
+    cursor: pointer;
+    background-color: rgb(242, 242, 242);
+}
+.product-content1{
+    padding: 30px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 90%;
+}
+.underline1{
+    width: 100%; 
+    height: 3%; 
+    background-color: #e37243; 
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+}
+.product-description1{
+    color: #747474;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font: 400 calc(12px + 2 * (100vw/1440) ) Inter, sans-serif;
+}
+.product-name1{
+    color: #383534;
+    font: 700 calc(12px + 2 * (100vw/1440) ) Inter, sans-serif;
+    display: -webkit-box; /* Включаем flex-контейнер */
+    -webkit-box-orient: vertical; /* Указываем вертикальную ориентацию */
+    -webkit-line-clamp: 2; /* Ограничиваем количество строк до 2 */
+    overflow: hidden; /* Скрываем текст, выходящий за пределы */
+    text-overflow: ellipsis; /* Добавляем многоточие в конце */
+}
+.product-img-container1{
+    display: flex;
+    height: 24%;
+    justify-content: center;
+}
+.product-img1{
+    height: 90%;
+}
+.product-img-entry-doors1{
+    height: 80%;
+    margin-top: 10px;
+}
+.product-img-entry-doors1:first-child{
+    margin-right: 8px;
+}
+.text-container1{
+    margin-bottom: 10px;
+}
+
+
+
+/* Стили для экранов 1920px и меньше */
+@media (max-width: 1920px) {
+    .a {
+        width: calc(100% / 6 - 20px);
+        height: auto; /* Автоматическая высота */
+    }
+    .product-card1{
+        height: 350px;
+    }
+    .product-img-container1{
+        height: 70%;
+    }
+}
+
+/* Стили для экранов от 1810px до 1920px */
+@media (max-width: 1810px) {
+    .a {
+        width: calc(100% / 5 - 20px);
+    }
+ 
+    .product-img-container1{
+        height: 80%;
+    }
+    .product-card1{
+        height: 350px;
+    }
+    .product-img-container1{
+        height: 70%;
+    }
+}
+
+/* Стили для экранов от 1500px до 1810px */
+@media (max-width: 1500px) {
+   .a {
+        width: calc(100% / 4 - 20px);
+    }
+    .product-card1{
+        height: 350px;
+    }
+    .product-img-container1{
+        height: 70%;
+    }
+}
+
+
+/* Стили для экранов от 780px до 1500px */
+@media (max-width: 780px) {
+    .a {
+        width: calc(100% / 3 - 20px);
+    }
+   
+    .product-card1{
+        height: 290px;
+    }
+    .product-content1 {
+        height: 88%;
+    }
+}
+
+/* Стили для экранов от 680px до 780px */
+@media (max-width: 680px) {
+    .a {
+        width: calc(100% / 2 - 20px);
+    }
+    .product-card1{
+        height: 310px;
+    }
+    .product-img-container1{
+        height: 75%;
+    }
+    .product-content1 {
+        height: 88%;
+    }
+}
+
+
+/* Стили для экранов от 680px до 780px */
+@media (max-width: 420px) {
+    .a {
+        width: calc(100% / 2 - 10px);
+    }
+    .product-card1{
+        height: 250px;
+    }
+    .product-img-container1{
+        height: 65%;
+    }
+    .product-content1 {
+        height: 85%;
+    }
+}
+

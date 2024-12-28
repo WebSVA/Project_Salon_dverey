@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import Filter from './Filter';
 import data from '../../data/data.json';
-import ProductCard from './ProductCard';
+import ProductCatalog from './ProductCatalog';
 import '../../styles/catalog/catalogContainer.css';
 import searchsvg from '../../assets/loupe.png';
+
 
 function CatalogContainer({ doorType }) {
     const [products, setProducts] = useState([]);
@@ -100,8 +101,8 @@ function CatalogContainer({ doorType }) {
             <div className='catalog-container'>
                 <div className="product-list">
                     {currentProducts.map(product => (
-                        <a key={product.id} href={`/catalog/${product.id}`}>
-                            <ProductCard 
+                        <a className='a' key={product.id} href={`/catalog/${product.id}`}>
+                            <ProductCatalog 
                                 product={product} 
                                 onClick={(id) => console.log(`Clicked on product with ID: ${id}`)} 
                             />
