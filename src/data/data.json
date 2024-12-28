@@ -5,10 +5,10 @@
                 "type": "Межкомнатная дверь",
                 "color": {
                        "Snow Veralinga": "/imgProducts/ELPORTA/Порта-22_Snow.jpg",
-                        "Bianco Veralinga": "./imgProducts/ELPORTA/Порта-22_Bianco.jpg",
-                        "Nordic Grey Oak": "./imgProducts/ELPORTA/Порта-22_Nordic.jpg",
-                        "Cappuccino Veralinga": "./imgProducts/ELPORTA/Порта-22_Cappuccino.jpg",
-                        "Wenge Veralinga": "./imgProducts/ELPORTA/Порта-22_Wenge.jpg"
+                        "Bianco Veralinga": "/imgProducts/ELPORTA/Порта-22_Bianco.jpg",
+                        "Nordic Grey Oak": "/imgProducts/ELPORTA/Порта-22_Nordic.jpg",
+                        "Cappuccino Veralinga": "/imgProducts/ELPORTA/Порта-22_Cappuccino.jpg",
+                        "Wenge Veralinga": "/imgProducts/ELPORTA/Порта-22_Wenge.jpg"
                 },
                 "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
                 "glass": "Magic Fog",
@@ -32,7 +32,7 @@
                 "name": "Порта-27",
                 "type": "Межкомнатная дверь",
                 "color": {
-                        "Snow Veralinga": "./imgProducts/ELPORTA/Порта-27_Snow.jpg",
+                        "Snow Veralinga": "/imgProducts/ELPORTA/Порта-27_Snow.jpg",
                         "Bianco Veralinga": "/imgProducts/ELPORTA/Порта-27_Bianco.jpg",
                         "Nordic Grey Oak": "/imgProducts/ELPORTA/Порта-27_Nordic.jpg",
                         "Cappuccino Veralinga": "/imgProducts/ELPORTA/Порта-27_Cappuccino.jpg",
