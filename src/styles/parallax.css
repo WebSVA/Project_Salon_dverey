@@ -130,16 +130,17 @@ transform: translateX(-50%);
 
 @media(max-width:480px){
   .modal-content{
+    width: 85%;
     padding: 10px;
   }
 
   .email-container h2{
-    font-size: calc(14px + (6 + 6 * 0.7)*((100vw - 320px)) / 1440);
+    font-size: calc(20px + (6 + 6 * 0.7)*((100vw - 320px)) / 1440);
   }
 
 }
 
-@media (max-width: 680px) {
+@media (max-width: 680px) and (min-width: 480px) {
   .modal-content{
     width: 75%;
     padding: 0px;
@@ -149,6 +150,7 @@ transform: translateX(-50%);
   max-width: 50%;}
 
 }
+
 @media (min-height: 980px) {
 
   .parallax{

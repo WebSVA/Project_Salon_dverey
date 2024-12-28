@@ -1,5 +1,5 @@
 import React from "react";
-
+import InputMask from 'react-input-mask';
 import "./styles/email.css"; 
 import Button from "./components/Button";
 import './styles/parallax.css';
@@ -36,6 +36,7 @@ function Email({ modalClose }) {
       console.error("Ошибка отправки формы:", error);
     }
   };
+  
 
   return (
     <div className="email-container">
@@ -49,8 +50,16 @@ function Email({ modalClose }) {
           </div>
           <div className="input-group">
             <label htmlFor="phone">Ваш номер телефона:</label>
-            <input type="text" name="phone" id="phone" required />
-          </div>
+            <InputMask
+                mask="+375(99)-999-99-99"
+                id="phone"
+                name="phone"
+                required
+                placeholder="+375(xx)-xxx-xx-xx"
+            >
+                {(inputProps) => <input type="text" {...inputProps} />}
+            </InputMask>
+        </div>
           <div className="input-group">
             <label htmlFor="email">Ваша почта:</label>
             <input type="email" name="email" id="email" required />
