@@ -3,7 +3,7 @@ import '../../styles/aboutus/AboutUsPageStyles.css'
 
 function AboutUsPageShablon({ title, subtitle, description, image, reverse }) {
   return (
-    <div className={`about-us-section ${reverse ? 'reverse' : ''}`}>
+    <div className={`about-us-shabl ${reverse ? 'reverse' : ''}`}>
       <div className="text-content">
         <h2 className='title'>{title}</h2>
         <h3 className='subtitle'>{subtitle}</h3>

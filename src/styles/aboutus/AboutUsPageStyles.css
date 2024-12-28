@@ -6,15 +6,17 @@
     margin-bottom: 60px;
   }
   
-  .about-us-section {
+  .about-us-shabl {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
+    width: 80%;
+    
   
   }
   
-  .about-us-section.reverse {
+  .about-us-shabl.reverse {
     flex-direction: row-reverse;
   }
   
@@ -70,11 +72,11 @@
   }
 
   @media(max-width:680px){
-    .about-us-section{
+    .about-us-shabl{
         flex-direction: column;   
     }
 
-    .about-us-section.reverse{
+    .about-us-shabl.reverse{
         flex-direction: column;
     }
   }
