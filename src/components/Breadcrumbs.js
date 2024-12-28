@@ -7,10 +7,12 @@ function Breadcrumbs({ title }) {
 
   // Словарь для перевода сегментов URI
   const translations = {
-    catalog: "Каталог",
-    products: "Продукты",
-    about: "О нас",
-    contact: "Контакты",
+    catalog: " Каталог",
+    products: " Продукты",
+    about: " О нас",
+    contact: " Контакты",
+    "interior-doors":  " Межкомнатные двери",
+    "entry-doors":  " Входные двери",
     // Добавьте другие переводы по необходимости
   };
 
