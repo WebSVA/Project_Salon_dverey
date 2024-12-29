@@ -1,9 +1,13 @@
 import Breadcrumbs from "../components/Breadcrumbs";
 import CatalogContainer from '../components/catalog/CatalogContainer';
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
 
 function CatalogPage({ doorType }) {
    
+  useEffect(() => {
+    window.scrollTo(0, 0); // Сбросить скролл на начало страницы
+  }, []);
 
     return (
         <>
