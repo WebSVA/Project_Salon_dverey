@@ -1,5 +1,6 @@
 import "../styles/aboutUsSection.css";
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import testImg from '../assets/imgAboutUs.png';
 import Button from "./Button";
 
@@ -36,7 +37,7 @@ function AboutUsSection(){
                     </p>
                 </div>
                 <div className="button-with-line">
-                    <Button  className="button-link-aboutUs" href='/about' text = "Узнать больше"/>
+                    <Link to='/about'><Button  className="button-link-aboutUs" text = "Узнать больше"></Button></Link>
                     <div className="separation-line-2"></div>
                 </div>
             </div>

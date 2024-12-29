@@ -10,12 +10,12 @@ function ContactPage() {
     return (
         <>
             <Helmet>
-                <title>Салон Дверей Сморгонь – Контакты</title>
-                <meta name="description" content="Свяжитесь с нами: телефон, адрес, форма обратной связи. Салон дверей – качественные двери в Сморгони." />
-                <meta name="keywords" content="двери, двери Сморгонь, контакты, телефон, адрес, форма связи, Сморгонь" />
-                <meta name="author" content="Салон дверей" />
-                <meta property="og:title" content="Салон Дверей Сморгонь – Контакты" />
-                <meta property="og:description" content="Свяжитесь с нами: телефон, адрес, форма обратной связи. Салон дверей – качественные двери в Сморгони." />
+                <title>Двери тут Сморгонь – Контакты</title>
+                <meta name="description" content="Свяжитесь с нами: телефон, адрес, форма обратной связи. Салон Двери тут Сморгонь – качественные двери." />
+                <meta name="keywords" content="двери,салон дверей, двери Сморгонь,двери тут, контакты, телефон, адрес, форма связи, Сморгонь" />
+                <meta name="author" content="Двери тут Сморгонь" />
+                <meta property="og:title" content="Двери тут Сморгонь – Контакты" />
+                <meta property="og:description" content="Свяжитесь с нами: телефон, адрес, форма обратной связи. Салон Двери тут Сморгонь – качественные двери." />
                 <meta property="og:type" content="website" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             </Helmet>
