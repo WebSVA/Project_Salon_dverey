@@ -94,11 +94,11 @@
 @media (max-width: 580px){
     .filter-container{
         flex-direction: column;
-        gap: 4px;
-    
+        gap: 5px;
     }
 
     .filter-group{
         width: 224px;
+       
     }
 }

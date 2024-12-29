@@ -50,10 +50,12 @@
 
   .transparent-overlay-container {
     height: 30vh;
+    margin-bottom: 30px;
   }
   .shadow {
    
-    height: 30vh;}
+    height: 30vh;
+  }
 
     .product-title-text-style {
       padding-top: 11vh;
@@ -64,4 +66,4 @@
   .transparent-overlay-container {
     margin-bottom: 10px;
   }
-}
+} 
