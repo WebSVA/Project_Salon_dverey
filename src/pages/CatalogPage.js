@@ -1,16 +1,20 @@
 import Breadcrumbs from "../components/Breadcrumbs";
 import CatalogContainer from '../components/catalog/CatalogContainer';
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
 
 function CatalogPage({ doorType }) {
    
+  useEffect(() => {
+    window.scrollTo(0, 0); // Сбросить скролл на начало страницы
+  }, []);
 
     return (
         <>
           <Helmet>
             <title>Двери тут Сморгонь – Каталог дверей</title>
             <meta name="description" content="Ознакомьтесь с каталогом дверей: входные, межкомнатные, дизайнерские двери. Доставка и установка." />
-            <meta name="keywords" content="двери, двери Сморгонь,двери тут, контакты, телефон, адрес, форма связи, Сморгонь" />
+            <meta name="keywords" content="двери,салон дверей, двери Сморгонь,двери тут, контакты, телефон, адрес, форма связи, Сморгонь" />
             <meta name="author" content="Салон дверей" />
             <meta property="og:title" content="Двери тут Сморгонь – Каталог дверей" />
             <meta property="og:description" content="Ознакомьтесь с каталогом дверей: входные, межкомнатные, дизайнерские двери. Доставка и установка." />   
