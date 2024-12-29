@@ -1,7 +1,6 @@
 import "../styles/aboutUsSection.css";
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import testImg from '../assets/imgAboutUs.png';
 import Button from "./Button";
 
 function AboutUsSection(){
