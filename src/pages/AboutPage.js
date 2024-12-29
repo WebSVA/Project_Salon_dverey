@@ -1,10 +1,10 @@
-import { useEffect } from "react";
 import Breadcrumbs from "../components/Breadcrumbs";
 import '../styles/app.css';
 import React, { useEffect } from 'react';
 import { Helmet } from "react-helmet";
 import AboutUsPageContainer from "../components/aboutus/AboutUsPageContainer";
 function AboutPage() {
+    
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
