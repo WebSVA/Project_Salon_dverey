@@ -24,8 +24,8 @@ const Filter = ({ filters, onFilterChange }) => {
                     
                     <div className='filter-summary'>{category}
                     <span className='filter-arrow'></span>
-                    </div>
-                    
+                
+                    <div className='hiden-menu'>
                     <ul>
                         {options.map(option => (
                             <li key={option}>
@@ -41,6 +41,8 @@ const Filter = ({ filters, onFilterChange }) => {
                             </li>
                         ))}
                     </ul>
+                    </div>
+                    </div>
                 </div>
                
             ))}

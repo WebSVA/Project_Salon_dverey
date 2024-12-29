@@ -4,6 +4,7 @@ import Button from '../Button';
 import data from "../../data/data.json";
 import '../../styles/catalog/singleProduct.css';
 import measureIcon from '../../assets/measure.png';
+import Email from "../../Email";
 
 function SingleProduct() {
     const { id } = useParams();
@@ -22,6 +23,28 @@ function SingleProduct() {
             setSelectedColor(defaultColor || '');
         }
     }, [id]);
+
+     const [isModalOpen, setIsModalOpen] = useState(false);
+    
+      const modalOpen = () => {
+        setIsModalOpen(true);
+      };
+    
+      const modalClose = () => {
+        setIsModalOpen(false);
+      };
+    
+      useEffect(() => {
+        if (isModalOpen) {
+          document.body.style.overflow = 'hidden'; 
+        } else {
+          document.body.style.overflow = 'auto'; 
+        }
+    
+        return () => {
+          document.body.style.overflow = 'auto';
+        };
+      }, [isModalOpen]);
 
     const handleImageClick = (imagePaths) => {
         setSelectedImages(imagePaths);
@@ -119,8 +142,18 @@ function SingleProduct() {
                                 <p>Наличие товара в магазине или любые другие вопросы уточняйте по номеру телефона или оставьте запрос  </p>
                             </div>
                             <div className="button-container">
-                                <Button className="link-to-form-detail-button" text="Связаться"></Button>
+                                <Button className="link-to-form-detail-button" onClick={modalOpen} text="Связаться"></Button>
                             </div>
+                             {/* Модальное окно */}
+      {isModalOpen && (
+        <div className="modal-overlay">
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <Email modalClose={modalClose} />
+            <button onClick={modalClose} className="close-modal-btn">x</button>
+            <div className="orang-strip"></div>
+          </div>
+        </div>
+      )}
                         </div>
                     </div>
                 </div>

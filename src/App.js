@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-
+import React, { useState, useEffect } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import './styles/app.css';
 
@@ -8,14 +7,12 @@ import CatalogPage from './pages/CatalogPage';
 import AboutPage from './pages/AboutPage';
 import ProductPage from './pages/ProductPage';
 import HomePage from './pages/HomePage';
-
+import Loading from './components/Loading';
 import ContactHeader from './components/ContactHeader';
 import Footer from './components/Footer'
 
 import logoIcon from './assets/logo.svg';
-import "./styles/animation/animation.css";
 import "./styles/button.css";
-
 
 
 function App(){
@@ -25,59 +22,35 @@ function App(){
     setIsMenuOpen((prev)=> !prev);
   }
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
+  const [isLoading, setIsLoading] = useState(true);
+
   useEffect(() => {
-    const animItems = document.querySelectorAll('._animate-items');
+    // Симуляция загрузки данных
+    const timer = setTimeout(() => {
+      setIsLoading(false); // Устанавливаем загрузку в false через 1 секунду
+    }, 1000);
 
-    if (animItems.length > 0) {
-        window.addEventListener('scroll', animOnScroll);
+    return () => clearTimeout(timer); // Очистка таймера при размонтировании
+  }, []);
 
-        function animOnScroll() {
-            for (let index = 0; index < animItems.length; index++) {
-                const animItem = animItems[index];
-                const animItemHeight = animItem.offsetHeight;
-                const animItemOffset = offset(animItem).top;
-                const animStart = 4;
-                let animItemPoint = window.innerHeight - animItemHeight / animStart;
+  if (isLoading) {
+    return <Loading />; // Показать индикатор загрузки
+  }
 
-                if (animItemHeight > window.innerHeight) {
-                    animItemPoint = window.innerHeight - window.innerHeight / animStart;
-                }
-
-                // Используем window.scrollY вместо pageYOffset
-                if ((window.scrollY > animItemOffset - animItemPoint) && window.scrollY < (animItemOffset + animItemHeight)) {
-                    animItem.classList.add('_activeScroll');
-                } else {
-                    animItem.classList.remove('_activeScroll');
-                }
-            }
-        }
-
-        function offset(el) {
-            const rect = el.getBoundingClientRect(),
-                scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-                scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            return { top: rect.top + scrollTop, left: rect.left + scrollLeft };
-        }
-
-        setTimeout(() => {
-            animOnScroll();
-        }, 300);
-
-        return () => {
-            window.removeEventListener('scroll', animOnScroll);
-        };
-    }
-}, []);
 return (
   
    <>
     <ContactHeader />
     <header className="header">
       <div className="container-header">
-      <a className="links" href="/"><div className="logo-container">
+      <Link className="links" to="/" onClick={closeMenu}><div className="logo-container">
         <img src={logoIcon} className="logo" alt="Логотип"></img>
-          <p className="title-company">Салон дверей</p>
-        </div></a>
+          <p className="title-company">DVERITUT</p>
+        </div></Link>
         <div className="links-button-container">
           <div className="link-container">
             <input
@@ -90,34 +63,34 @@ return (
             <label htmlFor="burger-checkbox" className="burger"></label>
             <ul className="menu-list">
               <li>
-                <Link className="links" to="/">
+                <Link className="links" to="/" onClick={closeMenu}>
                   Главная
                 </Link>
                 <div className="line-div" />
               </li>
               <li>
-                <Link className="links" to="/about">
+                <Link className="links" to="/about" onClick={closeMenu}>
                   О нас
                 </Link>
                 <div className="line-div" />
               </li>
               <li className="dropdown">
-                <Link className="links dropdown-link" to="/catalog">
+                <Link className="links dropdown-link" to="/catalog" onClick={closeMenu}>
                   Каталог
                   <span className="arrow"></span>
                 </Link>
                 <div className="dropdown-menu">
-                  <Link className="dropdown-item" to="/catalog/interior-doors">
+                  <Link className="dropdown-item" to="/catalog/interior-doors" onClick={closeMenu}>
                     Межкомнатные двери
                   </Link>
-                  <Link className="dropdown-item" to="/catalog/entry-doors">
+                  <Link className="dropdown-item" to="/catalog/entry-doors" onClick={closeMenu}>
                     Входные двери
                   </Link>
                 </div>
                 <div className="line-div" />
               </li>
               <li>
-                <Link className="links" to="/contact">
+                <Link className="links" to="/contact" onClick={closeMenu}>
                   Контакты
                 </Link>
                 <div className="line-div" />

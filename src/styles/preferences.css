@@ -13,7 +13,7 @@
     width: 70%;
     justify-content: center;
     gap:20px;
-    margin: 2vw 6vw 0vw 6vw;
+    margin: 2vw 8vw 0vw 8vw;
 }
 
 .preferences-card{
@@ -25,7 +25,7 @@
     display: flex;                      
     flex-direction: column;            
     align-items: center;                
-    padding: 10px 30px;
+    padding: 0px 30px;
     position: relative;
 }
 
@@ -73,7 +73,7 @@
   @media (max-width: 480px) {
     .PrefContainer {
         grid-template-columns: 1fr; 
-        gap: 50px;
+        gap: 20px;
     }
     .pref-title-text-style{
         font-weight: calc(20px + (6 + 6 * 0.7)*((100vw - 320px)) / 1440);

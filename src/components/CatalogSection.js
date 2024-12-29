@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import {Link } from 'react-router-dom';
 import Button from './Button';
 import ProductCard from '../components/catalog/ProductCard';
 import data from '../data/data.json';
@@ -7,7 +7,6 @@ import '../styles/CatalogSection.css';
 
 function CatalogSection() {
     const [products, setProducts] = useState([]);
-   
 
     useEffect(() => {
         setProducts(data);
@@ -31,20 +30,19 @@ function CatalogSection() {
                     <div className='catalog'>
                         <div className="product-list">
                             {currentProductsOut
-                                .filter(product => product.type == "Входная дверь") // Фильтруем входные двери
+                                .filter(product => product.type === "Входная дверь") // Фильтруем входные двери
                                 .map(product => (
-                                    <a key={product.id} href={`/catalog/${product.id}`}>
+                                    <Link key={product.id} to={`/catalog/${product.id}`} className="product-link">
                                         <ProductCard 
                                             product={product} 
-                                            onClick={(id) => console.log(`Clicked on product with ID: ${id}`)} 
                                         />
-                                    </a>
+                                    </Link>
                                 ))}
                         </div>
                     </div>
                     <div className='link-to-catalog'>
                         <p>Перейти к полному каталогу</p>
-                        <Button text="Каталог" href='/catalog'  className="call-to-catalog-link"/>
+                        <Link to ='/catalog/entry-doors'><Button text="Каталог" className="call-to-catalog-link" /></Link>
                     </div>
                     <div className='info-with-lines'>
                         <div className='first-line'></div>
@@ -54,17 +52,17 @@ function CatalogSection() {
                     <div className='catalog'>
                         <div className="product-list">
                             {currentProducts.map(product => (
-                                 <a key={product.id} href={`/catalog/${product.id}`}><ProductCard 
-                                    key={product.id} 
-                                    product={product} 
-                                    onClick={(id) => console.log(`Clicked on product with ID: ${id}`)} 
-                                /></a>
+                                <Link key={product.id} to={`/catalog/${product.id}`} className="product-link">
+                                    <ProductCard 
+                                        product={product} 
+                                    />
+                                </Link>
                             ))}
                         </div>
                     </div>
                     <div className='link-to-catalog'>
                         <p>Перейти к полному каталогу</p>
-                        <Button text="Каталог" href='/catalog'  className="call-to-catalog-link"/>
+                        <Link to ='/catalog/interior-doors'><Button text="Каталог"  className="call-to-catalog-link" /></Link>
                     </div>
                 </div>
             </div>

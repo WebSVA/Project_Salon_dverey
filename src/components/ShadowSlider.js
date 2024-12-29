@@ -1,6 +1,7 @@
 import "../styles/shadow.css";
 import Slider from '../components/Slider.js'; // Импорт компонента Slider
 import Button from './Button';
+import { Link } from 'react-router-dom';
 
 function ShadowSlider() {
   return (
@@ -9,22 +10,22 @@ function ShadowSlider() {
       <div className="shadow-overlay">
         <div className="door-both">
           <div className="shadow-container">
-            <div className="animate door-sales-section _animate-items">
+            <div className="door-sales-section">
               <div className="door-description-container">
                 <div className="door-divider" />
-                <p className="door-text-block">
+                <h1 className="door-text-block">
                   
                     Продажа и установка
                     межкомнатных и входных
                     дверей по доступным ценам
 
-                </p>
+                </h1>
               </div>
-              <p className="product-description-text-style">
+              <h3 className="product-description-text-style">
                 Наша фирма предлагает широкий ассортимент продукции, включая межкомнатные и входные двери, выполненные из высококачественных материалов.
-              </p>
+              </h3>
               <div className="door-button-container">
-                <Button className="detail-button" href='/about' text="Подробнее"></Button>
+              <Link  to='/about'><Button className="detail-button" text="Подробнее"></Button></Link>
               </div>
             </div>
           </div>

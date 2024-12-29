@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import Filter from './Filter';
+import { Link } from 'react-router-dom';
 import data from '../../data/data.json';
-import ProductCard from './ProductCard';
+import ProductCatalog from './ProductCatalog';
 import '../../styles/catalog/catalogContainer.css';
 import searchsvg from '../../assets/loupe.png';
 
@@ -11,7 +12,8 @@ function CatalogContainer({ doorType }) {
     const [filteredProducts, setFilteredProducts] = useState([]); 
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 30; 
-    const [activeFilters, setActiveFilters] = useState({}); 
+    const [activeFilters, setActiveFilters] = useState({});
+    const scrollPositionRef = useRef(0); // Ссылка для хранения скролла
 
     useEffect(() => {
         setProducts(data);
@@ -43,7 +45,6 @@ function CatalogContainer({ doorType }) {
                 }
             });
 
-            // Фильтрация по типу двери
             const matchesDoorType = !doorType || product.type === doorType;
 
             return matchesSearch && matchesFilters && matchesDoorType;
@@ -53,14 +54,22 @@ function CatalogContainer({ doorType }) {
         if (currentPage !== 1) {
             setCurrentPage(1);
         }
-    }, [searchQuery, activeFilters, products, doorType]); // Добавляем doorType в зависимость
+    }, [searchQuery, activeFilters, products, doorType]);
 
-    // Обновление активных фильтров
+    // Восстановление скролла при монтировании
+    useEffect(() => {
+        window.scrollTo(0, scrollPositionRef.current || 0);
+    }, []);
+
+    // Сохранение положения скролла
+    const handleLinkClick = () => {
+        scrollPositionRef.current = window.scrollY; // Сохраняем текущую позицию
+    };
+
     const handleFilterChange = (updatedFilters) => {
         setActiveFilters(updatedFilters);
     };
 
-    // Пагинация
     const lastIndex = currentPage * itemsPerPage;
     const firstIndex = lastIndex - itemsPerPage;
     const currentProducts = filteredProducts.slice(firstIndex, lastIndex);
@@ -71,7 +80,6 @@ function CatalogContainer({ doorType }) {
         window.scrollTo({ top: 400, behavior: 'smooth' });
     };
 
-    // Фильтры
     const filters = [
         { category: "Производитель", options: ["elporta", "TEMIDOORS", "ООО 'Двери Гранит'", "ЮНИ Двери", "МЕДВЕДВ И К", "Гарда", "DEFORM V"] },
         { category: "Остекление", options: ["Есть", "Нет", "Матовое", "Зеркало"] },
@@ -100,12 +108,17 @@ function CatalogContainer({ doorType }) {
             <div className='catalog-container'>
                 <div className="product-list">
                     {currentProducts.map(product => (
-                        <a key={product.id} href={`/catalog/${product.id}`}>
-                            <ProductCard 
+                        <Link 
+                            className='a' 
+                            key={product.id} 
+                            to={`/catalog/${product.id}`} 
+                            onClick={handleLinkClick} // Сохраняем скролл перед переходом
+                        >
+                            <ProductCatalog 
                                 product={product} 
                                 onClick={(id) => console.log(`Clicked on product with ID: ${id}`)} 
                             />
-                        </a>
+                        </Link>
                     ))}
                 </div>
             </div>

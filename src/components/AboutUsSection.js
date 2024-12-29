@@ -1,6 +1,6 @@
 import "../styles/aboutUsSection.css";
 import React, { useState } from 'react';
-import testImg from '../assets/imgAboutUs.png';
+import { Link } from 'react-router-dom';
 import Button from "./Button";
 
 function AboutUsSection(){
@@ -17,10 +17,10 @@ function AboutUsSection(){
 
     return(
         <div className="about-us-section">
-            <div className="animate content-container _animate-items">
+            <div className="content-container">
             <div className="separation-container">
                 <div className="title-container">
-                    <p className="title">О фирме Название фирмы</p>
+                    <h1 className="title">О салоне «DVERITUT»</h1>
                 </div>
                 <div className="separation-line-1"></div>
                 <div className="text-info">
@@ -28,15 +28,14 @@ function AboutUsSection(){
                     Функциональность, красота и высокое качество изготовления изделий
                     </p>
                     <p className="main-text">
-                    Наша компания была основана в 2005 году и с тех пор зарекомендовала себя как ведущий производитель дверей в регионе. 
-                    Наша фирма предлагает широкий ассортимент продукции, включая межкомнатные и входные двери, выполненные из высококачественных материалов. 
+                    Салон дверей уже не первый год на рынке, и успел зарекомендовать себя в качестве надежного партнера, приобретя огромное число благодарных постоянных покупателей.
+                    Мы предлагаем нашим клиентам широчайший выбор моделей и цветов. Все модели специально разработаны с учетом очень разных вкусовых предпочтений розничных клиентов. 
                     Мы гордимся тем, что используем современные технологии и инновационные решения, что позволяет нам создавать не только эстетически привлекательные, 
-                    но и надежные изделия. В течение более 
-                    чем 15 лет мы работаем над тем, чтобы обеспечить наших клиентов отличным сервисом и индивидуальным подходом.
+                    но и надежные изделия. Заказывая двери у нас, вы получаете возможность дальнейшего гарантийного обслуживания дверей.
                     </p>
                 </div>
                 <div className="button-with-line">
-                    <Button  className="button-link-aboutUs" href='/about' text = "Узнать больше"/>
+                    <Link to='/about'><Button  className="button-link-aboutUs" text = "Узнать больше"></Button></Link>
                     <div className="separation-line-2"></div>
                 </div>
             </div>
