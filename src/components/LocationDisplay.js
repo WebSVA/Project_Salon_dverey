@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import "../styles/locDisplay.css";
 
 function LocationDisplay() {
@@ -17,7 +16,7 @@ function LocationDisplay() {
                 <span className="address-info-text-style"> Воскресенье: 10:00 – 15:00<br /></span>
                 <span className="address-info-text-style"><br /></span>
                 <span className="address-info-heading">Телефон: <br /></span>
-                <span className="address-info-text-style">8 029 928-92-89</span>
+                <span className="address-info-text-style">+375-(29)-928-92-89</span>
             </p>
             <div className="orange-strip"></div>
         </div>

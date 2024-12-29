@@ -6,8 +6,6 @@ import phoneIcon from '../assets/phone-call.png';
 import mapIcon from '../assets/maps-and-flags.png';
 import clockIcon from '../assets/clock.png';
 
-import footerLogoIcon from '../assets/logo.svg';
-
 function ComponentYouSelected() {
 return (
     <div className="main-content-container">
@@ -21,18 +19,18 @@ return (
           </div>
           <div className="exclusive-door-styles">
             <p className="exclusive-door-text">
-              Частное предприятие «Cалон дверей» в Сморгони предлагает эксклюзивные двери под заказ для клиентов из Вилейки, Сморгони, Молодечно, Островца, Воложина, Мяделя и других городов Беларуси. Мы
-              специализируемся на производстве межкомнатных и входных дверей, которые идеально сочетают в себе стиль, надежность и долговечность. Наша команда профессионалов гарантирует высокое
-              качество изготовления, быстрое выполнение заказов и доступные цены.
+              Частное предприятие «DVERITYT» в Сморгони предлагает эксклюзивные двери под заказ для клиентов из Сморгони, Молодечно, Ошмян, Островца, Минска и других городов Беларуси. Мы
+              специализируемся на продаже межкомнатных и входных дверей, которые идеально сочетают в себе стиль, надежность и долговечность. Наша команда профессионалов гарантирует высокое
+              качество, быстрое выполнение заказов и доступные цены.
             </p>
               <div className="exclusive-doors-gallery">
-                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/dveritut.smrg/?locale=ru" target="_blank" rel="noopener noreferrer">
                     <img src={instaIcon} className="location-icon" alt="Instagram" />
                 </a>
-                <a href="https://www.viber.com" target="_blank" rel="noopener noreferrer">
+                <a href="viber://chat?number=%2B375299289289" target="_blank" rel="noopener noreferrer">
                     <img src={viberIcon} className="location-icon" alt="Viber" />
                 </a>
-                <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
+                <a href="https://t.me/yaroshevichandrey" target="_blank" rel="noopener noreferrer">
                     <img src={tgIcon} className="location-icon" alt="Telegram" />
                 </a>
               </div>
@@ -42,7 +40,7 @@ return (
         <div className="contact-info-container1">
             <div className="simple-contact-info">
                 <div className="title-contact-container">
-                    <img src={mapIcon} className="title-icon" />
+                    <img src={mapIcon} className="title-icon" alt="mapIcon" />
                     <p className="title-contact">Локация</p>
                 </div>
                 <a 
@@ -56,20 +54,20 @@ return (
             </div>
             <div className="simple-contact-info">
                 <div className="title-contact-container">
-                    <img src={phoneIcon} className="title-icon" />
+                    <img src={phoneIcon} className="title-icon" alt="phoneIcon" />
                     <p className="title-contact">Связаться с нами</p>
                 </div>
                 <a href="tel:80299289289" className="email-link">
-                  <p className="contact-info-style">Тел: 8 029 928-92-89</p>
+                  <p className="contact-info-style">Тел: +375-(29)-928-92-89</p>
                 </a>
-                <a href="mailto:info@gmail.com" className="email-link">
+                <a href="mailto:andrey.Yarashevich.2015@mail.ru" className="email-link">
                     <span className="email-label-text-style">Email: </span>
-                    <span className="email-link-text-style">&nbsp;info@gmail.com</span>
+                    <span className="email-link-text-style">&nbsp;andrey.Yarashevich.2015@mail.ru</span>
                 </a>
             </div>
             <div className="simple-contact-info">
                 <div className="title-contact-container">
-                    <img src={clockIcon} className="title-icon" />
+                    <img src={clockIcon} className="title-icon" alt="clockIcon" />
                     <p className="title-contact">График работы</p>
                 </div>
                 <p className="contact-info-style">
