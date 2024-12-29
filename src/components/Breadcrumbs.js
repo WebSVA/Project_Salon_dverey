@@ -1,6 +1,8 @@
 import React from "react";
 import { useLocation } from "react-router-dom"; // Для маршрутизации
 import "../styles/breadcrumbs.css";
+import { Link } from 'react-router-dom';
+
 
 function Breadcrumbs({ title }) {
   const location = useLocation();
@@ -26,7 +28,7 @@ function Breadcrumbs({ title }) {
     // Формируем хлебные крошки, включая "Главная"
     const breadcrumbs = [
       <span key="home">
-        <a href="/">Главная</a> /
+        <Link to="/">Главная</Link> /
       </span>,
       ...pathnames.map((value, index) => {
         const to = `/${pathnames.slice(0, index + 1).join("/")}`;
@@ -36,7 +38,7 @@ function Breadcrumbs({ title }) {
           <span key={to}>
             {!isLast ? (
               <>
-                <a href={to}>{translate(value)}</a> /
+                <Link to={to}>{translate(value)}</Link> /
               </>
             ) : (
               <span>{translate(value)}</span>

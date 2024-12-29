@@ -1,7 +1,6 @@
 import "../styles/aboutUsSection.css";
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import testImg from '../assets/imgAboutUs.png';
 import Button from "./Button";
 
 function AboutUsSection(){
@@ -21,7 +20,7 @@ function AboutUsSection(){
             <div className="content-container">
             <div className="separation-container">
                 <div className="title-container">
-                    <p className="title">О фирме Название фирмы</p>
+                    <h1 className="title">О салоне «DVERITUT»</h1>
                 </div>
                 <div className="separation-line-1"></div>
                 <div className="text-info">
