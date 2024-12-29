@@ -94,6 +94,8 @@
 @media (max-width: 580px){
     .filter-container{
         flex-direction: column;
+        gap: 4px;
+    
     }
 
     .filter-group{

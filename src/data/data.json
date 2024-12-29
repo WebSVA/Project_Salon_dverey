@@ -1,0 +1,4369 @@
+[
+        {
+                "id": 1,
+                "name": "Порта-22",
+                "type": "Межкомнатная дверь",
+                "color": {
+                       "Snow Veralinga": "./imgProducts/ELPORTA/Порта-22_Snow.jpg",
+                        "Bianco Veralinga": "./imgProducts/ELPORTA/Порта-22_Bianco.jpg",
+                        "Nordic Grey Oak": "./imgProducts/ELPORTA/Порта-22_Nordic.jpg",
+                        "Cappuccino Veralinga": "./imgProducts/ELPORTA/Порта-22_Cappuccino.jpg",
+                        "Wenge Veralinga": "./imgProducts/ELPORTA/Порта-22_Wenge.jpg"
+                },
+                "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
+                "glass": "Magic Fog",
+                "fill": "",
+                "size": [
+                        "350 x 2000",
+                        "400 x 2000",
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "36",
+                "fabricator": "elporta",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 2,
+                "name": "Порта-27",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "Snow Veralinga": "./imgProducts/ELPORTA/Порта-27_Snow.jpg",
+                        "Bianco Veralinga": "./imgProducts/ELPORTA/Порта-27_Bianco.jpg",
+                        "Nordic Grey Oak": "./imgProducts/ELPORTA/Порта-27_Nordic.jpg",
+                        "Cappuccino Veralinga": "./imgProducts/ELPORTA/Порта-27_Cappuccino.jpg",
+                        "Wenge Veralinga": "./imgProducts/ELPORTA/Порта-27_Wenge.jpg"
+                },
+                "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
+                "glass": "Magic Fog",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "36",
+                "fabricator": "elporta",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 3,
+                "name": "Порта-28",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "Snow Veralinga": "./imgProducts/ELPORTA/Порта-28_Snow.jpg",
+                        "Bianco Veralinga": "./imgProducts/ELPORTA/Порта-28_Bianco.jpg",
+                        "Nordic Grey Oak": "./imgProducts/ELPORTA/Порта-28_Nordic.jpg",
+                        "Cappuccino Veralinga": "./imgProducts/ELPORTA/Порта-28_Cappuccino.jpg",
+                        "Wenge Veralinga": "./imgProducts/ELPORTA/Порта-28_Wenge.jpg"
+                },
+                "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
+                "glass": "Magic Fog",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "36",
+                "fabricator": "elporta",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 4,
+                "name": "Порта-29.3",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "Ash White": "./imgProducts/ELPORTA/Порта-29.3_Ash_White.jpg",
+                        "Art Wood Light": "./imgProducts/ELPORTA/Порта-29.3_Art_Wood_Light.jpg",
+                        "Light Sonoma": "./imgProducts/ELPORTA/Порта-29.3_Light_Sonoma.jpg",
+                        "Art Wood Dark": "./imgProducts/ELPORTA/Порта-29.3_Art_Wood_Dark.jpg"
+                },
+                "material": "Композитный мебельный щит на основе соснового бруса, бруса LVL и MDF",
+                "glass": "Magic Fog",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "36",
+                "fabricator": "elporta",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 5,
+                "name": "Порта-25.3",
+                "type": "Межкомнатная дверь",
+                "color": {
+                       "Ash White": "./imgProducts/ELPORTA/Порта-25.3_Ash_White.jpg",
+                        "Art Wood Light": "./imgProducts/ELPORTA/Порта-25.3_Art_Wood_Light.jpg",
+                        "Light Sonoma": "./imgProducts/ELPORTA/Порта-25.3_Light_Sonoma.jpg",
+                        "Art Wood Dark": "./imgProducts/ELPORTA/Порта-25.3_Art_Wood_Dark.jpg"
+                },
+                "material": "Композитный мебельный щит на основе соснового бруса, бруса LVL и MDF",
+                "glass": "Magic Fog",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "36",
+                "fabricator": "elporta",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 6,
+                "name": "Неоклассико-2 PRO",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "Ice": "./imgProducts/ELPORTA/Неоклассико-2_PRO_ice.jpg"
+                },
+                "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
+                "glass": "",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "36",
+                "fabricator": "elporta",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 7,
+                "name": "Неоклассико-3 PRO",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "Ice Milling White II": "./imgProducts/ELPORTA/Неоклассико-3_PRO_Ice_Milling_White.jpg"
+                },
+                "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF",
+                "glass": "Milling White II - белое сатинированное с гравировкой.",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "36",
+                "fabricator": "elporta",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 8,
+                "name": "Порта-50 4AF",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "Alaska": "./imgProducts/ELPORTA/Порта-50_4AF_Alaska.jpg",
+                        "Nardo Grey": "./imgProducts/ELPORTA/Порта-50_4AF_Grey_Art.jpg"
+                },
+                "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
+                "glass": "",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "38",
+                "fabricator": "elporta",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 9,
+                "name": "Порта-50 4AB",
+                "type": "Межкомнатная дверь",
+                "color": {
+                          "Alaska": "./imgProducts/ELPORTA/Порта-50_4AB_Alaska.jpg",
+                        "Nardo Grey": "./imgProducts/ELPORTA/Порта-50_4AB_Grey_Art.jpg"
+                },
+                "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
+                "glass": "",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "38",
+                "fabricator": "elporta",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 10,
+                "name": "Порта-50.1 B",
+                "type": "Межкомнатная дверь",
+                "color": {
+                           "Alaska": "./imgProducts/ELPORTA/Порта-50_1B_Alaska.jpg",
+                        "Nardo Grey": "./imgProducts/ELPORTA/Порта-50_1B_Grey_Art.jpg"
+                },
+                "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
+                "glass": "",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "36",
+                "fabricator": "elporta",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 11,
+                "name": "Порта-51 4AB",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "Alaska Black Star": "./imgProducts/ELPORTA/Порта-51_4AB_Alaska.jpg",
+                        "Nardo Grey Black Star":  "./imgProducts/ELPORTA/Порта-51_4AB_Nardo_Grey.jpg"
+                },
+                "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
+                "glass": "Black Star - черный окрашенный лакобель (lacobel), технология 'алмазная грань'",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "38",
+                "fabricator": "elporta",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 12,
+                "name": "Порта-58 4AB",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "Alaska": "./imgProducts/ELPORTA/Порта-58_4AB_Alaska.jpg",
+                        "Nardo Grey": "./imgProducts/ELPORTA/Порта-58_4AB_Grey_Art.jpg"
+                },
+                "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
+                "glass": "",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "38",
+                "fabricator": "elporta",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 13,
+                "name": "Порта-50 B",
+                "type": "Межкомнатная дверь",
+                "color": {
+                       "Alaska": "./imgProducts/ELPORTA/Порта-50_B_Alaska.jpg",
+                        "Nardo Grey": "./imgProducts/ELPORTA/Порта-50_B_Grey_Art.jpg"
+                },
+                "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
+                "glass": "",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "38",
+                "fabricator": "elporta",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 14,
+                "name": "Порта-52 4AB",
+                "type": "Межкомнатная дверь",
+                "color": {
+                         "Alaska": "./imgProducts/ELPORTA/Порта-52_4AB_Alaska.jpg",
+                        "Nardo Grey": "./imgProducts/ELPORTA/Порта-52_4AB_Grey_Art.jpg"
+                },
+                "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
+                "glass": "",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "38",
+                "fabricator": "elporta",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 15,
+                "name": "Порта-54 4AB",
+                "type": "Межкомнатная дверь",
+                "color": {
+                     "Alaska": "./imgProducts/ELPORTA/Порта-54_4AB_Alaska.jpg",
+                        "Nardo Grey": "./imgProducts/ELPORTA/Порта-54_4AB_Grey_Art.jpg"
+                },
+                "material": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF, тамбурат, HDF",
+                "glass": "",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "38",
+                "fabricator": "elporta",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 16,
+                "name": "Porta R 88.1.50.1",
+                "type": "Входная дверь",
+                "color": {
+                        "Moon Stone/Light Sonoma/Super White": "./imgProducts/ELPORTA/Porta_R_88.1.50.1.jpeg"
+                },
+                "material": "",
+                "glass": "",
+                "fill": "Три контура высококачественного EPDM-уплотнителя (Швеция).Влагостойкая теплоизоляционная плита KNAUF Therm - экологически чистый материал (не содержит фенол-формальдегид, не выделяет фосген).",
+                "size": [
+                        "880 х 2050",
+                        "980 х 2000"
+                ],
+                "thickness": "80/90",
+                "fabricator": "elporta",
+                "eye": "70х130 TOR BL Черный со шторкой и углом обзора 180",
+                "high_lock": "Сувальдный замок Border G 8-6 Э с 3 ригелями диаметром 16 мм, 4 ключа 97 мм в комплекте, 4-й (высший) класс",
+                "low_lock": "Цилиндровый замок Border G 4-3 Э с 3 ригелями диаметром 16 мм, 4-й (высший) класс"
+        },
+        {
+                "id": 17,
+                "name": "Porta R 99.99В",
+                "type": "Входная дверь",
+                "color": {
+                        "Moon Stone/Super White": "./imgProducts/ELPORTA/Porta_R_99.99В.jpeg"
+                },
+                "material": "",
+                "glass": "",
+                "fill": "Три контура высококачественного EPDM-уплотнителя (Швеция).Влагостойкая теплоизоляционная плита KNAUF Therm - экологически чистый материал (не содержит фенол-формальдегид, не выделяет фосген).",
+                "size": [
+                        "880 х 2050",
+                        "980 х 2000"
+                ],
+                "thickness": "80/90",
+                "fabricator": "elporta",
+                "eye": "70х130 TOR BL Черный со шторкой и углом обзора 180",
+                "high_lock": "Сувальдный замок Border G 8-6 Э с 3 ригелями диаметром 16 мм, 4 ключа 97 мм в комплекте, 4-й (высший) класс",
+                "low_lock": "Цилиндровый замок Border G 4-3 Э с 3 ригелями диаметром 16 мм, 4-й (высший) класс"
+        },
+        {
+                "id": 18,
+                "name": "Porta R 15.15",
+                "type": "Входная дверь",
+                "color": {
+                        "Graphite Art/Super White": "./imgProducts/ELPORTA/Porta_R_15.15.jpg"
+                },
+                "material": "Высококачественная конструкционная углеродистая сталь (08пс).",
+                "glass": "",
+                "fill": "Три контура высококачественного EPDM-уплотнителя (Швеция).Влагостойкая теплоизоляционная плита KNAUF Therm - экологически чистый материал (не содержит фенол-формальдегид, не выделяет фосген).",
+                "size": [
+                        "880 х 2050",
+                        "980 х 2000"
+                ],
+                "thickness": "80/90",
+                "fabricator": "elporta",
+                "eye": "70х130 TOR BL Черный со шторкой и углом обзора 180",
+                "high_lock": "Сувальдный замок Border G 8-6 Э с 3 ригелями диаметром 16 мм, 4 ключа 97 мм в комплекте, 4-й (высший) класс",
+                "low_lock": "Цилиндровый замок Border G 4-3 Э с 3 ригелями диаметром 16 мм, 4-й (высший) класс"
+        },
+        {
+                "id": 19,
+                "name": "Порта Invisible 4A Праймер",
+                "type": "Скрытая дверь",
+                "color": {
+                        "White": "./imgProducts/ELPORTA/Порта_Invisible.jpg"
+                },
+                "material": "Высококачественная конструкционная углеродистая сталь (08пс).",
+                "glass": "",
+                "fill": "Праймер White - грунт-пленка, обеспечивающая идеальную основу для последующего нанесения всех видов красок и лаков",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "42",
+                "fabricator": "elporta",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 20,
+                "name": "ФЛЭШ ЭКО КЛАССИК ПО-03",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_ПО-03.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "Матовое (пропускает свет, не прозрачное) с UF рисунком (ромб) или без рисунка",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "40",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 21,
+                "name": "ФЛЭШ ЭКО КЛАССИК 02 Парящая филёнка / Чёрное стекло",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_02_Парящая филёнка_Чёрное стекло.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "Чёрное глянцевое (не пропускает свет, не прозрачное)",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "40",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 22,
+                "name": "ФЛЭШ ЭКО КЛАССИК ПО-02 / Матовое стекло",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_02_Парящая филёнка_Чёрное стекло.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "Матовое (пропускает свет, не прозрачное) с UF рисунком (ромб) или без рисунка",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "40",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 23,
+                "name": "ФЛЭШ ЭКО КЛАССИК ПО-03 / Матовое стекло",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_ПО-03_Матовое_стекло.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "Матовое (пропускает свет, не прозрачное) с UF рисунком (ромб) или без рисунка",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "40",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 24,
+                "name": "ФЛЭШ ЭКО КЛАССИК ПО-01 / Матовое стекло",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_ПО-01_Матовое_стекло.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "Матовое (пропускает свет, не прозрачное) с UF рисунком (ромб) или без рисунка",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "40",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 25,
+                "name": "ФЛЭШ ЭКО КЛАССИК ПГ-03",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_ПГ-03.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "40",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 26,
+                "name": "ФЛЭШ ЭКО КЛАССИК ПГ-02",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_ПГ-02.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "40",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 27,
+                "name": "ФЛЭШ ЭКО КЛАССИК ПГ-01",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_ПГ-01.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "40",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 28,
+                "name": "ФЛЭШ ЭКО КЛАССИК 01 Парящая филёнка / Белое стекло",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_01_Парящая_филёнка_Белое_стекло.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "Белое глянцевое (не пропускает свет, не прозрачное)",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "40",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 29,
+                "name": "ФЛЭШ ЭКО КЛАССИК 01 Парящая филёнка / Чёрное стекло",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_01_Парящая_филёнка_Чёрное_стекло.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "Чёрное глянцевое (не пропускает свет, не прозрачное)",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "40",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 30,
+                "name": "ФЛЭШ ЭКО КЛАССИК 01 Парящая филёнка / Матовое стекло",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_01_Парящая_филёнка_Матовое_стекло.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "Матовое (пропускает свет, не прозрачное)",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "40",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+
+        
+        {
+                "id": 32,
+                "name": "ФЛЭШ ЭКО КЛАССИК 02 Парящая филёнка / Матовое стекло",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_02_Парящая_филёнка_Матовое стекло.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "Матовое (пропускает свет, не прозрачное)",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "40",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 33,
+                "name": "ФЛЭШ ЭКО КЛАССИК 02 Парящая филёнка / Белое стекло",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/FLESH/ФЛЭШ_ЭКО_КЛАССИК_02_Парящая_филёнка_Белое_стекло.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "Белое глянцевое (не пропускает свет, не прозрачное)",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "40",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 34,
+                "name": "ЭМАЛЬ ПГ-01",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/EMAL/ЭМАЛЬ_ПГ-01_White.jpg",
+                        "Vanila":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-01_Vanila.jpg",
+                        "Grafit":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-01_Grafit.jpg",
+                        "Grey":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-01_Grey.jpg",
+                        "Capuchino":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-01_Capuchino.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "",
+                "fill": "Сотовый наполнитель",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "38",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 35,
+                "name": "ЭМАЛЬ ПГ-11",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/EMAL/ЭМАЛЬ_ПГ-11_White.jpg",
+                        "Vanila":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-11_Vanila.jpg",
+                        "Grafit":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-11_Grafit.jpg",
+                        "Grey":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-11_Grey.jpg",
+                        "Capuchino":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-11_Capuchino.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "fill": "Сотовый наполнитель",
+                "glass": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "38",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 36,
+                "name": "ЭМАЛЬ ПГ-22",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/EMAL/ЭМАЛЬ_ПГ-22_White.jpg",
+                        "Vanila":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-22_Vanila.jpg",
+                        "Grafit":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-22_Grafit.jpg",
+                        "Grey":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-22_Grey.jpg",
+                        "Capuchino":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-22_Capuchino.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "",
+                "fill": "Сотовый наполнитель",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "38",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 37,
+                "name": "ЭМАЛЬ ПГ-23",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/EMAL/ЭМАЛЬ_ПГ-23_White.jpg",
+                        "Vanila":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-23_Vanila.jpg",
+                        "Grafit":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-23_Grafit.jpg",
+                        "Grey":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-23_Grey.jpg",
+                        "Capuchino":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-23_Capuchino.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "",
+                "fill": "Сотовый наполнитель",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "38",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 38,
+                "name": "ЭМАЛЬ ПГ-26",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/EMAL/ЭМАЛЬ_ПГ-26_White.jpg",
+                        "Vanila":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-26_Vanila.jpg",
+                        "Grafit":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-26_Grafit.jpg",
+                        "Grey":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-26_Grey.jpg",
+                        "Capuchino":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-26_Capuchino.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "",
+                "fill": "Сотовый наполнитель",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "38",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 39,
+                "name": "ЭМАЛЬ ПГ-29",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/EMAL/ЭМАЛЬ_ПГ-29_White.jpg",
+                        "Vanila":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-29_Vanila.jpg",
+                        "Grafit":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-29_Grafit.jpg",
+                        "Grey":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-29_Grey.jpg",
+                        "Capuchino":"./imgProducts/EMAL/ЭМАЛЬ_ПГ-29_Capuchino.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "",
+                "fill": "Сотовый наполнитель",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "38",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 40,
+                "name": "ПЕРФЕТО 6 (6.1)",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/PERFETO/ПЕРФЕТО_6_(6.1).jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "",
+                "fill": "Сотовый наполнитель",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "40",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 41,
+                "name": "ПЕРФЕТО 5 (5.1)",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/PERFETO/ПЕРФЕТО_5_(5.1).jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "",
+                "fill": "Сотовый наполнитель",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "40",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 42,
+                "name": "ПЕРФЕТО 4 (4.1)",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White": "./imgProducts/PERFETO/ПЕРФЕТО_4_(4.1).jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "",
+                "fill": "Сотовый наполнитель",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "40",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 43,
+                "name": "АМАТИ 05 (Матовое стекло)",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "Белая Шагрень": "./imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Белый.jpg",
+                        "Бьянко": "./imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Бьянко.jpg",
+                        "Эшвайт": "./imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Эшвайт.jpg",
+                        "Белёный Дуб": "./imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Белёный_Дуб.jpg",
+                        "Дуб Дымчатый":"./imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Дуб_Дымчатый.jpg",
+                        "Бетон Светлый": "./imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Бетон_Светлый.jpg",
+                        "Дуб шале-графит": "./imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Дуб_шале_графит.jpg",
+                        "Дуб шфле-корица":"./imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Дуб_шале_корица.jpg",
+                        "Венге":"./imgProducts/AMATI/АМАТИ_05_Матовое_стекло_Венге.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "Белый сатин",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "38",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 44,
+                "name": "АМАТИ 18 (Матовое стекло)",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "Белая Шагрень": "./imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Белый.jpg",
+                        "Бьянко": "./imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Бьянко.jpg",
+                        "Эшвайт": "./imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Эшвайт.jpg",
+                        "Сканди Классик":"./imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Сканди_Классик.jpg",
+                        "Белёный Дуб": "./imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Белёный_Дуб.jpg",
+                        "Бетон Светлый": "./imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Бетон_Светлый.jpg",
+                        "Дуб шале-графит": "./imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Дуб_шале_графит.jpg",
+                        "Дуб шфле-корица":"./imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Дуб_шале_корица.jpg",
+                        "Сканди Венге":"./imgProducts/AMATI/АМАТИ_18_Матовое_стекло_Сканди_Венге.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "Белый сатин",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "38",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 45,
+                "name": "АМАТИ 19 (Матовое стекло)",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "Белая Шагрень": "./imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Белый.jpg",
+                        "Бьянко": "./imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Бьянко.jpg",
+                        "Эшвайт": "./imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Эшвайт.jpg",
+                        "Сканди Классик":"./imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Сканди_Классик.jpg",
+                        "Белёный Дуб": "./imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Белёный_Дуб.jpg",
+                        "Дуб Дымчатый":"./imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Дуб_Дымчатый.jpg",
+                        "Бетон Светлый": "./imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Бетон_Светлый.jpg",
+                        "Дуб шале-графит": "./imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Дуб_шале_графит.jpg",
+                        "Дуб шфле-корица":"./imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Дуб_шале_корица.jpg",
+                        "Венге":"./imgProducts/AMATI/АМАТИ_19_Матовое_стекло_Венге.jpg"
+                },
+                "material": "Массив сосны (стоевые, горизонтальные царги)",
+                "glass": "Белый сатин",
+                "fill": "",
+                "size": [
+                        "600 х 2000",
+                        "700 х 2000",
+                        "800 х 2000",
+                        "900 х 2000"
+                ],
+                "thickness": "38",
+                "fabricator": "ЮНИ Двери",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+      
+        {
+                "id": 46,
+                "name": "Пантеон",
+                "type": "Входная дверь",
+                "color": {
+                        "7016": [
+                                "./imgProducts/MEDVEDEV/Пантеон_7016.jpg",
+                                "./imgProducts/MEDVEDEV/Пантеон_7016(2).jpg"
+                        ],
+                        "8019": [
+                                "./imgProducts/MEDVEDEV/Пантеон_8019.jpg",
+                                "./imgProducts/MEDVEDEV/Пантеон_8019(2).jpg"
+                        ]
+                },
+                "material": "Окраска МУАР 7016,8019, 2-хкамерный стеклопакет тонированный (бронза), накладка черная",
+                "glass": "",
+                "fill": "Пеноплекс, фольгированный изолон, мин. вата Knauf (Isover)",
+                "size": [
+                        "860 х 2050",
+                        "960 х 2050"
+                ],
+                "thickness": "Толщина металла полотна 1.2",
+                "fabricator": "МЕДВЕДВ И К",
+                "eye": "",
+                "high_lock": "Аналог Kale 257L сувальдный",
+                "low_lock": "Аналог Kale 252R цилиндровый"
+        },
+        {
+                "id": 47,
+                "name": "Элеганс лайт",
+                "type": "Входная дверь",
+                "color": {
+                        "COL": [
+                                "./imgProducts/MEDVEDEV/Элеганс_лайт.jpg",
+                                "./imgProducts/MEDVEDEV/Элеганс_лайт(2).jpg"
+                        ]
+                },
+                "material": "МДФ 10 мм, покрытие PVC «Бетон-графит MI-11» + вставка из черного стекла лакобель 90мм",
+                "glass": "",
+                "fill": "Трехконтурные. Утеплитель Knauf (Изовер)",
+                "size": [
+                        "860 х 2050",
+                        "960 х 2050"
+                ],
+                "thickness": "Толщина металла полотна 1.2",
+                "fabricator": "МЕДВЕДВ И К",
+                "eye": "есть",
+                "high_lock": "Kale 257L сувальдный",
+                "low_lock": "Kale 252R цилиндровый"
+        },
+        {
+                "id": 48,
+                "name": "Аметист Грин",
+                "type": "Входная дверь",
+                "color": {
+                        "col": [
+                                "./imgProducts/MEDVEDEV/Аметист_Грин.jpg",
+                                "./imgProducts/MEDVEDEV/Аметист_Грин(2).jpg"
+                        ]
+                },
+                "material": "МДФ 10 мм Green, покрытие PVC 'SAT 22' + вставка металлизированная",
+                "glass": "",
+                "fill": "Пеноплекс, фольгированный изолон, мин. вата Knauf (Isover)",
+                "size": [
+                        "860 х 2050",
+                        "960 х 2050"
+                ],
+                "thickness": "Толщина металла полотна 1.2",
+                "fabricator": "МЕДВЕДВ И К",
+                "eye": "Глазок Fuaro черный квадрат",
+                "high_lock": "Аналог Kale 257R цилиндровый",
+                "low_lock": "Аналог Kale 252R цилиндровый"
+        },
+        {
+                "id": 49,
+                "name": "Лабиринт",
+                "type": "Входная дверь",
+                "color": {
+                        "7016": [
+                                "./imgProducts/MEDVEDEV/Лабиринт.jpg",
+                                "./imgProducts/MEDVEDEV/Лабиринт(2).jpg"
+                        ]
+                },
+                "material": "МДФ 10 мм, покрытие PVC «Бетон антрацит 122» + вставка из черного стекла лакобель 'Лабиринт'",
+                "glass": "",
+                "fill": "Knauf (Изовер)",
+                "size": [
+                        "860 х 2050",
+                        "960 х 2050"
+                ],
+                "thickness": "Толщина металла полотна 1.2",
+                "fabricator": "МЕДВЕДВ И К",
+                "eye": "есть",
+                "high_lock": "Аналог Kale 257R цилиндровый",
+                "low_lock": "Аналог Kale 252R цилиндровый"
+        },
+        {
+                "id": 50,
+                "name": "Мираж",
+                "type": "Входная дверь",
+                "color": {
+                        "col": [
+                                "./imgProducts/MEDVEDEV/Мираж.jpg",
+                                "./imgProducts/MEDVEDEV/Мираж(2).jpg"
+                        ]
+                },
+                "material": "МДФ 10 мм, покрытие PVC «MDP 6 серый распил»",
+                "glass": "",
+                "fill": "Knauf (Isover)",
+                "size": [
+                        "860 х 2050",
+                        "960 х 2050"
+                ],
+                "thickness": "85",
+                "fabricator": "МЕДВЕДВ И К",
+                "eye": "есть",
+                "high_lock": "Kale 257 цилиндровый",
+                "low_lock": "Kale 252R цилиндровый"
+        },
+        {
+                "id": 51,
+                "name": "Дверь Гранит Континент 001",
+                "type": "Входная дверь",
+                "color": {
+                        "Ясень светлый": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент001_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 52,
+                "name": "Дверь Гранит Континент 002",
+                "type": "Входная дверь",
+                "color": {
+                        "Темный": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент002_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 53,
+                "name": "Дверь Гранит Континент 003",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент003_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "110-126",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 54,
+                "name": "Дверь Гранит Континент 004",
+                "type": "Входная дверь",
+                "color": {
+                        "Миланский Орех": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент004_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 55,
+                "name": "Дверь Гранит Континент 006",
+                "type": "Входная дверь",
+                "color": {
+                        "Светлый": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент006_02.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 56,
+                "name": "Дверь Гранит Континент 007",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент007_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 57,
+                "name": "Дверь Гранит Континент 010",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый матовый": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент010_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 58,
+                "name": "Дверь Гранит Континент 011",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент011_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 59,
+                "name": "Дверь Гранит Континент 012",
+                "type": "Входная дверь",
+                "color": {
+                        "Клен молдинг": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент012_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 60,
+                "name": "Дверь Гранит Континент 013",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге молдинг": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент013_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 61,
+                "name": "Дверь Гранит Континент 014",
+                "type": "Входная дверь",
+                "color": {
+                        "Капучино": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент014_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 62,
+                "name": "Дверь Гранит Континент 015",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Клён": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент015_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 63,
+                "name": "Дверь Гранит Континент 017",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Клён": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент017_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 64,
+                "name": "Дверь Гранит Континент 018",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент018_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 65,
+                "name": "Дверь Гранит Континент 019",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Ясень": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент019_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 66,
+                "name": "Дверь Гранит Континент 021",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Матовый": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент021_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 67,
+                "name": "Дверь Гранит Континент 024 Зеркало Макси",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент024_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 68,
+                "name": "Дверь Гранит Континент 025",
+                "type": "Входная дверь",
+                "color": {
+                        "Лиственница белая": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент025_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "116",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 69,
+                "name": "Дверь Гранит Континент 027",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент027_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "125",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 70,
+                "name": "Дверь Гранит Континент 031",
+                "type": "Входная дверь",
+                "color": {
+                        "Царка Венге": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент031_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Матовое (пропускает свет, не прозрачное)",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 71,
+                "name": "Дверь Гранит Континент 043",
+                "type": "Входная дверь",
+                "color": {
+                        "Бетон Светлый Гранит": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент043_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "116",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+       
+        {
+                "id": 72,
+                "name": "Дверь Гранит Континент 073",
+                "type": "Входная дверь",
+                "color": {
+                        "Горизонт Белый": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент073_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "114",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 73,
+                "name": "Дверь Гранит Континент 077",
+                "type": "Входная дверь",
+                "color": {
+                        "Графит Нубук": [
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент.jpg",
+                                        "./imgProducts/GRANIT_KONTINENT/Дверь_Гранит_Континент077_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080"
+                ],
+                "thickness": "116",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 74,
+                "name": "Дверь Гранит Геометрия 001",
+                "type": "Входная дверь",
+                "color": {
+                        "Ясень Светлый": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия001_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 75,
+                "name": "Дверь Гранит Геометрия 002",
+                "type": "Входная дверь",
+                "color": {
+                        "Тёмный": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия002_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 76,
+                "name": "Дверь Гранит Геометрия 003",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия003_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 77,
+                "name": "Дверь Гранит Геометрия 004",
+                "type": "Входная дверь",
+                "color": {
+                        "Миланский орех": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия004_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 78,
+                "name": "Дверь Гранит Геометрия 006",
+                "type": "Входная дверь",
+                "color": {
+                        "Светлый": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия006_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 79,
+                "name": "Дверь Гранит Геометрия 007",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия007_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 80,
+                "name": "Дверь Гранит Геометрия 010",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Матовый": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия010_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 81,
+                "name": "Дверь Гранит Геометрия 011",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия011_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 82,
+                "name": "Дверь Гранит Геометрия 012",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Клён": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия012_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 83,
+                "name": "Дверь Гранит Геометрия 013",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия013_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 84,
+                "name": "Дверь Гранит Геометрия 014",
+                "type": "Входная дверь",
+                "color": {
+                        "Капучино": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия014_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 85,
+                "name": "Дверь Гранит Геометрия 015",
+                "type": "Входная дверь",
+                "color": {
+                        "Клён": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия015_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 86,
+                "name": "Дверь Гранит Геометрия 017",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Клён": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия017_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 87,
+                "name": "Дверь Гранит Геометрия 018",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия018_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 88,
+                "name": "Дверь Гранит Геометрия 019",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Ясень": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия019_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 89,
+                "name": "Дверь Гранит Геометрия 021",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Матовый": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия021_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 90,
+                "name": "Дверь Гранит Геометрия 023",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Матовый": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия023_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "114",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 91,
+                "name": "Дверь Гранит Геометрия 025",
+                "type": "Входная дверь",
+                "color": {
+                        "Лиственница Белая": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия025_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "116",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 92,
+                "name": "Дверь Гранит Геометрия 026",
+                "type": "Входная дверь",
+                "color": {
+                        "Лиственница Белая": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия026_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "114",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+       
+        {
+                "id": 93,
+                "name": "Дверь Гранит Геометрия 028",
+                "type": "Входная дверь",
+                "color": {
+                        "Лиственница Белая": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия028_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "114",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 94,
+                "name": "Дверь Гранит Геометрия 030",
+                "type": "Входная дверь",
+                "color": {
+                        "Царга Светлая": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия030_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Матовое (пропускает свет, не прозрачное)",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 95,
+                "name": "Дверь Гранит Геометрия 031",
+                "type": "Входная дверь",
+                "color": {
+                        "Царга Венге": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия031_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Матовое (пропускает свет, не прозрачное)",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 96,
+                "name": "Дверь Гранит Геометрия 043",
+                "type": "Входная дверь",
+                "color": {
+                        "Бетон Светлый Лира": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия043_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "116",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 97,
+                "name": "Дверь Гранит Геометрия 053",
+                "type": "Входная дверь",
+                "color": {
+                        "Пиано Белый": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия043_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "116",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 98,
+                "name": "Дверь Гранит Геометрия 076",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия076_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "116",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        },
+        {
+                "id": 99,
+                "name": "Дверь Гранит Шторм 001",
+                "type": "Входная дверь",
+                "color": {
+                        "Ясень Светлый": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм001_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 100,
+                "name": "Дверь Гранит Шторм 002",
+                "type": "Входная дверь",
+                "color": {
+                        "Тёмный": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм002_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 101,
+                "name": "Дверь Гранит Шторм 003",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм003_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 102,
+                "name": "Дверь Гранит Шторм 004",
+                "type": "Входная дверь",
+                "color": {
+                        "Миланский Орех": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм004_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 103,
+                "name": "Дверь Гранит Шторм 006",
+                "type": "Входная дверь",
+                "color": {
+                        "Светлый": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм006_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 104,
+                "name": "Дверь Гранит Шторм 007",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм007_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 105,
+                "name": "Дверь Гранит Шторм 010",
+                "type": "Входная дверь",
+                "color": {
+                        "Матовый Белый": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм010_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 106,
+                "name": "Дверь Гранит Шторм 011",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм011_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 107,
+                "name": "Дверь Гранит Шторм 012",
+                "type": "Входная дверь",
+                "color": {
+                        "Клён Молдинг": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм012_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Матовое (пропускает свет, не прозрачное)",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 108,
+                "name": "Дверь Гранит Шторм 013",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге Молдинг": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм013_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Матовое (пропускает свет, не прозрачное)",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 109,
+                "name": "Дверь Гранит Шторм 014",
+                "type": "Входная дверь",
+                "color": {
+                        "Капучино": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм014_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 110,
+                "name": "Дверь Гранит Шторм 015",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Клён": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм015_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 111,
+                "name": "Дверь Гранит Шторм 017",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Клён": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм017_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 112,
+                "name": "Дверь Гранит Шторм 018",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Клён": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм018_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 113,
+                "name": "Дверь Гранит Шторм 019",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Ясень": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм019_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 114,
+                "name": "Дверь Гранит Шторм 021",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Матовый": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм021_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 115,
+                "name": "Дверь Гранит Шторм 023",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Матовый": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм023_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "114",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 116,
+                "name": "Дверь Гранит Шторм 024 Зеркало Макси",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм024_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 117,
+                "name": "Дверь Гранит Шторм 025",
+                "type": "Входная дверь",
+                "color": {
+                        "Лиственница Белая": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм025_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "116",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 118,
+                "name": "Дверь Гранит Шторм 026 Зеркало",
+                "type": "Входная дверь",
+                "color": {
+                        "Лиственница Белая": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм026_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "114",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 119,
+                "name": "Дверь Гранит Шторм 027",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм027_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "114",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 120,
+                "name": "Дверь Гранит Шторм 028",
+                "type": "Входная дверь",
+                "color": {
+                        "Лиственница Белая": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм028_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "114",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 121,
+                "name": "Дверь Гранит Шторм 030",
+                "type": "Входная дверь",
+                "color": {
+                        "Царга Светлая": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм030_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Матовое (пропускает свет, не прозрачное)",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 122,
+                "name": "Дверь Гранит Шторм 031",
+                "type": "Входная дверь",
+                "color": {
+                        "Царга Венге": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм031_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Матовое (пропускает свет, не прозрачное)",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 123,
+                "name": "Дверь Гранит Шторм 043",
+                "type": "Входная дверь",
+                "color": {
+                        "Бетон Светлый Лира": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм043_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "116",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 124,
+                "name": "Дверь Гранит Шторм 051 Зеркало Макси",
+                "type": "Входная дверь",
+                "color": {
+                        "Бетон Светлый": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм051_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 125,
+                "name": "Дверь Гранит Шторм 077",
+                "type": "Входная дверь",
+                "color": {
+                        "Графит Нубук": [
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм.jpg",
+                                        "./imgProducts/GRANIT_SHTORM/Дверь_Гранит_Шторм077_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 126,
+                "name": "Дверь Гранит Пиано 001",
+                "type": "Входная дверь",
+                "color": {
+                        "Светлый Ясень": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано001_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 127,
+                "name": "Дверь Гранит Пиано 002",
+                "type": "Входная дверь",
+                "color": {
+                        "Тёмный": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано002_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 128,
+                "name": "Дверь Гранит Пиано 003",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано001_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110-126",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 129,
+                "name": "Дверь Гранит Пиано 004",
+                "type": "Входная дверь",
+                "color": {
+                        "Миланский Орех": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано004_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 130,
+                "name": "Дверь Гранит Пиано 006",
+                "type": "Входная дверь",
+                "color": {
+                        "Миланский Орех": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано006_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 131,
+                "name": "Дверь Гранит Пиано 007",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано007_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 132,
+                "name": "Дверь Гранит Пиано 010 Зеркало",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано010_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зерклао",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 133,
+                "name": "Дверь Гранит Пиано 011 Зеркало",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано011_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зерклао",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 134,
+                "name": "Дверь Гранит Пиано 012",
+                "type": "Входная дверь",
+                "color": {
+                        "Клён молдинг": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано012_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 135,
+                "name": "Дверь Гранит Пиано 013",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге молдинг": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано013_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 136,
+                "name": "Дверь Гранит Пиано 014 Зеркало",
+                "type": "Входная дверь",
+                "color": {
+                        "Капучино": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано014_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 137,
+                "name": "Дверь Гранит Пиано 017 Зеркало",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Клён": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано017_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 138,
+                "name": "Дверь Гранит Пиано 018",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано018_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 139,
+                "name": "Дверь Гранит Пиано 019 Зеркало",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Клён": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано019_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 140,
+                "name": "Дверь Гранит Пиано 023",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Матовый": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано023_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "114",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 141,
+                "name": "Дверь Гранит Пиано 024 Зеркало Макси",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Матовый": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано024_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 142,
+                "name": "Дверь Гранит Пиано 025",
+                "type": "Входная дверь",
+                "color": {
+                        "Лиственница Белая": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано025_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "116",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 143,
+                "name": "Дверь Гранит Пиано 028",
+                "type": "Входная дверь",
+                "color": {
+                        "Лиственница Белая": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано028_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "114",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 144,
+                "name": "Дверь Гранит Пиано 030",
+                "type": "Входная дверь",
+                "color": {
+                        "Царга Светлая": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано030_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Матовое (пропускает свет, не прозрачное)",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 145,
+                "name": "Дверь Гранит Пиано 031",
+                "type": "Входная дверь",
+                "color": {
+                        "Царга Венге": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано031_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Матовое (пропускает свет, не прозрачное)",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 146,
+                "name": "Дверь Гранит Пиано 032 Зеркало",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Клён": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано032_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "116",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 147,
+                "name": "Дверь Гранит Пиано 033 Зеркало",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано033_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "116",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 148,
+                "name": "Дверь Гранит Пиано 043",
+                "type": "Входная дверь",
+                "color": {
+                        "Бетон Светлый Лира": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано043_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "116",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 149,
+                "name": "Дверь Гранит Пиано 044",
+                "type": "Входная дверь",
+                "color": {
+                        "Бетон Светлый Дуэт": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано044_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "116",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 150,
+                "name": "Дверь Гранит Пиано 061 с молдингом",
+                "type": "Входная дверь",
+                "color": {
+                        "Дуб шале": [
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано.jpg",
+                                        "./imgProducts/GRANIT_PIANO/Дверь_Гранит_Пиано061_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "116",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Гардиан 32.11",
+                "low_lock": "Гардиан 30.01"
+        },
+        {
+                "id": 151,
+                "name": "Дверь Гранит Пиано Смарт 001",
+                "type": "Входная дверь",
+                "color": {
+                        "Ясень Светлый": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт001_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 152,
+                "name": "Дверь Гранит Пиано Смарт 002",
+                "type": "Входная дверь",
+                "color": {
+                        "Тёмный": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт002_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 153,
+                "name": "Дверь Гранит Пиано Смарт 003",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт003_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "115",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 154,
+                "name": "Дверь Гранит Пиано Смарт 004",
+                "type": "Входная дверь",
+                "color": {
+                        "Миланский Орех": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт004_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 155,
+                "name": "Дверь Гранит Пиано Смарт 006",
+                "type": "Входная дверь",
+                "color": {
+                        "Светлый": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт006_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 156,
+                "name": "Дверь Гранит Пиано Смарт 007",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт007_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "110",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 157,
+                "name": "Дверь Гранит Пиано Смарт 010 Зеркало",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый матовый": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт010_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 158,
+                "name": "Дверь Гранит Пиано Смарт 011 Зеркало",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт011_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 159,
+                "name": "Дверь Гранит Пиано Смарт 012",
+                "type": "Входная дверь",
+                "color": {
+                        "Клён Молдинг": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт012_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Матовое (пропускает свет, не прозрачное)",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 160,
+                "name": "Дверь Гранит Пиано Смарт 013",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге Молдинг": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт013_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Матовое (пропускает свет, не прозрачное)",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 161,
+                "name": "Дверь Гранит Пиано Смарт 014 Зеркало",
+                "type": "Входная дверь",
+                "color": {
+                        "Капучино": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт014_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 162,
+                "name": "Дверь Гранит Пиано Смарт 017 Зеркало",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Клён": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт017_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "Зеркало",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 163,
+                "name": "Дверь Гранит Пиано Смарт 018",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт018_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 164,
+                "name": "Дверь Гранит Пиано Смарт 021",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Матовый": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт021_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 165,
+                "name": "Дверь Гранит Пиано Смарт 025",
+                "type": "Входная дверь",
+                "color": {
+                        "Лиственница Белая": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт025_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "116",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 166,
+                "name": "Дверь Гранит Пиано Смарт 028",
+                "type": "Входная дверь",
+                "color": {
+                        "Лиственница Белая": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт028_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "114",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 167,
+                "name": "Дверь Гранит Пиано Смарт 030",
+                "type": "Входная дверь",
+                "color": {
+                        "Царга Светлая": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт030_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 168,
+                "name": "Дверь Гранит Пиано Смарт 031",
+                "type": "Входная дверь",
+                "color": {
+                        "Царга Венге": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт031_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 169,
+                "name": "Дверь Гранит Пиано Смарт 035 Две филенки",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт035_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "116",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 170,
+                "name": "Дверь Гранит Пиано Смарт 040 Одна филенка",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт040_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "120",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 171,
+                "name": "Дверь Гранит Пиано Смарт 043",
+                "type": "Входная дверь",
+                "color": {
+                        "Бетон Светлый Лира": [
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт.jpg",
+                                        "./imgProducts/GRANIT_PIANO_SMART/Дверь_Гранит_Пиано_Смарт043_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Минеральная вата",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "116",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "Умный замок",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 171,
+                "name": "Гарда муар Царга Лазер Черный муар",
+                "type": "Входная дверь",
+                "color": {
+                        "Лиственница беж.": [
+                                        "./imgProducts/GARDA/Гарда_муар_Царга_Лазер_Черный_муар_01.jpg",
+                                        "./imgProducts/GARDA/Гарда_муар_Царга_Лазер_Черный_муар_02.jpg"
+                                        ]
+                },
+                "material": "МДФ, металл",
+                "glass": "",
+                "fill": "Пенополистирол",
+                "size": [
+                        "860 х 2050",
+                        "960 x 2050"
+                ],
+                "thickness": "22",
+                "fabricator": "Гарда",
+                "eye": "есть",
+                "high_lock": "Kale",
+                "low_lock": "Kale"
+        },
+        {
+                "id": 172,
+                "name": "Гарда Черный кварц Черный сатин",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый сатин": [
+                                        "./imgProducts/GARDA/Гарда_Черный_кварц_Черный_сатин_01.jpg",
+                                        "./imgProducts/GARDA/Гарда_Черный_кварц_Черный_сатин_02.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Пенополистирол",
+                "size": [
+                        "860 х 2050",
+                        "960 x 2050"
+                ],
+                "thickness": "60",
+                "fabricator": "Гарда",
+                "eye": "есть",
+                "high_lock": "КАРАТ",
+                "low_lock": "КАРАТ"
+        },
+        {
+                "id": 173,
+                "name": "Бостон Сатин графит",
+                "type": "Входная дверь",
+                "color": {
+                        "Бетон Снежный": [
+                                        "./imgProducts/GARDA/Бостон_Сатин_графит_бетон_снежный_01.jpg",
+                                        "./imgProducts/GARDA/Бостон_Сатин_графит_бетон_снежный_02.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Пенополистирол",
+                "size": [
+                        "860 х 2050",
+                        "960 x 2050"
+                ],
+                "thickness": "105",
+                "fabricator": "Гарда",
+                "eye": "есть",
+                "high_lock": "КАРАТ",
+                "low_lock": "КАРАТ"
+        },
+        {
+                "id": 174,
+                "name": "V9 DEFORM ДО матовое",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White Wood": "./imgProducts/DEFORM/Deform_V9.jpg"
+                },
+                "material": "массив + МДФ",
+                "glass": "Мателюкс матовое",
+                "fill": "МДФ",
+                "size": [
+                        "600 х 2000",
+                        "700 x 2000",
+                        "800 x 2000",
+                        "900 x 2000"
+                ],
+                "thickness": "35",
+                "fabricator": "DEFORM V",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 175,
+                "name": "V8 DEFORM ДО матовое",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White Wood": "./imgProducts/DEFORM/Deform_V8_White_Wood.jpg",
+                        "Grey Wood": "./imgProducts/DEFORM/Deform_V8_Grey_Wood.jpg",
+                        "Sky Wood": "./imgProducts/DEFORM/Deform_V8_Sky_Wood.jpg",
+                        "Stone Wood": "./imgProducts/DEFORM/Deform_V8_Stone_Wood.jpg",
+                        "Cream Wood": "./imgProducts/DEFORM/Deform_V8_Cream_Wood.jpg"
+                },
+                "material": "массив + МДФ",
+                "glass": "Мателюкс матовое",
+                "fill": "МДФ",
+                "size": [
+                        "600 х 2000",
+                        "700 x 2000",
+                        "800 x 2000",
+                        "900 x 2000"
+                ],
+                "thickness": "35",
+                "fabricator": "DEFORM V",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 176,
+                "name": "V4 DEFORM ДО белый лак",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White Wood": "./imgProducts/DEFORM/Deform_V4_White_Wood.jpg",
+                        "Grey Wood": "./imgProducts/DEFORM/Deform_V4_Grey_Wood.jpg",
+                        "Sky Wood": "./imgProducts/DEFORM/Deform_V4_Sky_Wood.jpg",
+                        "Stone Wood": "./imgProducts/DEFORM/Deform_V4_Stone_Wood.jpg",
+                        "Cream Wood": "./imgProducts/DEFORM/Deform_V4_Cream_Wood.jpg"
+                },
+                "material": "массив + МДФ",
+                "glass": "Lacobel белый лак",
+                "fill": "МДФ",
+                "size": [
+                        "600 х 2000",
+                        "700 x 2000",
+                        "800 x 2000"
+                ],
+                "thickness": "35",
+                "fabricator": "DEFORM V",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 177,
+                "name": "V4 DEFORM ДО белый лак",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White Wood": "./imgProducts/DEFORM/Deform_V4_White_Wood.jpg",
+                        "Grey Wood": "./imgProducts/DEFORM/Deform_V4_Grey_Wood.jpg",
+                        "Sky Wood": "./imgProducts/DEFORM/Deform_V4_Sky_Wood.jpg",
+                        "Stone Wood": "./imgProducts/DEFORM/Deform_V4_Stone_Wood.jpg",
+                        "Cream Wood": "./imgProducts/DEFORM/Deform_V4_Cream_Wood.jpg"
+                },
+                "material": "массив + МДФ",
+                "glass": "Lacobel белый лак",
+                "fill": "МДФ",
+                "size": [
+                        "600 х 2000",
+                        "700 x 2000",
+                        "800 x 2000"
+                ],
+                "thickness": "35",
+                "fabricator": "DEFORM V",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 178,
+                "name": "V2 DEFORM ДО матовое",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "White Wood": "./imgProducts/DEFORM/Deform_V2_White_Wood.jpg",
+                        "Sky Wood": "./imgProducts/DEFORM/Deform_V2_Sky_Wood.jpg",
+                        "Stone Wood": "./imgProducts/DEFORM/Deform_V2_Stone_Wood.jpg",
+                        "Cream Wood": "./imgProducts/DEFORM/Deform_V2_Cream_Wood.jpg"
+                },
+                "material": "массив + МДФ",
+                "glass": "Мателюкс матовое",
+                "fill": "МДФ",
+                "size": [
+                        "600 х 2000",
+                        "700 x 2000",
+                        "800 x 2000",
+                        "900 x 2000"
+                ],
+                "thickness": "35",
+                "fabricator": "DEFORM V",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
+        },
+        {
+                "id": 179,
+                "name": "Виктория",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Софт": ["./imgProducts/TEMMI/Виктория_02.jpg",
+                        "./imgProducts/TEMMI/Виктория.jpg"]
+                },
+                "material": "МДФ, декоративный алюминий",
+                "glass": "",
+                "fill": "ISOVER",
+                "size": [
+                        "860 x 2050",
+                        "960 x 2050"
+                ],
+                "thickness": "",
+                "fabricator": "TEMIDOORS",
+                "eye": "Чёрный, квадратный",
+                "high_lock": "Vela T-47, сувальдный",
+                "low_lock": "Apecs T-52, цилиндровый"
+        },
+        {
+                "id": 180,
+                "name": "Мегаполис",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Софт": ["./imgProducts/TEMMI/Мегаполис.jpg",
+                        "./imgProducts/TEMMI/Мегаполис_02.jpg"]
+                },
+                "material": "МДФ 'бетон-графит'",
+                "glass": "",
+                "fill": "KNAUF (ISOVER)",
+                "size": [
+                        "860 x 2050",
+                        "960 x 2050"
+                ],
+                "thickness": "",
+                "fabricator": "TEMIDOORS",
+                "eye": "APECS, черный",
+                "high_lock": "Vela T-47, сувальдный",
+                "low_lock": "Vella T-42, цилиндровый"
+        },
+        {
+                "id": 181,
+                "name": "Ариэль",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Софт": ["./imgProducts/TEMMI/Ариэль.jpg",
+                        "./imgProducts/TEMMI/Ариэль_02.jpg"]
+                },
+                "material": "МДФ-щит",
+                "glass": "",
+                "fill": "ISOVER",
+                "size": [
+                        "860 x 2050",
+                        "960 x 2050"
+                ],
+                "thickness": "",
+                "fabricator": "TEMIDOORS",
+                "eye": "Квадратный, черный",
+                "high_lock": "Vela T-47, сувальдный",
+                "low_lock": "Apecs T-52, цилиндровый"
+        },
+        {
+                "id": 182,
+                "name": "NEO",
+                "type": "Входная дверь",
+                "color": {
+                        "Белый Софт Lacobel белый": ["./imgProducts/TEMMI/NEO.jpg",
+                        "./imgProducts/TEMMI/NEO_White_02.jpg"],
+                        "Белый Софт Lacobel чёрный": "./imgProducts/TEMMI/NEO_Black_02.jpg"
+                },
+                "material": "МДФ",
+                "glass": "Lacobel",                                            
+                "fill": "ISOVER",
+                "size": [
+                        "860 x 2050",
+                        "960 x 2050"
+                ],
+                "thickness": "",
+                "fabricator": "TEMIDOORS",
+                "eye": "Квадратный, черный",
+                "high_lock": "Vela T-47, сувальдный",
+                "low_lock": "Apecs T-52, цилиндровый"
+        },
+        {
+                "id": 183,
+                "name": "TOR",
+                "type": "Входная дверь",
+                "color": {
+                        "Экосатин белый": ["./imgProducts/TEMMI/TOP.jpg",
+                "./imgProducts/TEMMI/TOR_02.jpg"]
+                },
+                "material": "МДФ",
+                "glass": "Графит",                                            
+                "fill": "ISOVER",
+                "size": [
+                        "860 x 2050",
+                        "960 x 2050"
+                ],
+                "thickness": "",
+                "fabricator": "TEMIDOORS",
+                "eye": "Квадратные, Fuaro TOR, цвет черный",
+                "high_lock": "Vela T-47, сувальдный",
+                "low_lock": "Vela T-42, цилиндровый "
+        },
+        {
+                "id": 184,
+                "name": "Дверь Гранит Геометрия 027",
+                "type": "Входная дверь",
+                "color": {
+                        "Венге": [
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия.jpg",
+                                        "./imgProducts/GRANIT_GEOMETRIA/Дверь_Гранит_Геометрия027_2.jpg"
+                                        ]
+                },
+                "material": "МДФ панель",
+                "glass": "",
+                "fill": "Базальтовая плита",
+                "size": [
+                        "860 х 2050",
+                        "980 x 2080",
+                        "1050 x 2070"
+                ],
+                "thickness": "114",
+                "fabricator": "ООО 'Двери Гранит'",
+                "eye": "есть",
+                "high_lock": "BORDER Professional+",
+                "low_lock": "BORDER Professional+"
+        }
+  
+]

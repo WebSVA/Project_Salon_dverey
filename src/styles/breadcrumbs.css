@@ -59,3 +59,9 @@
       padding-top: 11vh;
       padding-bottom: 1vh;}
 }
+
+@media (max-width: 580px){
+  .transparent-overlay-container {
+    margin-bottom: 10px;
+  }
+}

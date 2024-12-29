@@ -9,6 +9,11 @@
     gap: 10px;
 
 }
+.media-link {
+    display: flex;
+    text-decoration: none; /* Убирает подчеркивание */
+    color: inherit; /* Наследует цвет текста родительского элемента */
+}
 .contact-card {
     background-color: white;
     border-radius: 5px; 
@@ -115,4 +120,4 @@
     .contact-card{
         padding: 20px;
     }
-} 
+}

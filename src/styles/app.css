@@ -248,6 +248,9 @@ header {
       transition: box-shadow .15s, top .3s, transform .3s .15s;
   }
 
+  .arrow{
+    transform: rotate(45deg);
+  }
   .burger-checkbox:checked + .burger::after {
       bottom: 7px; /* Уменьшено в 2 раза */
       transform: rotate(-45deg);
@@ -299,3 +302,4 @@ header {
     
   }
 }
+
