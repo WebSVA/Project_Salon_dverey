@@ -125,10 +125,11 @@
  
   }
   .container {
-    
+    position: relative;
      height: 500px; /* Высота равна высоте окна браузера */
   }
   .shadow-container {
+    z-index: 5;
   padding: 20px 30% 20px 13%;
   }
 

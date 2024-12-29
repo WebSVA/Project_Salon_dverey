@@ -1,6 +1,7 @@
 import Breadcrumbs from "../components/Breadcrumbs";
 import '../styles/app.css';
 import { Helmet } from "react-helmet";
+import AboutUsPageContainer from "../components/aboutus/AboutUsPageContainer";
 function AboutPage() {
     
     return (
@@ -16,6 +17,7 @@ function AboutPage() {
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           </Helmet>
             <Breadcrumbs title="О нас" />
+            <AboutUsPageContainer/>
 
         </>
     );

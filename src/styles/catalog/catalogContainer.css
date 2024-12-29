@@ -21,6 +21,7 @@
     flex-direction: row;
     gap: 20px;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: flex-start;
 }
 
@@ -111,7 +112,7 @@
         max-width: 180px;
     }
     .filter-section{
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -123,7 +124,7 @@
     }
     .search-bar{
         /* padding: 5px 20px; */
-        max-width: 100%;
+        width: 100%;
         padding: 5px 0px;
     }
 }
@@ -133,6 +134,7 @@
         flex-direction: column;
         width: 100%;
         align-items: center;
+        gap: 10px;
     }
 
     .search-bar{
