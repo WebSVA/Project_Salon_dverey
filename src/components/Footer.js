@@ -5,6 +5,7 @@ import instaIcon from '../assets/instagram.png';
 import phoneIcon from '../assets/phone-call.png';
 import mapIcon from '../assets/maps-and-flags.png';
 import clockIcon from '../assets/clock.png';
+import whatsappIcon from '../assets/whatsapp.png';
 
 function ComponentYouSelected() {
 return (
@@ -18,12 +19,15 @@ return (
             <div className="company-header-separator" />
           </div>
           <div className="exclusive-door-styles">
-            <p className="exclusive-door-text">
-              Частное предприятие «DVERITYT» в Сморгони предлагает эксклюзивные двери под заказ для клиентов из Сморгони, Молодечно, Ошмян, Островца, Минска и других городов Беларуси. Мы
+            <h1 className="exclusive-door-text">
+              Cалон дверей «DVERITYT» в Сморгони предлагает эксклюзивные двери под заказ для клиентов из Сморгони, Молодечно, Ошмян, Островца, Минска и других городов Беларуси. Мы
               специализируемся на продаже межкомнатных и входных дверей, которые идеально сочетают в себе стиль, надежность и долговечность. Наша команда профессионалов гарантирует высокое
               качество, быстрое выполнение заказов и доступные цены.
-            </p>
+            </h1>
               <div className="exclusive-doors-gallery">
+              <a href="https://wa.me/375299289289?" target="_blank" rel="noopener noreferrer">
+                    <img src={whatsappIcon} className="location-icon" alt="Whatsapp" />
+                </a>
                 <a href="https://www.instagram.com/dveritut.smrg/?locale=ru" target="_blank" rel="noopener noreferrer">
                     <img src={instaIcon} className="location-icon" alt="Instagram" />
                 </a>
