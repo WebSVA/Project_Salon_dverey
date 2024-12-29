@@ -21,7 +21,7 @@ function AboutUsSection(){
             <div className="content-container">
             <div className="separation-container">
                 <div className="title-container">
-                    <h1 className="title">О салон «DVERITYT»</h1>
+                    <h1 className="title">О салоне «DVERITUT»</h1>
                 </div>
                 <div className="separation-line-1"></div>
                 <div className="text-info">
