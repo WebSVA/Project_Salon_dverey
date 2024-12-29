@@ -13,17 +13,17 @@ function ShadowSlider() {
             <div className="door-sales-section">
               <div className="door-description-container">
                 <div className="door-divider" />
-                <p className="door-text-block">
+                <h1 className="door-text-block">
                   
                     Продажа и установка
                     межкомнатных и входных
                     дверей по доступным ценам
 
-                </p>
+                </h1>
               </div>
-              <p className="product-description-text-style">
+              <h3 className="product-description-text-style">
                 Наша фирма предлагает широкий ассортимент продукции, включая межкомнатные и входные двери, выполненные из высококачественных материалов.
-              </p>
+              </h3>
               <div className="door-button-container">
               <Link  to='/about'><Button className="detail-button" text="Подробнее"></Button></Link>
               </div>
