@@ -1073,7 +1073,7 @@
                 "name": "Элеганс лайт",
                 "type": "Входная дверь",
                 "color": {
-                        "COL": [
+                        "Grey": [
                                 "./imgProducts/MEDVEDEV/Элеганс_лайт.jpg",
                                 "./imgProducts/MEDVEDEV/Элеганс_лайт(2).jpg"
                         ]
@@ -1096,7 +1096,7 @@
                 "name": "Аметист Грин",
                 "type": "Входная дверь",
                 "color": {
-                        "col": [
+                        "Green": [
                                 "./imgProducts/MEDVEDEV/Аметист_Грин.jpg",
                                 "./imgProducts/MEDVEDEV/Аметист_Грин(2).jpg"
                         ]
@@ -1142,7 +1142,7 @@
                 "name": "Мираж",
                 "type": "Входная дверь",
                 "color": {
-                        "col": [
+                        "Светлый": [
                                 "./imgProducts/MEDVEDEV/Мираж.jpg",
                                 "./imgProducts/MEDVEDEV/Мираж(2).jpg"
                         ]
