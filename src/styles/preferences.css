@@ -73,7 +73,7 @@
   @media (max-width: 480px) {
     .PrefContainer {
         grid-template-columns: 1fr; 
-        gap: 50px;
+        gap: 20px;
     }
     .pref-title-text-style{
         font-weight: calc(20px + (6 + 6 * 0.7)*((100vw - 320px)) / 1440);

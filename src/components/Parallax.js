@@ -36,7 +36,7 @@ const Parallax = () => {
         </div>
         <p className="contact-info-heading">
           <span>+</span>
-          <span className="contact-number-text-style">8 029 928-92-89</span>
+          <span className="contact-number-text-style">375-(29)-928-92-89</span>
         </p>
         <Button text="Оставить заявку" onClick={modalOpen} className="call-to-action-btn"/>
       </div>

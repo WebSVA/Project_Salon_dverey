@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-
+import React, { useState, useEffect } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import './styles/app.css';
 
@@ -8,7 +7,7 @@ import CatalogPage from './pages/CatalogPage';
 import AboutPage from './pages/AboutPage';
 import ProductPage from './pages/ProductPage';
 import HomePage from './pages/HomePage';
-
+import Loading from './components/Loading';
 import ContactHeader from './components/ContactHeader';
 import Footer from './components/Footer'
 
@@ -26,6 +25,21 @@ function App(){
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
+
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Симуляция загрузки данных
+    const timer = setTimeout(() => {
+      setIsLoading(false); // Устанавливаем загрузку в false через 1 секунду
+    }, 1000);
+
+    return () => clearTimeout(timer); // Очистка таймера при размонтировании
+  }, []);
+
+  if (isLoading) {
+    return <Loading />; // Показать индикатор загрузки
+  }
 
 return (
   
