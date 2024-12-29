@@ -35,7 +35,7 @@ return (
       <div className="container-header">
       <Link className="links" to="/" onClick={closeMenu}><div className="logo-container">
         <img src={logoIcon} className="logo" alt="Логотип"></img>
-          <p className="title-company">Салон дверей</p>
+          <p className="title-company">DVERITUT</p>
         </div></Link>
         <div className="links-button-container">
           <div className="link-container">
