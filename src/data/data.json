@@ -3124,6 +3124,52 @@
                 "eye": "",
                 "high_lock": "",
                 "low_lock": ""
+        },
+        {
+                "id": 193,
+                "name": "INVISIBLE глухое с притвором",
+                "type": "Межкомнатная дверь",
+                "color": {
+                        "Под покраску": "./imgProducts/INVISIBLE/invisible1.jpg"
+                           },
+                "material": "Алюминиевый короб в сочетании с фальшкоробом из МДФ",
+                "glass": "",
+                "fill": "МДФ",
+                "size": [
+                        "600 х 2000",
+                        "700 x 2000",
+                        "800 x 2000",
+                         "900 x 2000",
+                          "Нестандартные размеры под заказ"
+                ],
+                "thickness": "59",
+                "fabricator": "VellDoris",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": "замок M1895 SN, врезка под скрытые петли Kubica K6360/38 2шт"
+        },
+        {
+                "id": 194,
+                "name": "INVISIBLE глухое без притвора",
+                "type": "Межкомнатная дверь",
+                "color": {
+                      "Под покраску": "./imgProducts/INVISIBLE/invisible2.jpg"
+                                       },
+                "material": "Алюминиевый короб в сочетании с фальшкоробом из МДФ",
+                "glass": "",
+                "fill": "МДФ",
+                "size": [
+                        "600 х 2000",
+                        "700 x 2000",
+                        "800 x 2000", 
+                        "900 x 2000",
+                          "Нестандартные размеры под заказ"
+                ],
+                "thickness": "59",
+                "fabricator": "VellDoris",
+                "eye": "",
+                "high_lock": "",
+                "low_lock": ""
         }
   
 ]
