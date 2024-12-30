@@ -85,13 +85,15 @@
   @media(max-width: 1024px) and (min-width:680px){
     .about-us-shabl{
       grid-template-columns: 1fr 1fr;
-      align-items: end;
+      align-items: start;
+   
     }
   }
 
   @media(max-width:680px){
     .about-us-shabl{
       grid-template-columns: 1fr;
+      justify-items: center;
     }
     .about-us-shabl.reverse{
       grid-template-columns: 1fr;

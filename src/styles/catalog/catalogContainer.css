@@ -101,7 +101,8 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     gap: 10px;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: -40px;
 
 }
 
@@ -134,7 +135,8 @@
         flex-direction: column;
         width: 100%;
         align-items: center;
-        gap: 10px;
+        gap: 6px;
+        margin-bottom: 20px;
     }
 
     .search-bar{
