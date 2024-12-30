@@ -9,11 +9,13 @@ function MapComponent() {
    // <YMaps>
         <div className="map">
               <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2318.008674774923!2d26.401127776061678!3d54.480428772639925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dc43b03d29e861%3A0xd1b95d280a8663fa!2z0YPQuy4g0J_QtdGC0YDQsCDQkdCw0LvRi9GI0LAgMjcsINCh0LzQvtGA0LPQvtC90YwsINCT0YDQvtC00L3QtdC90YHQutCw0Y8g0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2sby!4v1735417256297!5m2!1sru!2sby" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162.4100857677473!2d26.403004963698507!3d54.47739138448719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dc43a9e4ed6775%3A0xfcfc99047167bbdc!2z0KHQsNC70L7QvSDQlNCy0LXRgNC10Lk!5e0!3m2!1sru!2sby!4v1735555750022!5m2!1sru!2sby!4z2" 
                     allowFullScreen 
                     loading="lazy" 
                     referrerPolicy="no-referrer-when-downgrade">
                 </iframe>
+
+             
       {/* <Map
         defaultState={{
           center: mapCenter,
