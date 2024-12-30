@@ -106,21 +106,50 @@ function CatalogContainer({ doorType }) {
                 <Filter filters={filters} onFilterChange={handleFilterChange} />
             </div>
             <div className='catalog-container'>
-                <div className="product-list">
-                    {currentProducts.map(product => (
+            <div className="product-list">
+                {currentProducts.map(product => (
+                    Object.entries(product.color).map(([colorName, colorImages]) => (
                         <Link 
                             className='a' 
-                            key={product.id} 
-                            to={`/catalog/${product.id}`} 
-                            onClick={handleLinkClick} // Сохраняем скролл перед переходом
-                        >
-                            <ProductCatalog 
-                                product={product} 
-                                onClick={(id) => console.log(`Clicked on product with ID: ${id}`)} 
-                            />
+                            key={`${product.id}-${colorName}`} 
+                            to={`/catalog/${product.id}?color=${colorName}`} 
+                            onClick={handleLinkClick}
+                            >
+                            <div 
+                                className="product-card" 
+                                onClick={() => console.log(`Clicked on ${product.name}, Color: ${colorName}`)}
+                                >
+                                <div className='product-content'>
+                                    <div className='product-img-container'>
+                                        {Array.isArray(colorImages) ? (
+                                            colorImages.slice(0, 2).map((imgSrc, index) => (
+                                                <img
+                                                    key={`${product.id}-${colorName}-${index}`}
+                                                    className='product-img'
+                                                    src={imgSrc}
+                                                    alt={`${colorName} image ${index + 1}`}
+                                                />
+                                            ))
+                                        ) : (
+                                            <img
+                                                className='product-img'
+                                                src={colorImages}
+                                                alt={colorName}
+                                            />
+                                        )}
+                                    </div>
+                                    <div className='text-container'>
+                                        <h2 className='product-description'>{product.type}</h2>
+                                        <h1 className='product-name'>{product.name}</h1>
+                                    </div>
+                                </div>
+                                <div className='underline'></div>
+                            </div>
                         </Link>
-                    ))}
-                </div>
+                    ))
+                ))}
+            </div>
+
             </div>
             <div className="pagination">
                 {Array.from({ length: totalPages }, (_, index) => (

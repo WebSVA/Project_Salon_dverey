@@ -4,8 +4,12 @@ import "../styles/contact/contact.css";
 import "../styles/contact/contactForm.css";
 import ContactCardContainer from "../components/Contacts/ContactCardContainer";
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
 
 function ContactPage() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <Helmet>
