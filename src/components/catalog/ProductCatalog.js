@@ -1,37 +1,55 @@
-function ProductCatalog({ product, onClick }) {
-    const { id, name, type, color } = product;
+import React from 'react';
+import '../../styles/catalog/productCatalog.css';
 
-    const handleClick = (colorName) => {
+function ProductCatalog({ 
+    product: { 
+        id, 
+        name, 
+        type,  
+        colorName, 
+        colorImage,  // Получаем изображение и название цвета
+    }, 
+    onClick 
+}) {
+
+    const handleClick = () => {
         if (onClick) {
-            onClick({ id, colorName }); // Передаем id и цвет
+            onClick(id); // Передаем id товара при клике
         }
     };
 
-    return (
-        <div className="product-card-container">
-            {Object.entries(color).map(([colorName, colorImages]) => (
-                <div 
-                    key={`${id}-${colorName}`} 
-                    className="product-card" 
-                    onClick={() => handleClick(colorName)}
-                >
-                    <div className='product-content'>
-                        <div className='product-img-container'>
+    return (  
+        <>     
+        <div className="product-card1" onClick={handleClick}>
+            <div className='product-content1'>
+                <div className='product-img-container1'>
+                    {/* Если colorImage - это массив, то рендерим все картинки */}
+                    {Array.isArray(colorImage) ? (
+                        colorImage.map((imageSrc, index) => (
                             <img
-                                className='product-img'
-                                src={Array.isArray(colorImages) ? colorImages[0] : colorImages}
-                                alt={colorName}
+                                key={index}
+                                className='product-img-entry-doors1'
+                                src={imageSrc}
+                                alt={`${colorName}-${index}`}
                             />
-                        </div>
-                        <div className='text-container'>
-                            <h2 className='product-description'>{type}</h2>
-                            <h1 className='product-name'>{name}</h1>
-                            
-                        </div>
-                    </div>
-                    <div className='underline'></div>
+                        ))
+                    ) : (
+                        <img
+                            className='product-img1'
+                            src={colorImage} // Используем переданное изображение
+                            alt={colorName}
+                        />
+                    )}
                 </div>
-            ))}
+                <div className='text-container1'>
+                    <h2 className='product-description1'>{type}</h2>
+                    <h1 className='product-name1'>{name}</h1>
+                </div>
+            </div>
+            <div className='underline1'></div>
         </div>
+        </>
     );
 }
+
+export default ProductCatalog;

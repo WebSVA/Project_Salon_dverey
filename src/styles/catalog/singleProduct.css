@@ -184,9 +184,6 @@
     font: 400 calc(12px + 2 * (100vw / 1440)) Inter, sans-serif;
     color: #747474;
 }
-.product-img-container {
-    gap: 5px; /* Расстояние между картинками */
-}
 .contact-viber-tg{
     display: flex;
     flex-wrap: wrap;

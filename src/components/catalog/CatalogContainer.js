@@ -8,35 +8,43 @@ import searchsvg from '../../assets/loupe.png';
 
 function CatalogContainer({ doorType }) {
     const [products, setProducts] = useState([]);
-    const [searchQuery, setSearchQuery] = useState(''); 
-    const [filteredProducts, setFilteredProducts] = useState([]); 
+    const [searchQuery, setSearchQuery] = useState('');
+    const [filteredProducts, setFilteredProducts] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
-    const itemsPerPage = 30; 
+    const itemsPerPage = 30;
     const [activeFilters, setActiveFilters] = useState({});
-    const scrollPositionRef = useRef(0); // Ссылка для хранения скролла
+    const scrollPositionRef = useRef(0);
 
     useEffect(() => {
-        setProducts(data);
-        setFilteredProducts(data);
+        // Разворачиваем каждый продукт, чтобы каждый цвет был отдельным продуктом
+        const expandedProducts = data.flatMap(product => 
+            Object.entries(product.color).map(([colorName, colorImage]) => ({
+                ...product,
+                colorName,
+                colorImage
+            }))
+        );
+        setProducts(expandedProducts);
+        setFilteredProducts(expandedProducts);
     }, []);
 
     useEffect(() => {
         const filtered = products.filter(product => {
             const matchesSearch = product.name.toLowerCase().includes(searchQuery.toLowerCase());
             const matchesFilters = Object.entries(activeFilters).every(([category, values]) => {
-                if (!values.length) return true; 
+                if (!values.length) return true;
                 switch (category) {
                     case "Производитель":
-                        return values.includes(product.fabricator); 
+                        return values.includes(product.fabricator);
                     case "Размер полотна":
-                        return product.size.some(size => values.includes(size)); 
+                        return product.size.some(size => values.includes(size));
                     case "Остекление":
                         return values.some(value => {
                             if (value === "Есть") {
-                                return product.glass !== ""; 
+                                return product.glass !== "";
                             }
                             if (value === "Нет") {
-                                return product.glass === ""; 
+                                return product.glass === "";
                             }
                             return product.glass.toLowerCase().includes(value.toLowerCase());
                         });
@@ -56,14 +64,12 @@ function CatalogContainer({ doorType }) {
         }
     }, [searchQuery, activeFilters, products, doorType]);
 
-    // Восстановление скролла при монтировании
     useEffect(() => {
         window.scrollTo(0, scrollPositionRef.current || 0);
     }, []);
 
-    // Сохранение положения скролла
     const handleLinkClick = () => {
-        scrollPositionRef.current = window.scrollY; // Сохраняем текущую позицию
+        scrollPositionRef.current = window.scrollY;
     };
 
     const handleFilterChange = (updatedFilters) => {
@@ -91,7 +97,7 @@ function CatalogContainer({ doorType }) {
             <div className='filter-section'>
                 <div className='search-bar'>
                     <img 
-                        src= {searchsvg} 
+                        src={searchsvg} 
                         alt="Search" 
                         className="icon-image" 
                     /> 
@@ -106,64 +112,36 @@ function CatalogContainer({ doorType }) {
                 <Filter filters={filters} onFilterChange={handleFilterChange} />
             </div>
             <div className='catalog-container'>
-            <div className="product-list">
-                {currentProducts.map(product => (
-                    Object.entries(product.color).map(([colorName, colorImages]) => (
+                <div className="product-list">
+                    {currentProducts.map(product => (
                         <Link 
                             className='a' 
-                            key={`${product.id}-${colorName}`} 
-                            to={`/catalog/${product.id}?color=${colorName}`} 
+                            key={`${product.id}-${product.colorName}`} 
+                            to={`/catalog/${product.id}?color=${product.colorName}`}
                             onClick={handleLinkClick}
-                            >
-                            <div 
-                                className="product-card" 
-                                onClick={() => console.log(`Clicked on ${product.name}, Color: ${colorName}`)}
-                                >
-                                <div className='product-content'>
-                                    <div className='product-img-container'>
-                                        {Array.isArray(colorImages) ? (
-                                            colorImages.slice(0, 2).map((imgSrc, index) => (
-                                                <img
-                                                    key={`${product.id}-${colorName}-${index}`}
-                                                    className='product-img'
-                                                    src={imgSrc}
-                                                    alt={`${colorName} image ${index + 1}`}
-                                                />
-                                            ))
-                                        ) : (
-                                            <img
-                                                className='product-img'
-                                                src={colorImages}
-                                                alt={colorName}
-                                            />
-                                        )}
-                                    </div>
-                                    <div className='text-container'>
-                                        <h2 className='product-description'>{product.type}</h2>
-                                        <h1 className='product-name'>{product.name}</h1>
-                                    </div>
-                                </div>
-                                <div className='underline'></div>
-                            </div>
+                        >
+                            <ProductCatalog 
+                                product={product} 
+                                onClick={(id) => console.log(`Clicked on product with ID: ${id}`)} 
+                              
+                            />
                         </Link>
-                    ))
-                ))}
-            </div>
-
+                    ))}
+                </div>
             </div>
             <div className="pagination">
                 {Array.from({ length: totalPages }, (_, index) => (
                     <button 
                         key={index + 1} 
                         onClick={() => handlePageChange(index + 1)} 
-                        className={currentPage === index + 1 ? 'active' : ''}
-                    >
+                        className={currentPage === index + 1 ? 'active' : ''}>
                         {index + 1}
                     </button>
                 ))}
             </div>
         </div>
     );
-};
+}
+
 
 export default CatalogContainer;
