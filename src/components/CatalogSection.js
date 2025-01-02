@@ -13,7 +13,8 @@ function CatalogSection() {
     }, []);
 
     const currentProducts = products.slice(0, 5);
-    const currentProductsOut = products.slice(117, 123);
+    const productIds = [49, 72, 98, 182, 120]; // массив с ID
+    const currentProductsOut = products.filter(product => productIds.includes(product.id));
 
     return (
         <div>
