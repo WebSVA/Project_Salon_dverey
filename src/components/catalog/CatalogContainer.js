@@ -26,7 +26,8 @@ function CatalogContainer({ doorType }) {
     useEffect(() => {
         const savedFilters = sessionStorage.getItem('activeFilters');
         if (savedFilters) {
-            setActiveFilters(JSON.parse(savedFilters)); // Восстанавливаем активные фильтры
+            setActiveFilters(JSON.parse(savedFilters));
+             // Восстанавливаем активные фильтры
         }
 
         const expandedProducts = data.flatMap(product => 

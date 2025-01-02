@@ -99,8 +99,8 @@
     justify-content: space-between;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    gap: 60px;
-    padding: 10px;
+    gap: 5%;
+    padding: 10px 20px;
     margin-bottom: 20px;
     margin-top: -40px;
 
@@ -124,6 +124,7 @@
         flex-direction: column;
         width: 83%;
         gap: 10px;
+       
     }
     .search-bar{
         /* padding: 5px 20px; */
@@ -139,6 +140,7 @@
         align-items: center;
         gap: 6px;
         margin-bottom: 20px;
+        padding: 10px 0px;
     }
 
     .search-bar{
