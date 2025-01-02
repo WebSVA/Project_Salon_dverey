@@ -13,6 +13,7 @@ const colorGroups = {
         "Темный": ["Wenge Veralinga","Art Wood Dark","Grafit","Дуб Дымчатый","Дуб шале-графит","Дуб шфле-корица","Бетон Светлый","Венге","Сканди Венге","Эмаль графит"],
         "Под покраску": ["Под покраску"]
     };
+    
 function CatalogContainer({ doorType }) {
     const [products, setProducts] = useState([]);
     const [searchQuery, setSearchQuery] = useState('');
@@ -20,20 +21,16 @@ function CatalogContainer({ doorType }) {
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 30;
     const [activeFilters, setActiveFilters] = useState({});
-    const scrollPositionRef = useRef(0);
+    const scrollPositionRef = useRef(0); 
 
     useEffect(() => {
-        // Разворачиваем каждый продукт, чтобы каждый цвет был отдельным продуктом
-        const expandedProducts = data.flatMap(product => 
-            Object.entries(product.color).map(([colorName, colorImage]) => ({
-                ...product,
-                colorName,
-                colorImage
-            }))
-        );
-        setProducts(expandedProducts);
-        setFilteredProducts(expandedProducts);
+        setProducts(data);
+        setFilteredProducts(data);
         
+        const savedFilters = sessionStorage.getItem('activeFilters');
+        if (savedFilters) {
+            setActiveFilters(JSON.parse(savedFilters)); 
+        }
     }, []);
 
 
@@ -72,27 +69,32 @@ function CatalogContainer({ doorType }) {
         });
     
         setFilteredProducts(filtered);
+
+        // Сброс текущей страницы на 1, если фильтры или поиск изменяются
         if (currentPage !== 1) {
             setCurrentPage(1);
         }
     }, [searchQuery, activeFilters, products, doorType]);
-   
+
+    // Логика для получения текущих продуктов на основе пагинации
+    const lastIndex = currentPage * itemsPerPage;
+    const firstIndex = lastIndex - itemsPerPage;
+    const currentProducts = filteredProducts.slice(firstIndex, lastIndex);
+    const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
+
+    // Восстановление скролла
     useEffect(() => {
         window.scrollTo(0, scrollPositionRef.current || 0);
     }, []);
 
     const handleLinkClick = () => {
-        scrollPositionRef.current = window.scrollY;
+        scrollPositionRef.current = window.scrollY; 
     };
 
     const handleFilterChange = (updatedFilters) => {
         setActiveFilters(updatedFilters);
+        sessionStorage.setItem('activeFilters', JSON.stringify(updatedFilters));
     };
-
-    const lastIndex = currentPage * itemsPerPage;
-    const firstIndex = lastIndex - itemsPerPage;
-    const currentProducts = filteredProducts.slice(firstIndex, lastIndex);
-    const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
 
     const handlePageChange = (pageNumber) => {
         setCurrentPage(pageNumber);
@@ -100,9 +102,31 @@ function CatalogContainer({ doorType }) {
     };
 
     const filters = [
-        { category: "Производитель", options: ["elporta", "TEMIDOORS", "ООО 'Двери Гранит'", "ЮНИ Двери", "МЕДВЕДВ И К", "Гарда", "DEFORM V"] },
-        { category: "Остекление", options: ["Есть", "Нет", "Матовое", "Зеркало"] },
-        { category: "Размер полотна", options: ["350 x 2000", "400 x 2000", "600 х 2000", "700 x 2000", "800 x 2000", "900 x 2000","860 x 2050", "880 х 2050", "960 x 2050", "980 х 2000", "1050 x 2070"] },
+        {
+            category: "Производитель",
+            options: (() => {
+                if (doorType === 'Межкомнатная дверь') {
+                    return ["elporta", "ЮНИ Двери", "DEFORM V", "Динмар"];
+                } else if (doorType === 'Входная дверь') {
+                    return ["elporta", "TEMIDOORS", "ООО 'Двери Гранит'", "МЕДВЕДВ И К", "Гарда", "Юркас", "torex"];
+                } else {
+                    return [
+                        "elporta", "ЮНИ Двери", "DEFORM V", "Динмар",
+                        "TEMIDOORS", "ООО 'Двери Гранит'", "МЕДВЕДВ И К", "Гарда", "Юркас", "torex"
+                    ];
+                }
+            })()
+        },
+        { 
+            category: "Остекление",
+            options: (() => {
+                if (doorType === 'Межкомнатная дверь') {
+                    return ["Есть", "Нет", "Матовое"];
+                } else {
+                    return ["Есть", "Нет", "Матовое", "Зеркало"];
+                }
+            })()
+        }
     ];
     
     if (doorType === "Межкомнатная дверь") {
