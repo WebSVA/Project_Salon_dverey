@@ -13,16 +13,15 @@ function CatalogContainer({ doorType }) {
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 30; 
     const [activeFilters, setActiveFilters] = useState({});
-    const scrollPositionRef = useRef(0); // Ссылка для хранения скролла
+    const scrollPositionRef = useRef(0); 
 
     useEffect(() => {
         setProducts(data);
         setFilteredProducts(data);
         
-        // Загрузка фильтров из sessionStorage
         const savedFilters = sessionStorage.getItem('activeFilters');
         if (savedFilters) {
-            setActiveFilters(JSON.parse(savedFilters)); // Устанавливаем сохраненные фильтры
+            setActiveFilters(JSON.parse(savedFilters)); 
         }
     }, []);
 
@@ -57,30 +56,32 @@ function CatalogContainer({ doorType }) {
         });
 
         setFilteredProducts(filtered);
+
+        // Сброс текущей страницы на 1, если фильтры или поиск изменяются
         if (currentPage !== 1) {
             setCurrentPage(1);
         }
-    }, [searchQuery, activeFilters, products, doorType,currentPage]);
+    }, [searchQuery, activeFilters, products, doorType]);
 
-    // Восстановление скролла при монтировании
-    useEffect(() => {
-        window.scrollTo(0, scrollPositionRef.current || 0);
-    }, []);
-
-    // Сохранение положения скролла
-    const handleLinkClick = () => {
-        scrollPositionRef.current = window.scrollY; // Сохраняем текущую позицию
-    };
-
-    const handleFilterChange = (updatedFilters) => {
-        setActiveFilters(updatedFilters);
-        sessionStorage.setItem('activeFilters', JSON.stringify(updatedFilters)); // Сохраняем в sessionStorage
-    };
-
+    // Логика для получения текущих продуктов на основе пагинации
     const lastIndex = currentPage * itemsPerPage;
     const firstIndex = lastIndex - itemsPerPage;
     const currentProducts = filteredProducts.slice(firstIndex, lastIndex);
     const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
+
+    // Восстановление скролла
+    useEffect(() => {
+        window.scrollTo(0, scrollPositionRef.current || 0);
+    }, []);
+
+    const handleLinkClick = () => {
+        scrollPositionRef.current = window.scrollY; 
+    };
+
+    const handleFilterChange = (updatedFilters) => {
+        setActiveFilters(updatedFilters);
+        sessionStorage.setItem('activeFilters', JSON.stringify(updatedFilters));
+    };
 
     const handlePageChange = (pageNumber) => {
         setCurrentPage(pageNumber);
@@ -95,8 +96,10 @@ function CatalogContainer({ doorType }) {
                 : ["elporta", "TEMIDOORS", "ООО 'Двери Гранит'", "МЕДВЕДВ И К", "Гарда", "Юркас", "torex"]
         },
         { 
-            category: "Остекление", 
-            options: ["Есть", "Нет", "Матовое", "Зеркало"] 
+            category: "Остекление",
+            options: doorType === 'Межкомнатная дверь'  
+            ?["Есть", "Нет", "Матовое"] 
+            : ["Есть", "Нет", "Матовое", "Зеркало"] 
         }
     ];
 
@@ -126,7 +129,7 @@ function CatalogContainer({ doorType }) {
                             className='a' 
                             key={product.id} 
                             to={`/catalog/${product.id}`} 
-                            onClick={handleLinkClick} // Сохраняем скролл перед переходом
+                            onClick={handleLinkClick} 
                         >
                             <ProductCatalog 
                                 product={product} 
