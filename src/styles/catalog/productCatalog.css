@@ -31,6 +31,21 @@
     margin-bottom: 5px;
     text-decoration: none;
     font: 400 calc(12px + 2 * (100vw/1440) ) Inter, sans-serif;
+    display: -webkit-box; /* Включаем flex-контейнер */
+    -webkit-box-orient: vertical; /* Указываем вертикальную ориентацию */
+    -webkit-line-clamp: 2; /* Ограничиваем количество строк до 2 */
+    overflow: hidden; /* Скрываем текст, выходящий за пределы */
+    text-overflow: ellipsis; /* Добавляем многоточие в конце */
+}
+.product-color{
+    color: #747474;
+    margin-bottom: 5px;
+    font: 400 calc(12px + 2 * (100vw/1440) ) Inter, sans-serif;
+    display: -webkit-box; /* Включаем flex-контейнер */
+    -webkit-box-orient: vertical; /* Указываем вертикальную ориентацию */
+    -webkit-line-clamp: 2; /* Ограничиваем количество строк до 2 */
+    overflow: hidden; /* Скрываем текст, выходящий за пределы */
+    text-overflow: ellipsis; /* Добавляем многоточие в конце */
 }
 .product-name1{
     color: #383534;
@@ -58,6 +73,12 @@
 }
 .text-container1{
     margin-bottom: 10px;
+}
+.loading-spinner {
+    color: #747474;
+    font: 400 calc(12px + 2 * (100vw/1440) ) Inter, sans-serif;
+    align-self: center;
+    align-items: center;
 }
 
 
@@ -173,13 +194,13 @@
         width: calc(100% / 2 - 10px);
     }
     .product-card1{
-        height: 230px;
+        height: 260px;
     }
     .product-img-container1{
         height: 60%;
     }
     .product-content1 {
-        height: 85%;
+        height: 86%;
     }
 }
 

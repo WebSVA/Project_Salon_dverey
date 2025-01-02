@@ -7,10 +7,10 @@ import '../../styles/catalog/catalogContainer.css';
 import searchsvg from '../../assets/loupe.png';
 
 const colorGroups = {
-        "Белый": ["White","Snow Veralinga", "Ash White", "Alaska", "Alaska Black Star", "Белая Шагрень", "Бьянко", "Эмаль белая","White Wood" ],
-        "Бежевый": ["Cappuccino Veralinga", "Art Wood Light", "Light Sonoma", "Vanila", "Capuchino","Белёный Дуб", "Эшвайт", "Stone Wood", "Stone Wood", "Эмаль ваниль", "Эмаль капучино"],
-        "Cветло-серый": ["Nordic Grey Oak", "Bianco Veralinga", "Nardo Grey", "Nardo Grey Black Star", "Grey", "Сканди Классик", "Бетон Светлый", "Grey Wood", "Sky Wood", "Cream Wood", "Эмаль грэй"],
-        "Темный": ["Wenge Veralinga","Art Wood Dark","Grafit","Дуб Дымчатый","Дуб шале-графит","Дуб шфле-корица","Бетон Светлый","Венге","Сканди Венге","Эмаль графит"],
+        "Белый": ["White","Snow Veralinga", "Ash White", "Alaska", "Alaska Black Star", "Белая Шагрень", "Бьянко", "Эмаль белая","White Wood", "Белый, RAL 9003, 9010, 1013, 7044, 5014, 1019", "Более 20 различных цветов" ],
+        "Бежевый": ["Cappuccino Veralinga", "Art Wood Light", "Light Sonoma", "Vanila", "Capuchino","Белёный Дуб", "Эшвайт", "Stone Wood", "Stone Wood", "Эмаль ваниль", "Эмаль капучино", "Белый, RAL 9003, 9010, 1013, 7044, 5014, 1019", "Более 20 различных цветов"],
+        "Cветло-серый": ["Nordic Grey Oak", "Bianco Veralinga", "Nardo Grey", "Nardo Grey Black Star", "Grey", "Сканди Классик", "Бетон Светлый", "Grey Wood", "Sky Wood", "Cream Wood", "Эмаль грэй", "Более 20 различных цветов"],
+        "Темный": ["Wenge Veralinga","Art Wood Dark","Grafit","Дуб Дымчатый","Дуб шале-графит","Дуб шфле-корица","Бетон Светлый","Венге","Сканди Венге","Эмаль графит", "Более 20 различных цветов"],
         "Под покраску": ["Под покраску"]
     };
     
@@ -101,6 +101,10 @@ function CatalogContainer({ doorType }) {
     const currentProducts = filteredProducts.slice(firstIndex, lastIndex);
     const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
 
+    const visiblePageCount = 5; // Количество отображаемых кнопок
+    const startPage = Math.max(1, currentPage - Math.floor(visiblePageCount / 2));
+    const endPage = Math.min(totalPages, startPage + visiblePageCount - 1);
+
     const handlePageChange = (pageNumber) => {
         setCurrentPage(pageNumber);
         window.scrollTo({ top: 400, behavior: 'smooth' });
@@ -168,22 +172,35 @@ function CatalogContainer({ doorType }) {
                         >
                             <ProductCatalog 
                                 product={product} 
-                                onClick={(id) => console.log(`Clicked on product with ID: ${id}`)} 
-                              
+                                onClick={() => {}} 
                             />
                         </Link>
                     ))}
                 </div>
             </div>
             <div className="pagination">
-                {Array.from({ length: totalPages }, (_, index) => (
-                    <button 
-                        key={index + 1} 
-                        onClick={() => handlePageChange(index + 1)} 
-                        className={currentPage === index + 1 ? 'active' : ''}>
-                        {index + 1}
+                {startPage > 1 && (
+                    <button onClick={() => handlePageChange(1)}>1</button>
+                )}
+                {startPage > 2 && <span>...</span>}
+                {Array.from({ length: endPage - startPage + 1 }, (_, index) => {
+                    const pageNumber = startPage + index;
+                    return (
+                        <button 
+                            key={pageNumber} 
+                            onClick={() => handlePageChange(pageNumber)} 
+                            className={currentPage === pageNumber ? 'active' : ''}
+                        >
+                            {pageNumber}
+                        </button>
+                    );
+                })}
+                {endPage < totalPages - 1 && <span>...</span>}
+                {endPage < totalPages && (
+                    <button onClick={() => handlePageChange(totalPages)}>
+                        {totalPages}
                     </button>
-                ))}
+                )}
             </div>
         </div>
     );
