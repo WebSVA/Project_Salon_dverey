@@ -5,12 +5,29 @@ const Filter = ({ filters, onFilterChange }) => {
     const [selectedFilters, setSelectedFilters] = useState({}); // Хранение выбранных фильтров
     const [openCategory, setOpenCategory] = useState(null); // Для отслеживания открытого списка
 
-    // Загрузка состояния чекбоксов из sessionStorage
     useEffect(() => {
-        const savedFilters = sessionStorage.getItem('selectedFilters');
-        if (savedFilters) {
-            setSelectedFilters(JSON.parse(savedFilters)); // Устанавливаем сохраненн 
+        // Проверяем, была ли страница перезагружена
+        const isPageReloaded = sessionStorage.getItem('pageReloaded');
+
+        // Если страница не перезагружена, загружаем сохранённые фильтры
+        if (!isPageReloaded) {
+            const savedFilters = sessionStorage.getItem('selectedFilters');
+            if (savedFilters) {
+                setSelectedFilters(JSON.parse(savedFilters)); // Восстанавливаем сохранённые фильтры
+            }
+        } else {
+            // Если страница перезагружена, сбрасываем отмеченные чекбоксы
+            setSelectedFilters({});
+            sessionStorage.removeItem('selectedFilters'); // Удаляем сохранённые фильтры
         }
+
+        // Устанавливаем флаг о том, что страница загружена
+        sessionStorage.setItem('pageReloaded', 'true');
+
+        // Удаляем флаг при закрытии вкладки
+        return () => {
+            sessionStorage.removeItem('pageReloaded');
+        };
     }, []);
 
     const handleCheckboxChange = (category, value) => {

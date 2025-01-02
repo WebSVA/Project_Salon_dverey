@@ -24,11 +24,34 @@ function CatalogContainer({ doorType }) {
     const scrollPositionRef = useRef(0);
 
     useEffect(() => {
-        const savedFilters = sessionStorage.getItem('activeFilters');
-        if (savedFilters) {
-            setActiveFilters(JSON.parse(savedFilters));
-             // Восстанавливаем активные фильтры
+        // Проверяем, существует ли флаг
+        const isPageReloaded = sessionStorage.getItem('pageReloaded');
+
+        if (!isPageReloaded) {
+            const savedFilters = sessionStorage.getItem('activeFilters');
+            if (savedFilters) {
+                setActiveFilters(JSON.parse(savedFilters)); // Восстанавливаем активные фильтры
+            }
+        } else {
+            // Если страница перезагружена, сбрасываем активные фильтры
+            setActiveFilters({});
         }
+
+        // Устанавливаем флаг о том, что страница загружена
+        sessionStorage.setItem('pageReloaded', 'true');
+
+        // Удаляем флаг при закрытии вкладки
+        return () => {
+            sessionStorage.removeItem('pageReloaded');
+        };
+    }, []);
+
+    useEffect(() => {
+        // const savedFilters = sessionStorage.getItem('activeFilters');
+        // if (savedFilters) {
+        //     setActiveFilters(JSON.parse(savedFilters));
+        //      // Восстанавливаем активные фильтры
+        // }
 
         const expandedProducts = data.flatMap(product => 
             Object.entries(product.color).map(([colorName, colorImage]) => ({
