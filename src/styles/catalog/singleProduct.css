@@ -52,6 +52,9 @@
     width: 150px; /* Большая картинка */
     height: 300px;
 }
+.select-img-product:hover {
+    cursor: pointer;
+}
 
 .other-img-container {
     display: flex;
@@ -155,6 +158,10 @@
 .services-text-container > p > span{
     font-weight: bold;
     color: #383534;
+}
+.combined-img-container{
+    display: flex;
+    gap: 5px;
 }
 .single-services-info{
     display: flex;

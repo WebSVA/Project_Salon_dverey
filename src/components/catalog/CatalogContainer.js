@@ -6,6 +6,13 @@ import ProductCatalog from './ProductCatalog';
 import '../../styles/catalog/catalogContainer.css';
 import searchsvg from '../../assets/loupe.png';
 
+const colorGroups = {
+        "Белый": ["White","Snow Veralinga", "Ash White", "Alaska", "Alaska Black Star", "Белая Шагрень", "Бьянко", "Эмаль белая","White Wood" ],
+        "Бежевый": ["Cappuccino Veralinga", "Art Wood Light", "Light Sonoma", "Vanila", "Capuchino","Белёный Дуб", "Эшвайт", "Stone Wood", "Stone Wood", "Эмаль ваниль", "Эмаль капучино"],
+        "Cветло-серый": ["Nordic Grey Oak", "Bianco Veralinga", "Nardo Grey", "Nardo Grey Black Star", "Grey", "Сканди Классик", "Бетон Светлый", "Grey Wood", "Sky Wood", "Cream Wood", "Эмаль грэй"],
+        "Темный": ["Wenge Veralinga","Art Wood Dark","Grafit","Дуб Дымчатый","Дуб шале-графит","Дуб шфле-корица","Бетон Светлый","Венге","Сканди Венге","Эмаль графит"],
+        "Под покраску": ["Под покраску"]
+    };
 function CatalogContainer({ doorType }) {
     const [products, setProducts] = useState([]);
     const [searchQuery, setSearchQuery] = useState('');
@@ -26,7 +33,9 @@ function CatalogContainer({ doorType }) {
         );
         setProducts(expandedProducts);
         setFilteredProducts(expandedProducts);
+        
     }, []);
+
 
     useEffect(() => {
         const filtered = products.filter(product => {
@@ -48,22 +57,26 @@ function CatalogContainer({ doorType }) {
                             }
                             return product.glass.toLowerCase().includes(value.toLowerCase());
                         });
+                    case "Цвет":
+                        return values.some(value => 
+                            colorGroups[value]?.includes(product.colorName)
+                        ); 
                     default:
                         return true;
                 }
             });
-
+    
             const matchesDoorType = !doorType || product.type === doorType;
-
+    
             return matchesSearch && matchesFilters && matchesDoorType;
         });
-
+    
         setFilteredProducts(filtered);
         if (currentPage !== 1) {
             setCurrentPage(1);
         }
     }, [searchQuery, activeFilters, products, doorType]);
-
+   
     useEffect(() => {
         window.scrollTo(0, scrollPositionRef.current || 0);
     }, []);
@@ -89,8 +102,12 @@ function CatalogContainer({ doorType }) {
     const filters = [
         { category: "Производитель", options: ["elporta", "TEMIDOORS", "ООО 'Двери Гранит'", "ЮНИ Двери", "МЕДВЕДВ И К", "Гарда", "DEFORM V"] },
         { category: "Остекление", options: ["Есть", "Нет", "Матовое", "Зеркало"] },
-        { category: "Размер полотна", options: ["350 x 2000", "400 x 2000", "600 х 2000", "700 x 2000", "800 x 2000", "900 x 2000","860 x 2050", "880 х 2050", "960 x 2050", "980 х 2000", "1050 x 2070"] }
+        { category: "Размер полотна", options: ["350 x 2000", "400 x 2000", "600 х 2000", "700 x 2000", "800 x 2000", "900 x 2000","860 x 2050", "880 х 2050", "960 x 2050", "980 х 2000", "1050 x 2070"] },
     ];
+    
+    if (doorType === "Межкомнатная дверь") {
+        filters.push({ category: "Цвет", options: Object.keys(colorGroups) }); // Добавляем новый фильтр по цвету
+    }
 
     return (
         <div className='catalog-container-main'>

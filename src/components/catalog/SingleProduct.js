@@ -1,4 +1,4 @@
-import { useParams, useLocation } from "react-router-dom";
+import { useParams, useLocation,  useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Button from '../Button';
 import data from "../../data/data.json";
@@ -14,6 +14,7 @@ import Email from "../../Email";
 function SingleProduct() {
     const { id } = useParams();
     const location = useLocation();
+    const navigate = useNavigate();
     const searchParams = new URLSearchParams(location.search);
     const initialColor = searchParams.get('color');
     const [product, setProduct] = useState(null);
@@ -65,6 +66,9 @@ function SingleProduct() {
                 : product.color[colorName] === imagePaths[0]
         );
         setSelectedColor(color || '');
+        if (color) {
+            navigate(`?color=${color}`, { replace: true }); // Обновляем URL без добавления в историю
+        }
     };
 
     return (
@@ -105,6 +109,7 @@ function SingleProduct() {
                                             <img
                                                 src={imagePath[0]}
                                                 alt={colorName}
+                                                title={colorName}
                                                 className="small-img"
                                                 height={"200px"}
                                                  // Открытие модального окна по клику
@@ -115,6 +120,7 @@ function SingleProduct() {
                                             <img
                                                 src={imagePath}
                                                 alt={colorName}
+                                                title={colorName}
                                                 className="small-img"
                                                 // Открытие модального окна по клику
                                             />
@@ -147,15 +153,15 @@ function SingleProduct() {
                                 </div>
                             </div>
                             <div className="text-description-to-button">
-                                <p>Наличие товара в магазине или любые другие вопросы уточняйте по номеру телефона или оставьте заявку на почту</p>
+                                <p>Наличие товара в магазине или любые другие вопросы уточняйте по номеру телефона или оставьте заявку</p>
                             </div>
                             <div className="button-container">
                                 <div className="contact-viber-tg">
-                                    <a href="viber://chat?number=%2B375299289289" target="_blank" rel="noopener noreferrer">
+                                    <a href="viber://chat?number=%2B375299289289&text=Здравствуйте,%20у%20меня%20вопрос%20по%20вашим%20товарам." target="_blank" rel="noopener noreferrer">
                                         <img src={viberIcon} className="location-icon" alt="Viber" />
                                         <p><span>Viber:</span>&nbsp;&nbsp;+375-(29)-928-92-89</p>
                                     </a>
-                                    <a href="https://t.me/yaroshevichandrey" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://t.me/yaroshevichandrey?text=Здравствуйте,%20у%20меня%20вопрос%20по%20поводу%20ваших%20товаров." target="_blank" rel="noopener noreferrer">
                                         <img src={tgIcon} className="location-icon" alt="Telegram" />
                                         <p><span>Telegram:</span>&nbsp;&nbsp;+375-(29)-928-92-89</p>
                                     </a>

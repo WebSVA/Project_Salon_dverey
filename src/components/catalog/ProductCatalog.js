@@ -44,6 +44,8 @@ function ProductCatalog({
                 <div className='text-container1'>
                     <h2 className='product-description1'>{type}</h2>
                     <h1 className='product-name1'>{name}</h1>
+                    <h2 className='product-description1'>{colorName}</h2>
+
                 </div>
             </div>
             <div className='underline1'></div>
