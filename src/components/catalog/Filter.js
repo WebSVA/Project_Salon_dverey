@@ -9,7 +9,7 @@ const Filter = ({ filters, onFilterChange }) => {
     useEffect(() => {
         const savedFilters = sessionStorage.getItem('selectedFilters');
         if (savedFilters) {
-            setSelectedFilters(JSON.parse(savedFilters)); // Устанавливаем сохраненные чекбоксы
+            setSelectedFilters(JSON.parse(savedFilters)); // Устанавливаем сохраненн 
         }
     }, []);
 
