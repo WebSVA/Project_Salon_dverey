@@ -10,6 +10,7 @@ import toolsIcon from '../../assets/tools.png';
 import viberIcon from '../../assets/viber.png';
 import tgIcon from '../../assets/telegram.png';
 import Email from "../../Email";
+import React from "react";
 
 function SingleProduct() {
     const { id } = useParams();
@@ -71,6 +72,12 @@ function SingleProduct() {
         }
     };
 
+    const [loading, setLoading] = useState(true); // Состояние для отслеживания загрузки изображения
+     
+    const handleImageLoad = () => {
+        setLoading(false); // Устанавливаем, что изображение загрузилось
+    };
+
     return (
         <>
             {product ? (
@@ -81,6 +88,9 @@ function SingleProduct() {
                                 <h1>{product.name}</h1>
                             </div>
                             <div className="select-img-product-container">
+                                {/* Показываем индикатор загрузки, пока изображение не загрузится */}
+                                {loading && <div className="loading-spinner">Загрузка...</div>}
+                                {/* Если colorImage - это массив, то рендерим все картинки */}
                                 {selectedImages.length > 1 ? (
                                     <div className="combined-img-container">
                                         {selectedImages.map((img, index) => (
@@ -89,7 +99,8 @@ function SingleProduct() {
                                                 className="select-img-product" 
                                                 src={img} 
                                                 alt={`Selected product ${index}`} 
-                                                onClick={() => openImageModal(img)} // Открытие модального окна по клику
+                                                onClick={() => openImageModal(img)}
+                                                onLoad={handleImageLoad} 
                                             />
                                         ))}
                                     </div>
@@ -98,7 +109,8 @@ function SingleProduct() {
                                         className="select-img-product" 
                                         src={selectedImages[0]} 
                                         alt="Selected product" 
-                                        onClick={() => openImageModal(selectedImages[0])} // Открытие модального окна по клику
+                                        onClick={() => openImageModal(selectedImages[0])}
+                                        onLoad={handleImageLoad}
                                     />
                                 )}
                             </div>
@@ -157,11 +169,11 @@ function SingleProduct() {
                             </div>
                             <div className="button-container">
                                 <div className="contact-viber-tg">
-                                    <a href="viber://chat?number=%2B375299289289&text=Здравствуйте,%20у%20меня%20вопрос%20по%20вашим%20товарам." target="_blank" rel="noopener noreferrer">
+                                    <a href="viber://chat?number=%2B375299289289&text=Здравствуйте,%20нужна%20ваша%20консультация%20по%20дверям." target="_blank" rel="noopener noreferrer">
                                         <img src={viberIcon} className="location-icon" alt="Viber" />
                                         <p><span>Viber:</span>&nbsp;&nbsp;+375-(29)-928-92-89</p>
                                     </a>
-                                    <a href="https://t.me/yaroshevichandrey?text=Здравствуйте,%20у%20меня%20вопрос%20по%20поводу%20ваших%20товаров." target="_blank" rel="noopener noreferrer">
+                                    <a href="https://t.me/yaroshevichandrey?text=Здравствуйте,%20нужна%20ваша%20консультация%20по%20дверям." target="_blank" rel="noopener noreferrer">
                                         <img src={tgIcon} className="location-icon" alt="Telegram" />
                                         <p><span>Telegram:</span>&nbsp;&nbsp;+375-(29)-928-92-89</p>
                                     </a>
