@@ -91,15 +91,28 @@ function CatalogContainer({ doorType }) {
     const filters = [
         {
             category: "Производитель",
-            options: doorType === 'Межкомнатная дверь' 
-                ? ["elporta", "ЮНИ Двери", "DEFORM V", "Динмар"] 
-                : ["elporta", "TEMIDOORS", "ООО 'Двери Гранит'", "МЕДВЕДВ И К", "Гарда", "Юркас", "torex"]
+            options: (() => {
+                if (doorType === 'Межкомнатная дверь') {
+                    return ["elporta", "ЮНИ Двери", "DEFORM V", "Динмар"];
+                } else if (doorType === 'Входная дверь') {
+                    return ["elporta", "TEMIDOORS", "ООО 'Двери Гранит'", "МЕДВЕДВ И К", "Гарда", "Юркас", "torex"];
+                } else {
+                    return [
+                        "elporta", "ЮНИ Двери", "DEFORM V", "Динмар",
+                        "TEMIDOORS", "ООО 'Двери Гранит'", "МЕДВЕДВ И К", "Гарда", "Юркас", "torex"
+                    ];
+                }
+            })()
         },
         { 
             category: "Остекление",
-            options: doorType === 'Межкомнатная дверь'  
-            ?["Есть", "Нет", "Матовое"] 
-            : ["Есть", "Нет", "Матовое", "Зеркало"] 
+            options: (() => {
+                if (doorType === 'Межкомнатная дверь') {
+                    return ["Есть", "Нет", "Матовое"];
+                } else {
+                    return ["Есть", "Нет", "Матовое", "Зеркало"];
+                }
+            })()
         }
     ];
 
