@@ -18,6 +18,12 @@ function CatalogContainer({ doorType }) {
     useEffect(() => {
         setProducts(data);
         setFilteredProducts(data);
+        
+        // Загрузка фильтров из sessionStorage
+        const savedFilters = sessionStorage.getItem('activeFilters');
+        if (savedFilters) {
+            setActiveFilters(JSON.parse(savedFilters)); // Устанавливаем сохраненные фильтры
+        }
     }, []);
 
     useEffect(() => {
@@ -54,7 +60,7 @@ function CatalogContainer({ doorType }) {
         if (currentPage !== 1) {
             setCurrentPage(1);
         }
-    }, [searchQuery, activeFilters, products, doorType]);
+    }, [searchQuery, activeFilters, products, doorType,currentPage]);
 
     // Восстановление скролла при монтировании
     useEffect(() => {
@@ -68,6 +74,7 @@ function CatalogContainer({ doorType }) {
 
     const handleFilterChange = (updatedFilters) => {
         setActiveFilters(updatedFilters);
+        sessionStorage.setItem('activeFilters', JSON.stringify(updatedFilters)); // Сохраняем в sessionStorage
     };
 
     const lastIndex = currentPage * itemsPerPage;
@@ -81,9 +88,16 @@ function CatalogContainer({ doorType }) {
     };
 
     const filters = [
-        { category: "Производитель", options: ["elporta", "TEMIDOORS", "ООО 'Двери Гранит'", "ЮНИ Двери", "МЕДВЕДВ И К", "Гарда", "DEFORM V"] },
-        { category: "Остекление", options: ["Есть", "Нет", "Матовое", "Зеркало"] },
-        { category: "Размер полотна", options: ["350 x 2000", "400 x 2000", "600 х 2000", "700 x 2000", "800 x 2000", "900 x 2000","860 x 2050", "880 х 2050", "960 x 2050", "980 х 2000", "1050 x 2070"] }
+        {
+            category: "Производитель",
+            options: doorType === 'Межкомнатная дверь' 
+                ? ["elporta", "ЮНИ Двери", "DEFORM V", "Динмар"] 
+                : ["elporta", "TEMIDOORS", "ООО 'Двери Гранит'", "МЕДВЕДВ И К", "Гарда", "Юркас", "torex"]
+        },
+        { 
+            category: "Остекление", 
+            options: ["Есть", "Нет", "Матовое", "Зеркало"] 
+        }
     ];
 
     return (
@@ -91,7 +105,7 @@ function CatalogContainer({ doorType }) {
             <div className='filter-section'>
                 <div className='search-bar'>
                     <img 
-                        src= {searchsvg} 
+                        src={searchsvg} 
                         alt="Search" 
                         className="icon-image" 
                     /> 
