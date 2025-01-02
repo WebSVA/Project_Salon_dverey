@@ -99,7 +99,7 @@
     justify-content: space-between;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    gap: 10px;
+    gap: 60px;
     padding: 10px;
     margin-bottom: 20px;
     margin-top: -40px;
@@ -114,6 +114,7 @@
     }
     .filter-section{
         width: 90%;
+        gap: 10px;
     }
 }
 
@@ -122,6 +123,7 @@
     .filter-section{
         flex-direction: column;
         width: 83%;
+        gap: 10px;
     }
     .search-bar{
         /* padding: 5px 20px; */
