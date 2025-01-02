@@ -22,6 +22,10 @@ body {
 a{
   text-decoration: none;
 }
+::selection {
+  background-color: #e37243; /* Цвет фона выделенного текста */
+  color: white; /* Цвет текста при выделении */
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

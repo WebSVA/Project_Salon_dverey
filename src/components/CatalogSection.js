@@ -13,7 +13,7 @@ function CatalogSection() {
     }, []);
 
     const currentProducts = products.slice(0, 5);
-    const currentProductsOut = products.slice(168, 175);
+    const currentProductsOut = products.slice(117, 123);
 
     return (
         <div>
