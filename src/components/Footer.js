@@ -75,10 +75,13 @@ return (
                     <p className="title-contact">График работы</p>
                 </div>
                 <p className="contact-info-style">
-                  Понедельник – Пятница:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:00 – 19:00
+                  Понедельник – пятница:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:00 – 19:00
                 </p>
                 <p className="contact-info-style">
-                  Суббота – Воскресенье:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:00 – 15:00
+                  Суббота – воскресенье:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:00 – 15:00
+                </p>
+                <p className="contact-info-style">
+                  Обед понедельник – пятница:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12:00 – 13:00
                 </p>
             </div>
         </div>

@@ -1,61 +1,81 @@
-import { useParams } from "react-router-dom";
+import { useParams, useLocation,  useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Button from '../Button';
 import data from "../../data/data.json";
 import '../../styles/catalog/singleProduct.css';
 import measureIcon from '../../assets/measure.png';
+import degreeIcon from '../../assets/degree.png';
+import truckIcon from '../../assets/delivery-truck.png';
+import toolsIcon from '../../assets/tools.png';
+import viberIcon from '../../assets/viber.png';
+import tgIcon from '../../assets/telegram.png';
 import Email from "../../Email";
+import React from "react";
 
 function SingleProduct() {
     const { id } = useParams();
+    const location = useLocation();
+    const navigate = useNavigate();
+    const searchParams = new URLSearchParams(location.search);
+    const initialColor = searchParams.get('color');
     const [product, setProduct] = useState(null);
     const [selectedImages, setSelectedImages] = useState([]);
     const [selectedColor, setSelectedColor] = useState('');
+    const [isEmailModalOpen, setIsEmailModalOpen] = useState(false);
+    const [isImageModalOpen, setIsImageModalOpen] = useState(false);
+    const [currentImage, setCurrentImage] = useState('');
 
     useEffect(() => {
         const foundProduct = data.find(item => item.id === parseInt(id));
         if (foundProduct) {
             setProduct(foundProduct);
-            const firstImages = Object.values(foundProduct.color)[0]; // Первая картинка из цветов
-            setSelectedImages(Array.isArray(firstImages) ? firstImages.slice(0, 2) : [firstImages]); // Берем первые две картинки
-
-            const defaultColor = Object.keys(foundProduct.color)[0]; // Берем первый цвет
-            setSelectedColor(defaultColor || '');
+            const defaultColor = initialColor || Object.keys(foundProduct.color)[0]; // Используйте цвет из URL или первый доступный
+            setSelectedColor(defaultColor);
+    
+            const initialImages = foundProduct.color[defaultColor];
+            setSelectedImages(Array.isArray(initialImages) ? initialImages.slice(0, 2) : [initialImages]);
         }
-    }, [id]);
+    }, [id, initialColor]);
 
-     const [isModalOpen, setIsModalOpen] = useState(false);
-    
-      const modalOpen = () => {
-        setIsModalOpen(true);
-      };
-    
-      const modalClose = () => {
-        setIsModalOpen(false);
-      };
-    
-      useEffect(() => {
-        if (isModalOpen) {
-          document.body.style.overflow = 'hidden'; 
-        } else {
-          document.body.style.overflow = 'auto'; 
-        }
-    
-        return () => {
-          document.body.style.overflow = 'auto';
-        };
-      }, [isModalOpen]);
+    const openEmailModal = () => {
+        setIsEmailModalOpen(true);
+    };
+
+    const closeEmailModal = () => {
+        setIsEmailModalOpen(false);
+    };
+
+    const openImageModal = (image) => {
+        setCurrentImage(image);
+        setIsImageModalOpen(true);
+    };
+
+    const closeImageModal = () => {
+        setIsImageModalOpen(false);
+        setCurrentImage('');
+    };
+
+    useEffect(() => {
+        document.body.style.overflow = isEmailModalOpen || isImageModalOpen ? 'hidden' : 'auto';
+    }, [isEmailModalOpen, isImageModalOpen]);
 
     const handleImageClick = (imagePaths) => {
         setSelectedImages(imagePaths);
-
-        // Устанавливаем выбранный цвет на основе картинки
         const color = Object.keys(product.color).find(colorName =>
             Array.isArray(product.color[colorName]) 
                 ? product.color[colorName].some(img => imagePaths.includes(img)) 
-                : product.color[colorName] === imagePaths[0] // Проверяем первую картинку
+                : product.color[colorName] === imagePaths[0]
         );
         setSelectedColor(color || '');
+        if (color) {
+            navigate(`?color=${color}`, { replace: true }); // Обновляем URL без добавления в историю
+        }
+    };
+
+    const [loading, setLoading] = useState(true); // Состояние для отслеживания загрузки изображения
+     
+    const handleImageLoad = () => {
+        setLoading(false); // Устанавливаем, что изображение загрузилось
     };
 
     return (
@@ -63,13 +83,14 @@ function SingleProduct() {
             {product ? (
                 <div className="single-container-info">
                     <div className="product-information-container">
-                   
                         <div className="product-img-container">
-                            {/* Большая картинка */}
                             <div className="single-product-info-name-adapt">
-                        <h1>{product.name}</h1>
-                    </div>
+                                <h1>{product.name}</h1>
+                            </div>
                             <div className="select-img-product-container">
+                                {/* Показываем индикатор загрузки, пока изображение не загрузится */}
+                                {loading && <div className="loading-spinner">Загрузка...</div>}
+                                {/* Если colorImage - это массив, то рендерим все картинки */}
                                 {selectedImages.length > 1 ? (
                                     <div className="combined-img-container">
                                         {selectedImages.map((img, index) => (
@@ -78,6 +99,8 @@ function SingleProduct() {
                                                 className="select-img-product" 
                                                 src={img} 
                                                 alt={`Selected product ${index}`} 
+                                                onClick={() => openImageModal(img)}
+                                                onLoad={handleImageLoad} 
                                             />
                                         ))}
                                     </div>
@@ -86,20 +109,22 @@ function SingleProduct() {
                                         className="select-img-product" 
                                         src={selectedImages[0]} 
                                         alt="Selected product" 
+                                        onClick={() => openImageModal(selectedImages[0])}
+                                        onLoad={handleImageLoad}
                                     />
                                 )}
                             </div>
-                            {/* Маленькие картинки */}
                             <div className="other-img-container">
                                 {Object.entries(product.color).map(([colorName, imagePath]) =>
                                     Array.isArray(imagePath) ? (
                                         <div className="circle-container" key={colorName} onClick={() => handleImageClick(imagePath.slice(0, 2))}>
                                             <img
-                                                src={imagePath[0]} // Показываем только первое изображение
+                                                src={imagePath[0]}
                                                 alt={colorName}
+                                                title={colorName}
                                                 className="small-img"
                                                 height={"200px"}
-                                              
+                                                 // Открытие модального окна по клику
                                             />
                                         </div>
                                     ) : (
@@ -107,8 +132,9 @@ function SingleProduct() {
                                             <img
                                                 src={imagePath}
                                                 alt={colorName}
+                                                title={colorName}
                                                 className="small-img"
-                                                
+                                                // Открытие модального окна по клику
                                             />
                                         </div>
                                     )
@@ -139,21 +165,42 @@ function SingleProduct() {
                                 </div>
                             </div>
                             <div className="text-description-to-button">
-                                <p>Наличие товара в магазине или любые другие вопросы уточняйте по номеру телефона или оставьте запрос  </p>
+                                <p>Наличие товара в магазине или любые другие вопросы уточняйте по номеру телефона или оставьте заявку</p>
                             </div>
                             <div className="button-container">
-                                <Button className="link-to-form-detail-button" onClick={modalOpen} text="Связаться"></Button>
+                                <div className="contact-viber-tg">
+                                    <a href="viber://chat?number=%2B375299289289&text=Здравствуйте,%20нужна%20ваша%20консультация%20по%20дверям." target="_blank" rel="noopener noreferrer">
+                                        <img src={viberIcon} className="location-icon" alt="Viber" />
+                                        <p><span>Viber:</span>&nbsp;&nbsp;+375-(29)-928-92-89</p>
+                                    </a>
+                                    <a href="https://t.me/yaroshevichandrey?text=Здравствуйте,%20нужна%20ваша%20консультация%20по%20дверям." target="_blank" rel="noopener noreferrer">
+                                        <img src={tgIcon} className="location-icon" alt="Telegram" />
+                                        <p><span>Telegram:</span>&nbsp;&nbsp;+375-(29)-928-92-89</p>
+                                    </a>
+                                </div>
+                                <div className="single-button">
+                                    <Button className="link-to-form-detail-button" onClick={openEmailModal} text="Оставить заявку"></Button>
+                                </div>
                             </div>
-                             {/* Модальное окно */}
-      {isModalOpen && (
-        <div className="modal-overlay">
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <Email modalClose={modalClose} />
-            <button onClick={modalClose} className="close-modal-btn">x</button>
-            <div className="orang-strip"></div>
-          </div>
-        </div>
-      )}
+                            {/* Модальное окно для заявки */}
+                            {isEmailModalOpen && (
+                                <div className="modal-overlay">
+                                    <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                                        <Email modalClose={closeEmailModal} />
+                                        <button onClick={closeEmailModal} className="close-modal-btn">x</button>
+                                        <div className="orang-strip"></div>
+                                    </div>
+                                </div>
+                            )}
+                            {/* Модальное окно для изображения */}
+                            {isImageModalOpen && currentImage && (
+                                <div className="modal-overlay" onClick={closeImageModal}>
+                                    <div className="modal-image-content" onClick={(e) => e.stopPropagation()}>
+                                        <img src={currentImage} alt="Current" className="modal-image" style={{ width: '260px' }} />
+                                        <button onClick={closeImageModal} className="close-modal-btn">x</button>
+                                    </div>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>
@@ -165,50 +212,44 @@ function SingleProduct() {
                 <div className="services-info-container">
                     <div className="single-services-info">
                         <div className="services-img-cotainer">
-                            <img  src={measureIcon} className="services-img" alt="Замеры"></img>
+                            <img src={measureIcon} className="services-img" alt="Замеры" />
                         </div>
                         <div className="services-text-container">
                             <h3>Замеры:</h3>
-                            <p>Замер бесплатный в пределах МКАД, при заказе от 3-х дверей с фурнитурой. Залог за услугу - 1500 руб.
-                                Услуга выезд менеджера замерщика с образцами покрытия стоит 2000 руб. по Москве в пределах МКАД.
-                                Доплата за выезд за МКАД + 50 руб./км.
-                                Замерщик приезжает в течении 1-2 дней после оформления заявки на замер.</p>
+                            <p>Мы предоставляем услугу <span>бесплатных</span> замеров дверных проёмов с выездом наших опытных специалистов.</p>
                         </div>
                     </div>
                     <div className="single-services-info">
                         <div className="services-img-cotainer">
-                            <img  src={measureIcon} className="services-img" alt="Замеры"></img>
+                            <img src={truckIcon} className="services-img" alt="Доставка" />
                         </div>
                         <div className="services-text-container">
-                            <h3>Замеры:</h3>
-                            <p>Замер бесплатный в пределах МКАД, при заказе от 3-х дверей с фурнитурой. Залог за услугу - 1500 руб.
-                                Услуга выезд менеджера замерщика с образцами покрытия стоит 2000 руб. по Москве в пределах МКАД.
-                                Доплата за выезд за МКАД + 50 руб./км.
-                                Замерщик приезжает в течении 1-2 дней после оформления заявки на замер.</p>
+                            <h3>Доставка:</h3>
+                            <p>Мы осуществляем <span>бесплатную</span> доставку в пределах города. При выезде за город доставка <span>от 15 рублей</span>.</p>
                         </div>
                     </div>
                     <div className="single-services-info">
                         <div className="services-img-cotainer">
-                            <img  src={measureIcon} className="services-img" alt="Замеры"></img>
+                            <img src={degreeIcon} className="services-img" alt="Гарантия" />
                         </div>
                         <div className="services-text-container">
-                            <h3>Замеры:</h3>
-                            <p>Замер бесплатный в пределах МКАД, при заказе от 3-х дверей с фурнитурой. Залог за услугу - 1500 руб.
-                                Услуга выезд менеджера замерщика с образцами покрытия стоит 2000 руб. по Москве в пределах МКАД.
-                                Доплата за выезд за МКАД + 50 руб./км.
-                                Замерщик приезжает в течении 1-2 дней после оформления заявки на замер.</p>
+                            <h3>Гарантия:</h3>
+                            <p>Мы предоставляем гарантию на все товары в течение <span>12 месяцев</span>.</p>
                         </div>
                     </div>
                     <div className="single-services-info">
                         <div className="services-img-cotainer">
-                            <img  src={measureIcon} className="services-img" alt="Замеры"></img>
+                            <img src={toolsIcon} className="services-img" alt="Монтаж" />
                         </div>
                         <div className="services-text-container">
-                            <h3>Замеры:</h3>
-                            <p>Замер бесплатный в пределах МКАД, при заказе от 3-х дверей с фурнитурой. Залог за услугу - 1500 руб.
-                                Услуга выезд менеджера замерщика с образцами покрытия стоит 2000 руб. по Москве в пределах МКАД.
-                                Доплата за выезд за МКАД + 50 руб./км.
-                                Замерщик приезжает в течении 1-2 дней после оформления заявки на замер.</p>
+                            <h3>Монтаж:</h3>
+                            <p>Наши специалисты осуществляют монтаж входных и межкомнатных дверей, арок и порталов, раздвижных систем, а также различных видов фурнитуры.</p>
+                        </div>
+                    </div>
+                    <div className="single-services-info">
+                        <div className="services-text-container">
+                            <h3>Информация о товаре предоставлена для ознакомления и не является публичной офертой.</h3>
+                            <p>Производители оставляют за собой право изменять внешний вид, характеристики и комплектацию товара, предварительно не уведомляя продавцов и потребителей. Просим вас отнестись с пониманием к данному факту и заранее приносим извинения за возможные неточности в описании и фотографиях товара. Будем благодарны вам за сообщение об ошибках — это поможет сделать наш каталог еще точнее!</p>
                         </div>
                     </div>
                 </div>

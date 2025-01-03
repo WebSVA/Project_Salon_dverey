@@ -17,6 +17,12 @@ import "./styles/button.css";
 
 function App(){
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [resetFilters, setResetFilters] = useState(false); // Новое состояние
+  // const handleCatalogClick = () => {
+  //   setResetFilters(true);
+  // };
+
+  
 
   const toogleMenu = ()=>{
     setIsMenuOpen((prev)=> !prev);
@@ -24,6 +30,7 @@ function App(){
 
   const closeMenu = () => {
     setIsMenuOpen(false);
+    setResetFilters(true);
   };
 
   const [isLoading, setIsLoading] = useState(true);
@@ -105,9 +112,9 @@ return (
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/catalog" element={<CatalogPage />} />
-        <Route path="/catalog/interior-doors" element={<CatalogPage doorType="Межкомнатная дверь" />} />
-        <Route path="/catalog/entry-doors" element={<CatalogPage doorType="Входная дверь" />} />
+        <Route path="/catalog" element={<CatalogPage resetFilters={resetFilters} onResetFilters={setResetFilters} />} />
+        <Route path="/catalog/interior-doors" element={<CatalogPage doorType="Межкомнатная дверь" resetFilters={resetFilters} onResetFilters={setResetFilters} />} />
+        <Route path="/catalog/entry-doors" element={<CatalogPage doorType="Входная дверь" resetFilters={resetFilters} onResetFilters={setResetFilters} />} />
         <Route path="/catalog/:id" element={<ProductPage />} />
         <Route path="*" element={<HomePage />} />
       </Routes>
