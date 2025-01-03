@@ -3,7 +3,7 @@ import CatalogContainer from '../components/catalog/CatalogContainer';
 import { Helmet } from "react-helmet";
 import { useEffect } from "react";
 
-function CatalogPage({ doorType }) {
+function CatalogPage({ doorType, resetFilters, onResetFilters }) {
    
   useEffect(() => {
     window.scrollTo(0, 0); // Сбросить скролл на начало страницы
@@ -22,7 +22,7 @@ function CatalogPage({ doorType }) {
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           </Helmet>
             <Breadcrumbs title="Каталог" />
-            <CatalogContainer doorType={doorType}/>
+            <CatalogContainer doorType={doorType} resetFilters={resetFilters} onResetFilters={onResetFilters}/>
         </>
     );
 }

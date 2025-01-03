@@ -14,7 +14,7 @@ const colorGroups = {
         "Под покраску": ["Под покраску"]
     };
     
-function CatalogContainer({ doorType }) {
+function CatalogContainer({ doorType, resetFilters, onResetFilters }) {
     const [products, setProducts] = useState([]);
     const [searchQuery, setSearchQuery] = useState('');
     const [filteredProducts, setFilteredProducts] = useState([]);
@@ -22,6 +22,15 @@ function CatalogContainer({ doorType }) {
     const itemsPerPage = 30;
     const [activeFilters, setActiveFilters] = useState({});
     const scrollPositionRef = useRef(0);
+
+
+    useEffect(() => {
+        if (resetFilters) {
+          setActiveFilters({});
+          sessionStorage.removeItem('activeFilters'); // Сбрасываем фильтры в sessionStorage
+          onResetFilters(false); // Возвращаем значение в false
+        }
+      }, [resetFilters, onResetFilters]);
 
     useEffect(() => {
         // Проверяем, существует ли флаг
@@ -182,7 +191,12 @@ function CatalogContainer({ doorType }) {
                         className='search-input' 
                     />
                 </div>
-                <Filter filters={filters} onFilterChange={handleFilterChange} />
+                <Filter 
+                        filters={filters} 
+                        onFilterChange={handleFilterChange} 
+                        resetFilters={resetFilters} 
+                        onResetFilters={onResetFilters} 
+                    />
             </div>
             <div className='catalog-container'>
                 <div className="product-list">

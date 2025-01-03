@@ -1,9 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import '../../styles/catalog/filter.css';
 
-const Filter = ({ filters, onFilterChange }) => {
+const Filter = ({ filters, onFilterChange,resetFilters,onResetFilters }) => {
     const [selectedFilters, setSelectedFilters] = useState({}); // Хранение выбранных фильтров
     const [openCategory, setOpenCategory] = useState(null); // Для отслеживания открытого списка
+
+
+    useEffect(() => {
+        if (resetFilters) {
+            setSelectedFilters({}); // Сбрасываем выбранные фильтры
+            sessionStorage.removeItem('selectedFilters'); // Удаляем сохраненные фильтры из sessionStorage
+            onFilterChange({}); // Уведомляем родительский компонент о сбросе фильтров
+            onResetFilters(false); // Возвращаем resetFilters в false
+        }
+    }, [resetFilters, onResetFilters]);
+    
 
     useEffect(() => {
         // Проверяем, была ли страница перезагружена
