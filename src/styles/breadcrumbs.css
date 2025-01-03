@@ -61,6 +61,11 @@
       padding-top: 11vh;
       padding-bottom: 1vh;}
 }
+@media (min-width: 580px) {
+  .transparent-overlay-container {
+    margin-bottom: 60px;
+  }
+}
 
 @media (max-width: 580px){
   .transparent-overlay-container {

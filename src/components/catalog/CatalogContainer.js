@@ -27,40 +27,36 @@ function CatalogContainer({ doorType, resetFilters, onResetFilters }) {
     useEffect(() => {
         if (resetFilters) {
           setActiveFilters({});
-          sessionStorage.removeItem('activeFilters'); // Сбрасываем фильтры в sessionStorage
-          onResetFilters(false); // Возвращаем значение в false
+          sessionStorage.removeItem('activeFilters');
+          onResetFilters(false); 
         }
       }, [resetFilters, onResetFilters]);
 
     useEffect(() => {
-        // Проверяем, существует ли флаг
+        
         const isPageReloaded = sessionStorage.getItem('pageReloaded');
 
         if (!isPageReloaded) {
             const savedFilters = sessionStorage.getItem('activeFilters');
             if (savedFilters) {
-                setActiveFilters(JSON.parse(savedFilters)); // Восстанавливаем активные фильтры
+                setActiveFilters(JSON.parse(savedFilters)); 
             }
         } else {
-            // Если страница перезагружена, сбрасываем активные фильтры
+          
             setActiveFilters({});
+            setSearchQuery('');
+            
         }
 
-        // Устанавливаем флаг о том, что страница загружена
         sessionStorage.setItem('pageReloaded', 'true');
 
-        // Удаляем флаг при закрытии вкладки
         return () => {
             sessionStorage.removeItem('pageReloaded');
         };
     }, []);
 
     useEffect(() => {
-        // const savedFilters = sessionStorage.getItem('activeFilters');
-        // if (savedFilters) {
-        //     setActiveFilters(JSON.parse(savedFilters));
-        //      // Восстанавливаем активные фильтры
-        // }
+     
 
         const expandedProducts = data.flatMap(product => 
             Object.entries(product.color).map(([colorName, colorImage]) => ({
@@ -74,6 +70,19 @@ function CatalogContainer({ doorType, resetFilters, onResetFilters }) {
         
     }, []);
 
+    useEffect(() => {
+        const storedSearchQuery = sessionStorage.getItem('searchQuery');
+        if (storedSearchQuery) {
+            setSearchQuery(storedSearchQuery);
+        }
+    }, []);
+    
+    useEffect(() => {
+        if (searchQuery) {
+            sessionStorage.setItem('searchQuery', searchQuery);
+        }
+    }, [searchQuery]);  // Сохраняем в sessionStorage только когда searchQuery меняется
+    
 
     useEffect(() => {
         const filtered = products.filter(product => {
@@ -125,7 +134,10 @@ function CatalogContainer({ doorType, resetFilters, onResetFilters }) {
 
     const handleFilterChange = (updatedFilters) => {
         setActiveFilters(updatedFilters);
-        sessionStorage.setItem('activeFilters', JSON.stringify(updatedFilters)); // Сохраняем фильтры
+        sessionStorage.setItem('activeFilters', JSON.stringify(updatedFilters)); 
+        if (Object.keys(updatedFilters).length === 0) {
+        setSearchQuery(''); // Очищаем поисковый запрос, если фильтры сброшены
+    }
     };
 
     const lastIndex = currentPage * itemsPerPage;
@@ -133,7 +145,7 @@ function CatalogContainer({ doorType, resetFilters, onResetFilters }) {
     const currentProducts = filteredProducts.slice(firstIndex, lastIndex);
     const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
 
-    const visiblePageCount = 5; // Количество отображаемых кнопок
+    const visiblePageCount = 5; 
     const startPage = Math.max(1, currentPage - Math.floor(visiblePageCount / 2));
     const endPage = Math.min(totalPages, startPage + visiblePageCount - 1);
 
