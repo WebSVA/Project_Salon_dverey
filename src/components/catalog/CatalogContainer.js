@@ -40,11 +40,13 @@ function CatalogContainer({ doorType, resetFilters, onResetFilters }) {
             const savedFilters = sessionStorage.getItem('activeFilters');
             if (savedFilters) {
                 setActiveFilters(JSON.parse(savedFilters)); 
+                setSearchQuery(JSON.parse(savedFilters)); 
             }
         } else {
           
             setActiveFilters({});
-            setSearchQuery('');
+            setSearchQuery(''); 
+            sessionStorage.removeItem('searchQuery'); 
             
         }
 
@@ -135,6 +137,7 @@ function CatalogContainer({ doorType, resetFilters, onResetFilters }) {
     const handleFilterChange = (updatedFilters) => {
         setActiveFilters(updatedFilters);
         sessionStorage.setItem('activeFilters', JSON.stringify(updatedFilters)); 
+        sessionStorage.setItem('searchQuery', JSON.stringify(updatedFilters)); 
         if (Object.keys(updatedFilters).length === 0) {
         setSearchQuery(''); // Очищаем поисковый запрос, если фильтры сброшены
     }
