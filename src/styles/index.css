@@ -17,7 +17,7 @@ body {
   z-index: -1;
   background-repeat: repeat-y; /* Повторять по вертикали */
     background-size: 100% auto; /* Растянуть по ширине, высота авто */
-
+background-color: white;
 }
 a{
   text-decoration: none;
