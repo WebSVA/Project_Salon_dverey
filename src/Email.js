@@ -36,8 +36,10 @@ function Email({ modalClose }) {
 
       if (data.success) {
         console.log("Success", data);
+        
         setFormData({ name: "", phone: "", email: "", message: "" }); 
         modalClose(); 
+        alert("Ваша заявка отправлена.");
       } else {
         console.error("Ошибка отправки:", data);
       }
