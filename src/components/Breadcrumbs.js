@@ -3,8 +3,6 @@ import { useLocation } from "react-router-dom"; // Для маршрутизац
 import "../styles/breadcrumbs.css";
 import { Link} from 'react-router-dom';
 
-
-
 function Breadcrumbs({ title }) {
   const location = useLocation();
 
