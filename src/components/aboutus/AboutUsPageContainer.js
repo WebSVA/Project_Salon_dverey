@@ -1,8 +1,8 @@
 import React from 'react';
 import AboutUsPageShablon from './AboutUsPageShablon';
-import aboutus1 from '../../../src/assets/img/aboutus1.jpg'
-import aboutus6 from '../../../src/assets/img/aboutus6.jpg'
-import aboutus2 from '../../../src/assets/img/aboutus2.jpg'
+import aboutus1 from '../../../src/assets/img/aboutus1.png'
+import aboutus6 from '../../../src/assets/img/aboutus6.png'
+import aboutus2 from '../../../src/assets/img/aboutus2.png'
 
 function AboutUsPageContainer() {
   

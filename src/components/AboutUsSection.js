@@ -1,19 +1,9 @@
 import "../styles/aboutUsSection.css";
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from "./Button";
 
 function AboutUsSection(){
-
-    const [isModalOpen, setIsModalOpen] = useState(false);
-
-    const openModal = () => {
-        setIsModalOpen(true);
-    };
-
-    const closeModal = () => {
-        setIsModalOpen(false);
-    };
 
     return(
         <div className="about-us-section">

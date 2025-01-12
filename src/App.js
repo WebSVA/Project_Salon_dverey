@@ -18,12 +18,7 @@ import "./styles/button.css";
 function App(){
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [resetFilters, setResetFilters] = useState(false); // Новое состояние
-  // const handleCatalogClick = () => {
-  //   setResetFilters(true);
-  // };
-
   
-
   const toogleMenu = ()=>{
     setIsMenuOpen((prev)=> !prev);
   }

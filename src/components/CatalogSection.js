@@ -12,8 +12,14 @@ function CatalogSection() {
         setProducts(data);
     }, []);
 
-    const currentProducts = products.slice(0, 5);
-    const productIds = [49, 72, 98, 182, 120]; // массив с ID
+    const currentProducts = [
+        ...products.slice(0, 5),       // Первые 5 элементов
+        ...products.slice(39, 44),     // 5 элементов с 39-го индекса
+        ...products.slice(177, 182),    // 5 элементов с 177-го индекса
+        ...products.slice(200, 204), 
+        ...products.slice(192, 195)   // 5 элементов с 198-го индекса
+    ];
+    const productIds = [49, 72, 98, 179, 182, 120, 48, 77, 93, 56, 123, 103, 110, 172, 171, 119, 126, 50, 46, 85]; // массив с ID
     const currentProductsOut = products.filter(product => productIds.includes(product.id));
 
     return (

@@ -1,7 +1,7 @@
 import Breadcrumbs from "../components/Breadcrumbs";
 import Email from "../Email";
 import "../styles/contact/contact.css";
-import "../styles/contact/contactForm.css";
+import "../styles/form.css";
 import ContactCardContainer from "../components/Contacts/ContactCardContainer";
 import { Helmet } from "react-helmet";
 import { useEffect } from "react";
