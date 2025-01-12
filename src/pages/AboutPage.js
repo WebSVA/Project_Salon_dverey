@@ -13,7 +13,7 @@ function AboutPage() {
          <Helmet>
             <title>Двери тут Сморгонь – О компании.</title>
             <meta name="description" content="Салон Двери тут Сморгонь. Узнайте больше о нас" />
- <meta name="keywords" content="двери, двери Сморгонь,салон дверей, двери тут, о компании, производитель дверей, Сморгонь" />
+            <meta name="keywords" content="двери, двери Сморгонь,салон дверей, двери тут, о компании, производитель дверей, Сморгонь" />
             <meta name="author" content="Двери тут Сморгонь" />
             <meta property="og:title" content="Двери тут Сморгонь – О компании." />
             <meta property="og:description" content="Салон Двери тут Сморгонь. Узнайте больше о нас" />   
