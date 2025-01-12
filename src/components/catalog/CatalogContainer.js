@@ -26,36 +26,42 @@ function CatalogContainer({ doorType, resetFilters, onResetFilters }) {
 
     useEffect(() => {
         if (resetFilters) {
-          setActiveFilters({});
-          sessionStorage.removeItem('activeFilters');
-          onResetFilters(false); 
+            setActiveFilters({});
+            sessionStorage.removeItem('activeFilters');
+            sessionStorage.removeItem('searchQuery');
+            sessionStorage.removeItem('currentPage');
+            onResetFilters(false);
         }
       }, [resetFilters, onResetFilters]);
 
-    useEffect(() => {
-        
+      useEffect(() => {
         const isPageReloaded = sessionStorage.getItem('pageReloaded');
-
-        if (!isPageReloaded) {
+    
+         if (!isPageReloaded) {
             const savedFilters = sessionStorage.getItem('activeFilters');
             if (savedFilters) {
-                setActiveFilters(JSON.parse(savedFilters)); 
-                setSearchQuery(JSON.parse(savedFilters)); 
+                setActiveFilters(JSON.parse(savedFilters));
             }
-        } else {
-          
-            setActiveFilters({});
-            setSearchQuery(''); 
-            sessionStorage.removeItem('searchQuery'); 
-            
-        }
-
+    
+            const savedSearchQuery = sessionStorage.getItem('searchQuery');
+            if (savedSearchQuery) {
+                setSearchQuery(savedSearchQuery); // Восстанавливаем поисковый запрос
+            }
+         } else {
+             setActiveFilters({});
+             setSearchQuery('');
+             sessionStorage.removeItem('activeFilters');
+             sessionStorage.removeItem('searchQuery');
+         }
+    
         sessionStorage.setItem('pageReloaded', 'true');
-
         return () => {
             sessionStorage.removeItem('pageReloaded');
         };
     }, []);
+    
+    
+    
 
     useEffect(() => {
      
@@ -72,13 +78,6 @@ function CatalogContainer({ doorType, resetFilters, onResetFilters }) {
         
     }, []);
 
-    useEffect(() => {
-        const storedSearchQuery = sessionStorage.getItem('searchQuery');
-        if (storedSearchQuery) {
-            setSearchQuery(storedSearchQuery);
-        }
-    }, []);
-    
     useEffect(() => {
         if (searchQuery) {
             sessionStorage.setItem('searchQuery', searchQuery);
@@ -124,7 +123,7 @@ function CatalogContainer({ doorType, resetFilters, onResetFilters }) {
         if (currentPage !== 1) {
             setCurrentPage(1);
         }
-    }, [searchQuery, activeFilters, products, doorType]);
+    }, [searchQuery, activeFilters, products, doorType,currentPage]);
    
     useEffect(() => {
         window.scrollTo(0, scrollPositionRef.current || 0);
@@ -132,16 +131,23 @@ function CatalogContainer({ doorType, resetFilters, onResetFilters }) {
 
     const handleLinkClick = () => {
         scrollPositionRef.current = window.scrollY;
+        sessionStorage.setItem('activeFilters', JSON.stringify(activeFilters));
+    sessionStorage.setItem('currentPage', currentPage);
     };
 
     const handleFilterChange = (updatedFilters) => {
         setActiveFilters(updatedFilters);
         sessionStorage.setItem('activeFilters', JSON.stringify(updatedFilters)); 
-        sessionStorage.setItem('searchQuery', JSON.stringify(updatedFilters)); 
         if (Object.keys(updatedFilters).length === 0) {
         setSearchQuery(''); // Очищаем поисковый запрос, если фильтры сброшены
     }
     };
+
+    useEffect(() => {
+        if (searchQuery) {
+            sessionStorage.setItem('searchQuery', searchQuery);
+        }
+    }, [searchQuery]);
 
     const lastIndex = currentPage * itemsPerPage;
     const firstIndex = lastIndex - itemsPerPage;

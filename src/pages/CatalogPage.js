@@ -2,7 +2,7 @@ import Breadcrumbs from "../components/Breadcrumbs";
 import CatalogContainer from '../components/catalog/CatalogContainer';
 import { Helmet } from "react-helmet";
 import { useEffect } from "react";
-import { useSearchParams } from 'react-router-dom';
+
 
 function CatalogPage({ doorType, resetFilters, onResetFilters }) {
    

@@ -13,7 +13,7 @@ const Filter = ({ filters, onFilterChange,resetFilters,onResetFilters }) => {
             onFilterChange({}); // Уведомляем родительский компонент о сбросе фильтров
             onResetFilters(false); // Возвращаем resetFilters в false
         }
-    }, [resetFilters, onResetFilters]);
+    }, [resetFilters, onResetFilters, onFilterChange]);
     
 
     useEffect(() => {
@@ -31,14 +31,6 @@ const Filter = ({ filters, onFilterChange,resetFilters,onResetFilters }) => {
             setSelectedFilters({});
             sessionStorage.removeItem('selectedFilters'); // Удаляем сохранённые фильтры
         }
-
-        // Устанавливаем флаг о том, что страница загружена
-        sessionStorage.setItem('pageReloaded', 'true');
-
-        // Удаляем флаг при закрытии вкладки
-        return () => {
-            sessionStorage.removeItem('pageReloaded');
-        };
     }, []);
 
     const handleCheckboxChange = (category, value) => {
