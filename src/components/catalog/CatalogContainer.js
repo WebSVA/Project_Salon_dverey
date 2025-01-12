@@ -87,8 +87,14 @@ function CatalogContainer({ doorType, resetFilters, onResetFilters }) {
     
 
     useEffect(() => {
+        const normalizeString = (str) => str.replace(/\s+/g, '').toLowerCase(); // Удаляем пробелы и приводим к нижнему регистру
+    
         const filtered = products.filter(product => {
-            const matchesSearch = product.name.toLowerCase().includes(searchQuery.toLowerCase());
+            const normalizedSearchQuery = normalizeString(searchQuery); // Нормализуем поисковый запрос
+            const matchesSearch = 
+                normalizeString(product.name).includes(normalizedSearchQuery) || 
+                normalizeString(product.fabricator).includes(normalizedSearchQuery); // Нормализуем названия перед сравнением
+    
             const matchesFilters = Object.entries(activeFilters).every(([category, values]) => {
                 if (!values.length) return true;
                 switch (category) {
@@ -137,7 +143,6 @@ function CatalogContainer({ doorType, resetFilters, onResetFilters }) {
     const handleFilterChange = (updatedFilters) => {
         setActiveFilters(updatedFilters);
         sessionStorage.setItem('activeFilters', JSON.stringify(updatedFilters)); 
-        sessionStorage.setItem('searchQuery', JSON.stringify(updatedFilters)); 
         if (Object.keys(updatedFilters).length === 0) {
         setSearchQuery(''); // Очищаем поисковый запрос, если фильтры сброшены
     }
