@@ -10,13 +10,13 @@ function ContactHeader() {
         <div className="contact-info-section1">
           <div className="contact-info-section1">
             <a href="tel:80299289289" className="contact-link">
-                <img src={phoneCallIcon} className="contact-info-icon" alt="phoneIcon" />
+                <img src={phoneCallIcon} className="contact-info-icon" alt="Позвонить" />
                 <p className="phone-number-text-style">+375-(29)-928-92-89</p>
             </a>
           </div>
           <div className="contact-info-container">
             <a href="mailto:andrey.Yarashevich.2015@mail.ru" className="contact-link">
-                <img src={emailIcon} className="contact-info-icon" alt="emailIcon"/>
+                <img src={emailIcon} className="contact-info-icon" alt="Почта"/>
                 <p className="email-info-text-style">andrey.Yarashevich.2015@mail.ru</p>
             </a>
         </div>
@@ -28,7 +28,7 @@ function ContactHeader() {
                 target="_blank" 
                 rel="noopener noreferrer" // secure
                 >
-                <img src={mapFlagIcon} className="contact-info-icon" alt="Map" />
+                <img src={mapFlagIcon} className="contact-info-icon" alt="Карта" />
                 <p className="address-label">г. Сморгонь, ул. Петра Балыша 27</p>
             </a>
         </div>

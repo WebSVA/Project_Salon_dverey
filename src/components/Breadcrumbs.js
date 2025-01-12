@@ -1,22 +1,12 @@
-import {React, useState} from "react";
+import {React} from "react";
 import { useLocation } from "react-router-dom"; // Для маршрутизации
 import "../styles/breadcrumbs.css";
-import { Link, Route, Routes } from 'react-router-dom';
-import HomePage from "../pages/HomePage";
-import AboutPage from "../pages/AboutPage";
-import ContactPage from "../pages/ContactPage";
-import ProductPage from "../pages/ProductPage";
-import CatalogPage from "../pages/CatalogPage";
+import { Link} from 'react-router-dom';
 
 
 
 function Breadcrumbs({ title }) {
   const location = useLocation();
-  const [resetFilters, setResetFilters] = useState(false);
-
-  const handleFilterEmpty = () => {
-    setResetFilters(true);
-  };
 
   // Словарь для перевода сегментов URI
   const translations = {

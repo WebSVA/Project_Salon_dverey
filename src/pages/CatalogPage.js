@@ -2,12 +2,8 @@ import Breadcrumbs from "../components/Breadcrumbs";
 import CatalogContainer from '../components/catalog/CatalogContainer';
 import { Helmet } from "react-helmet";
 import { useEffect } from "react";
-import { useSearchParams } from 'react-router-dom';
-
 function CatalogPage({ doorType, resetFilters, onResetFilters }) {
    
- 
-
   useEffect(() => {
     window.scrollTo(0, 0); // Сбросить скролл на начало страницы
   }, []);
