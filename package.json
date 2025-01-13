@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && xcopy robots.txt build\\robots.txt /Y",
     "test": "react-scripts test",
      "generate-sitemap": "node generateSitemap.js",
     "eject": "react-scripts eject"
