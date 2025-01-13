@@ -129,7 +129,7 @@ function CatalogContainer({ doorType, resetFilters, onResetFilters }) {
         if (currentPage !== 1) {
             setCurrentPage(1);
         }
-    }, [searchQuery, activeFilters, products, doorType,currentPage]);
+    }, [searchQuery, activeFilters, products, doorType]);
    
     useEffect(() => {
         window.scrollTo(0, scrollPositionRef.current || 0);
