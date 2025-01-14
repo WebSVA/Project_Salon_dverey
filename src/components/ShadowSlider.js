@@ -22,7 +22,7 @@ function ShadowSlider() {
                 </h1>
               </div>
               <h3 className="product-description-text-style">
-                Наша фирма предлагает широкий ассортимент продукции, включая межкомнатные и входные двери, выполненные из высококачественных материалов.
+                Наша фирма предлагает широкий ассортимент продукции, включая межкомнатные и входные двери, выполненные из высококачественных материалов
               </h3>
               <div className="door-button-container">
               <Link  to='/about'><Button className="detail-button" text="Подробнее"></Button></Link>
