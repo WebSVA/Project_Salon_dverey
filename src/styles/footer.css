@@ -138,8 +138,20 @@ p{
     width: 100%;
     background-color: #e37243;
     height: 43px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
+.orange-line > div {
+    width: 80%;
+    display: flex;
+    align-items: center; 
+}
+.created_by{
+    color: #383534;
+    font: 600 calc(12px + 2 * (100vw/1440) ) Inter, sans-serif;
+}
 @media(max-width: 480px){
     .flex-container-with-text{
         margin-top: 20px;

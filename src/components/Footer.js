@@ -86,7 +86,11 @@ return (
             </div>
         </div>
       </div>
-      <div className="orange-line"/>
+      <div className="orange-line">
+        <div>
+          <a href="https://github.com/WebSVA/WebSVA/tree/main"><h2 className="created_by">Разработка сайтов &#128521;</h2></a>
+        </div>
+      </div>
     </div>
   );
 }
