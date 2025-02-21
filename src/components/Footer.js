@@ -64,9 +64,9 @@ return (
                 <a href="tel:80299289289" className="email-link">
                   <p className="contact-info-style">Тел: +375-(29)-928-92-89</p>
                 </a>
-                <a href="mailto:andrey.Yarashevich.2015@mail.ru" className="email-link">
+                <a href="mailto:andrey.Yaroshevich.2015@mail.ru" className="email-link">
                     <span className="email-label-text-style">Email: </span>
-                    <span className="email-link-text-style">&nbsp;andrey.Yarashevich.2015@mail.ru</span>
+                    <span className="email-link-text-style">&nbsp;andrey.Yaroshevich.2015@mail.ru</span>
                 </a>
             </div>
             <div className="simple-contact-info">

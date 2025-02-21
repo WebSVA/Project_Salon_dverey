@@ -20,7 +20,7 @@ function Email({ modalClose }) {
   const onSubmit = async (event) => {
     event.preventDefault();
 
-    const dataToSend = { ...formData, access_key: "e485f119-56e2-48d5-bb6e-cb00e928e919" };
+    const dataToSend = { ...formData, access_key: "4d3055e9-fc7d-4d4d-bd7b-7e2298a3c823" };
 
     try {
       const res = await fetch("https://api.web3forms.com/submit", {

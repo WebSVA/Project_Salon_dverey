@@ -15,9 +15,9 @@ function ContactHeader() {
             </a>
           </div>
           <div className="contact-info-container">
-            <a href="mailto:andrey.Yarashevich.2015@mail.ru" className="contact-link">
+            <a href="mailto:andrey.Yaroshevich.2015@mail.ru" className="contact-link">
                 <img src={emailIcon} className="contact-info-icon" alt="Почта"/>
-                <p className="email-info-text-style">andrey.Yarashevich.2015@mail.ru</p>
+                <p className="email-info-text-style">andrey.Yaroshevich.2015@mail.ru</p>
             </a>
         </div>
         </div>

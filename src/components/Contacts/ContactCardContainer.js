@@ -16,8 +16,8 @@ function ContactCardContainer(){
             <ContactCard
                 imageSrc = {mail}
                 title = "Наша почта: "
-                media="mailto:andrey.Yarashevich.2015@mail.ru"
-                description="andrey.Yarashevich. 2015@mail.ru"
+                media="mailto:andrey.Yaroshevich.2015@mail.ru"
+                description="andrey.Yaroshevich. 2015@mail.ru"
             />
             <ContactCard
                 imageSrc = {phonecall}
